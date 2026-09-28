@@ -1,3 +1,4 @@
 {
-    "makefile.configureOnOpen": true
+    "makefile.configureOnOpen": true,
+    "python-envs.defaultEnvManager": "ms-python.python:system"
 }
