@@ -8,7 +8,7 @@ It examines the artifacts table to:
 1. Retrieve the artifact fields needed for analysis.
 2. Find artifacts that have the same file_sha, indicating identical content.
 3. Group and display identical artifacts across repositories.
-4. Summarize the size and available timestamps of each identical-content group.
+4. Summarize the size and available timestamps of each identical-content group, plus name and description of first one.
 5. Examine the dedup_primary field to identify GitSkills-designated primary
    and non-primary artifacts within duplicate groups.
 6. Count the total number of duplicate groups and verify that each group
@@ -110,25 +110,38 @@ print(result3)
 
 # ---------------------------------------------------------
 # 4. Summary Table of the identical groups
-#    Shows file_sha, artifact count, and the earliest + latest artifact
+#    Shows file_sha, artifact count, and the earliest artifact name and description
 # ---------------------------------------------------------
 
 query4 = """
+WITH ranked_artifacts AS (
+    SELECT
+        file_sha,
+        name,
+        description,
+        first_commit_at,
+        ROW_NUMBER() OVER (
+            PARTITION BY file_sha
+            ORDER BY first_commit_at ASC
+        ) AS rn
+    FROM GitSkills.artifacts
+    WHERE file_sha IN (
+        SELECT file_sha
+        FROM GitSkills.artifacts
+        GROUP BY file_sha
+        HAVING COUNT(*) > 1
+    )
+)
+
 SELECT
     file_sha,
     COUNT(*) AS artifact_count,
-    COUNT(first_commit_at) AS artifacts_with_first_commit,
-    MIN(first_commit_at) AS earliest_first_commit,
-    MAX(first_commit_at) AS latest_first_commit
-FROM GitSkills.artifacts
-WHERE file_sha IN (
-    SELECT file_sha
-    FROM GitSkills.artifacts
-    GROUP BY file_sha
-    HAVING COUNT(*) > 1
-)
+    MAX(CASE WHEN rn = 1 THEN name END) AS earliest_artifact_name,
+    MAX(CASE WHEN rn = 1 THEN description END) AS earliest_artifact_description,
+    MIN(first_commit_at) AS earliest_first_commit
+FROM ranked_artifacts
 GROUP BY file_sha
-ORDER BY artifact_count DESC
+ORDER BY artifact_count DESC;
 """
 
 result4 = con.execute(query4).fetchdf()

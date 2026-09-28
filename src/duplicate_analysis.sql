@@ -42,23 +42,37 @@ WHERE file_sha IN (
 ORDER BY artifacts_in_group DESC, file_sha, first_commit_at;
 
 
--- Summary Table of the identical groups
--- Shows file_sha, artifact count, and the earliest + latest artifact
+-- One row per duplicate file_sha group.
+-- Gets the name and description from the earliest artifact in each group.
+
+WITH ranked_artifacts AS (
+    SELECT
+        file_sha,
+        name,
+        description,
+        first_commit_at,
+        ROW_NUMBER() OVER (
+            PARTITION BY file_sha
+            ORDER BY first_commit_at ASC
+        ) AS rn
+    FROM GitSkills.artifacts
+    WHERE file_sha IN (
+        SELECT file_sha
+        FROM GitSkills.artifacts
+        GROUP BY file_sha
+        HAVING COUNT(*) > 1
+    )
+)
+
 SELECT
     file_sha,
     COUNT(*) AS artifact_count,
-    COUNT(first_commit_at) AS artifacts_with_first_commit,
-    MIN(first_commit_at) AS earliest_first_commit,
-    MAX(first_commit_at) AS latest_first_commit
-FROM GitSkills.artifacts
-WHERE file_sha IN (
-    SELECT file_sha
-    FROM GitSkills.artifacts
-    GROUP BY file_sha
-    HAVING COUNT(*) > 1
-)
+    MAX(CASE WHEN rn = 1 THEN name END) AS earliest_artifact_name,
+    MAX(CASE WHEN rn = 1 THEN description END) AS earliest_artifact_description,
+    MIN(first_commit_at) AS earliest_first_commit
+FROM ranked_artifacts
 GROUP BY file_sha
-ORDER BY artifact_count DESC
+ORDER BY artifact_count DESC;
 
 
 -- Testing use of dedup_primary
