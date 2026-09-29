@@ -12,7 +12,8 @@ We focus on security-sensitive capabilities such as:
 Command execution
 File-system access
 Network access
-Dataset
+
+## Dataset
 
 The project uses the approved GitSkills sample dataset.
 
