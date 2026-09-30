@@ -34,7 +34,7 @@ data/agent_skills_sample.db
 
 From the project root, run:
 
-python src/duplicate_analysis.py
+python src/test_db_connection.py
 
 If the database is in the correct location, the script will connect to it and run the duplicate-artifact analysis.
 
