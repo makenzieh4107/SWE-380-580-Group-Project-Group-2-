@@ -209,10 +209,150 @@ print("=" * 70)
 print(result6)
 
 
-# Close the database connection
-con.close()
+
 
 print("\n" + "=" * 70)
 print("Duplicate analysis complete.")
 print("=" * 70)
 
+
+
+
+# ---------------------------------------------------------
+# Distribution of Duplicate Group Sizes
+# ---------------------------------------------------------
+
+import matplotlib.pyplot as plt
+
+# Find all duplicate groups and count how many artifacts
+# have the same file_sha
+group_sizes = con.execute("""
+SELECT
+    file_sha,
+    COUNT(*) AS artifact_count
+FROM GitSkills.artifacts
+GROUP BY file_sha
+HAVING COUNT(*) > 1
+ORDER BY artifact_count DESC;
+""").fetchdf()
+
+# Print statistics about the duplicate groups
+print("\nDuplicate Group Size Statistics")
+print(group_sizes["artifact_count"].describe())
+
+
+# ---------------------------------------------------------
+# Categorize duplicate groups by size
+# ---------------------------------------------------------
+
+def categorize_size(size):
+    if size == 2:
+        return "2"
+    elif size <= 5:
+        return "3-5"
+    elif size <= 10:
+        return "6-10"
+    elif size <= 20:
+        return "11-20"
+    elif size <= 50:
+        return "21-50"
+    elif size <= 100:
+        return "51-100"
+    elif size <= 150:
+        return "101-150"
+    else:
+        return "151+"
+
+
+# Apply the categories to each duplicate group
+group_sizes["size_category"] = (
+    group_sizes["artifact_count"].apply(categorize_size)
+)
+
+
+# ---------------------------------------------------------
+# Count how many duplicate groups are in each category
+# ---------------------------------------------------------
+
+size_distribution = (
+    group_sizes["size_category"]
+    .value_counts()
+    .reindex([
+        "2",
+        "3-5",
+        "6-10",
+        "11-20",
+        "21-50",
+        "51-100",
+        "101-150",
+        "151+"
+    ])
+    .fillna(0)
+)
+
+
+# Print the distribution in the terminal
+print("\nDistribution of Duplicate Group Sizes")
+print(size_distribution)
+
+
+# ---------------------------------------------------------
+# Save the distribution as a CSV table
+# ---------------------------------------------------------
+
+size_distribution.to_csv(
+    "results/duplicate_group_size_distribution.csv",
+    header=["number_of_groups"]
+)
+
+print(
+    "\nSaved table to "
+    "results/duplicate_group_size_distribution.csv"
+)
+
+
+# ---------------------------------------------------------
+# Create the graph
+# ---------------------------------------------------------
+
+plt.figure(figsize=(10, 6))
+
+plt.bar(
+    size_distribution.index,
+    size_distribution.values
+)
+
+plt.xlabel("Number of artifacts in identical-content group")
+plt.ylabel("Number of duplicate groups")
+
+plt.title(
+    "Distribution of Duplicate Group Sizes"
+)
+
+plt.xticks(rotation=45)
+
+plt.tight_layout()
+
+
+# ---------------------------------------------------------
+# Save the graph as a PNG
+# ---------------------------------------------------------
+
+plt.savefig(
+    "results/duplicate_group_size_distribution.png",
+    dpi=300
+)
+
+print(
+    "Saved graph to "
+    "results/duplicate_group_size_distribution.png"
+)
+
+# Display the graph
+plt.show()
+
+
+
+
+# Close the database connection
+con.close()
