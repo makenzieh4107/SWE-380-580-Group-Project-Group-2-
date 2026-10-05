@@ -1,5 +1,8 @@
 ATTACH 'data/agent_skills_sample.db' AS GitSkills;
 
+-- Analysis developed and tested in DuckDB first.
+-- These queries were then incorporated into the Python pipeline
+-- to make the analysis reproducible and automated.
 
 -- Fields We Need 
 SELECT
