@@ -14,7 +14,17 @@
 
 ## Security Categories
 
-* **Command execution** — Running commands or processes.
-* **File-system access** — Reading, writing, or modifying files.
-* **Network access** — Making network connections or requests.
+- **`command_execution`** — Indicates that the artifact contains patterns
+  associated with running commands, starting processes, or executing external
+  programs.
+
+- **`file_system_access`** — Indicates patterns associated with reading,
+  writing, modifying, deleting, or accessing files and directories.
+
+- **`network_access`** — Indicates patterns associated with making network
+  requests, connecting to external servers, or downloading data.
+
+- **`new_security_capability`** — Indicates that a security-sensitive
+  capability appears in a later related artifact but was not detected in the
+  earlier artifact.
 
