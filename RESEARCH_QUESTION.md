@@ -5,7 +5,7 @@
 **Skill Security and Supply-Chain Risk**
 
 This project investigates security risks that may be introduced when skills
-are reused, copied, or modified across repositories.
+are modified across repositories.
 
 ## Research Question
 
