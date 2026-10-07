@@ -3,13 +3,19 @@
 ## What We Learned
 
 We learned how to work with the approved GitSkills dataset using DuckDB and Python.
+
 We learned how to use file_sha to identify artifacts with identical content across repositories.
+
 We learned that identical content does not prove which artifact was copied from another artifact.
+
 We found that duplicate content makes up a substantial portion of the dataset, which supports further investigation of reuse and supply-chain risks.
+
 We learned that duplicate groups vary greatly in size. Some are simple pairs, while other groups contain content reused across many artifacts.
+
 We learned how to examine where copies occur, including whether copies appear in the same repository or in different repositories.
-We explored when copied artifacts appeared relative to the earliest instance, which will help with later analysis of possible reuse patterns.
+
 We learned that dedup_primary provides a way to identify the GitSkills-designated primary artifact in each duplicate group.
+
 We expanded our analysis beyond exact duplicates by comparing artifacts with the same name but different content using RapidFuzz similarity scores. The analysis produces name_variant_pairs.csv for later security comparison.
 
 ## What Went Well

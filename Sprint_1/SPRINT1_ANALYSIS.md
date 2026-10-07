@@ -13,7 +13,7 @@ Examines dedup_primary and available timestamp information.
 Outputs results for further reuse and security analysis.
 The SQL queries were developed and tested in DuckDB before being incorporated into the Python pipeline.
 
-# Chart Interpretations
+## Chart Interpretations
 
 1. Unique vs. Duplicate Artifacts
 
