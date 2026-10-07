@@ -9,7 +9,7 @@ are reused, copied, or modified across repositories.
 
 ## Research Question
 
-**How frequently do reused/copied/modified skills introduce new security
+**How frequently do modified skills introduce new security
 risks, and do these modifications exceed what is necessary?**
 
 ## Motivation

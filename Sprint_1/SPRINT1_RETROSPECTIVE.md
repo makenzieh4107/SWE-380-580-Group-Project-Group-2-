@@ -20,7 +20,7 @@ We expanded our analysis beyond exact duplicates by comparing artifacts with the
 
 ## What Went Well
 
-We established a specific research question focused on security and supply-chain risks in reused, copied, and modified skills.
+We established a specific research question focused on security and supply-chain risks in modified skills.
 We successfully loaded and analyzed the approved GitSkills sample.
 We created a working data-loading and extraction pipeline.
 We identified 3,378 duplicate groups and 20,164 artifacts belonging to those groups.
@@ -43,6 +43,7 @@ We established a GitHub workflow using issues, branches, and pull requests.
 Based on what we learned during Sprint 1, we added and refined tasks for:
 
 Detecting command execution, file-system access, and network access.
+
 Comparing exact duplicate groups and near-duplicate artifacts.
 
 Comparing earlier and later versions to identify newly introduced security-sensitive capabilities.
@@ -53,4 +54,4 @@ Documenting limitations around identifying copying direction and determining whe
 
 ## Next Sprint
 
-In the next sprint, we will focus on security-capability detection and artifact comparison. We will use the exact and near-duplicate relationships identified during Sprint 1 to determine whether modified or reused skills introduce new security-sensitive capabilities, such as command execution, file-system access, or network access.
+In the next sprint, we will focus on security-capability detection and artifact comparison. We will use the duplicate relationships identified during Sprint 1 to determine whether modified skills introduce new security-sensitive capabilities, such as command execution, file-system access, or network access.

@@ -5,7 +5,7 @@ This project investigates security risks in reused, copied, and modified skills 
 
 ## Research Question
 
-How frequently do reused/copied/modified skills introduce new security risks, and do these modifications exceed what is necessary?
+How frequently do modified skills introduce new security risks, and do these modifications exceed what is necessary?
 
 We focus on security-sensitive capabilities such as:
 
