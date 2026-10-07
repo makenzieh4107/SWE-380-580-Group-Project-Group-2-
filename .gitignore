@@ -1,1 +1,13 @@
 data/agent_skills_sample.db
+
+
+# Local dataset
+data/*.db
+
+# Generated analysis output
+results/*.csv
+
+# Python-generated files
+__pycache__/
+*.py[cod]
+.pytest_cache/
