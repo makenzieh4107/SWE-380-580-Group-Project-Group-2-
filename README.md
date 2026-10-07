@@ -1,7 +1,7 @@
 # GitSkills Security and Risk Analysis
 ## Project Overview
 
-This project investigates security risks in reused, copied, and modified skills from the GitSkills dataset.
+This project investigates security risks in modified skills from the GitSkills dataset.
 
 ## Research Question
 
