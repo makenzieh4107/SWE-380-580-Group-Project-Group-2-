@@ -1,0 +1,15 @@
+# Python dependencies for the GitSkills security analysis project.
+# Requires Python 3.11 or newer.
+# Install with:  pip install -r requirements.txt
+
+# Queries the GitSkills SQLite database
+duckdb==1.5.6
+
+# DataFrames returned by DuckDB's .fetchdf()
+pandas==3.0.6
+
+# Charts and figures for the report
+matplotlib==3.11.2
+
+# Fuzzy string comparison between skill artifacts
+rapidfuzz==3.14.6

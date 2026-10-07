@@ -1,11 +1,13 @@
-Dataset Setup
+## Dataset Setup
 
 This project uses the approved GitSkills sample database.
 
 The database file is named:
 
 agent_skills_sample.db
-Setup Steps
+
+## Setup Steps
+
 Obtain the approved GitSkills sample database.
 Place the database file directly inside the project's data folder.
 The final file path should be:
@@ -27,11 +29,12 @@ project/
 The analysis scripts expect the database at exactly:
 
 data/agent_skills_sample.db
-Verify the Setup
+
+## Verify the Setup
 
 From the project root, run:
 
-python src/duplicate_analysis.py
+python src/test_db_connection.py
 
 If the database is in the correct location, the script will connect to it and run the duplicate-artifact analysis.
 
