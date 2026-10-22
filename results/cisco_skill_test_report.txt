@@ -1,0 +1,39 @@
+CISCO AI DEFENSE SKILL SCANNER RESULTS
+=============================================
+Skill: test_skill
+Safe according to scanner: True
+Maximum severity: LOW
+Total findings: 3
+
+--- Finding 1 ---
+Rule: SOCIAL_ENG_VAGUE_DESCRIPTION
+Category: social_engineering
+Severity: LOW
+Title: Vague skill description
+Description: Skill description is too short (16 chars). Provide detailed explanation.
+Location: SKILL.md
+Line: None
+Evidence: None
+Remediation: Provide a clear, detailed description of what the skill does and when to use it
+
+--- Finding 2 ---
+Rule: MANIFEST_INVALID_NAME
+Category: policy_violation
+Severity: INFO
+Title: Skill name does not follow agent skills naming rules
+Description: Skill name 'test_skill' is invalid. Agent skills require lowercase letters, numbers, and hyphens only, with a maximum length of 64 characters.
+Location: SKILL.md
+Line: None
+Evidence: None
+Remediation: Rename the skill to match `[a-z0-9-]{1,64}` (e.g., 'pdf-processing')
+
+--- Finding 3 ---
+Rule: MANIFEST_MISSING_LICENSE
+Category: policy_violation
+Severity: INFO
+Title: Skill does not specify a license
+Description: Skill manifest does not include a 'license' field. Specifying a license helps users understand usage terms.
+Location: SKILL.md
+Line: None
+Evidence: None
+Remediation: Add 'license' field to SKILL.md frontmatter (e.g., MIT, Apache-2.0)
