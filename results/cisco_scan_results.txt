@@ -1,0 +1,3440 @@
+GITSKILLS CISCO AI DEFENSE SCANNER RESULTS
+=======================================================
+
+Total artifact records: 238
+Exact duplicate groups: 0
+Sibling groups: 9
+Scan errors: 0
+
+ARTIFACT SCAN RESULTS
+=======================================================
+
+Artifact 1
+----------------------------------------
+Repository: Anhvu1107/all-agent-skill
+Path: .agent/skills/create-issue-gate/SKILL.md
+Name: create-issue-gate
+File SHA: 010c72d6923ef34b828b8c6ebe8f3ee79621f183
+Content hash: b09b904673c9a2a51550d803f93e22fafc4a5a18116e49c4e696342413308efc
+Primary artifact: 1
+Scan status: cached
+Findings: 1
+Categories: policy_violation
+Severities: INFO
+Report: results\cisco_all_scan_reports.json
+
+Artifact 2
+----------------------------------------
+Repository: Anhvu1107/all-agent-skill
+Path: .agent/skills/growth-engine/SKILL.md
+Name: growth-engine
+File SHA: 014f547825e8ff1091ab11697283dee3b3967c21
+Content hash: 192e363f1c783b2c4d0014ac3ecdec77e75e7b79886acaab03533e69c709bfbc
+Primary artifact: 1
+Scan status: cached
+Findings: 1
+Categories: policy_violation
+Severities: INFO
+Report: results\cisco_all_scan_reports.json
+
+Artifact 3
+----------------------------------------
+Repository: Deepu325/tavelgo
+Path: .agent/skills/gsd-manager/SKILL.md
+Name: gsd-manager
+File SHA: 01120a26b73993c8acb870d784c896d6412cd94f
+Content hash: ec82e108d5cb1c5917e8dd4e9cca86f1098b1ba6860a058cb96f88aa39169bf4
+Primary artifact: 1
+Scan status: cached
+Findings: 1
+Categories: policy_violation
+Severities: INFO
+Report: results\cisco_all_scan_reports.json
+
+Artifact 4
+----------------------------------------
+Repository: Deepu325/tavelgo
+Path: .agent/skills/gsd-validate-phase/SKILL.md
+Name: gsd-validate-phase
+File SHA: 01ae894aef57bcc85b904bc2d43644e918228a4c
+Content hash: 496586a5749fbab9fc72ee48be9ccb404b424b017c92eb407d606773276c0b68
+Primary artifact: 1
+Scan status: cached
+Findings: 1
+Categories: policy_violation
+Severities: INFO
+Report: results\cisco_all_scan_reports.json
+
+Artifact 5
+----------------------------------------
+Repository: darthlinuxer/Agentic-Skills
+Path: .agent/skills/mcp-builder/SKILL.md
+Name: mcp-builder
+File SHA: 01992861ce28a5c01c86a80c2f9a4861b7791ada
+Content hash: 36ede8f8d0378c307068de17ffcd9d264c46720e15b8950ee35edd333d1d6e6f
+Primary artifact: 1
+Scan status: cached
+Findings: 1
+Categories: policy_violation
+Severities: INFO
+Report: results\cisco_all_scan_reports.json
+
+Artifact 6
+----------------------------------------
+Repository: Anhvu1107/all-agent-skill
+Path: .agent/skills/planning-with-files/SKILL.md
+Name: planning-with-files
+File SHA: 012cd8509587b9bd29019067ed977ab2e3566d56
+Content hash: 07223cab7f58327603d554f11c97a956aa2768ce5f1fe1e9a5c8eb23eeac3ce9
+Primary artifact: 1
+Scan status: cached
+Findings: 1
+Categories: policy_violation
+Severities: INFO
+Report: results\cisco_all_scan_reports.json
+
+Artifact 7
+----------------------------------------
+Repository: Anhvu1107/all-agent-skill
+Path: .agent/skills/python-testing-patterns/SKILL.md
+Name: python-testing-patterns
+File SHA: 00dcddc2e776b28996bc8fb505ee75b7775903ed
+Content hash: 3077f77b5598f4997d136819ab0523b7abd80fdfeedfa2869930c67b5534e54d
+Primary artifact: 1
+Scan status: cached
+Findings: 1
+Categories: policy_violation
+Severities: INFO
+Report: results\cisco_all_scan_reports.json
+
+Artifact 8
+----------------------------------------
+Repository: KevanPatira/touristGuide
+Path: .agent/skills/seo-content-auditor/SKILL.md
+Name: seo-content-auditor
+File SHA: 014f9594345659821782dc2c2dfc16acf4eacc49
+Content hash: 8a1757bc7ba6c1620ec4c4f9161df40f96dc5ada44eca47d580ddacd86512928
+Primary artifact: 1
+Scan status: cached
+Findings: 1
+Categories: policy_violation
+Severities: INFO
+Report: results\cisco_all_scan_reports.json
+
+Artifact 9
+----------------------------------------
+Repository: ollieb89/viflo
+Path: .agent/skills/temporal-python-testing/SKILL.md
+Name: temporal-python-testing
+File SHA: 0073c0439443082c0e8bb1f6f8d5409dcae0b7d0
+Content hash: ac35ea842f963b3adb9cf6c16853ee2a6dd5b8f627c05a50f09bae6c30dfa447
+Primary artifact: 1
+Scan status: cached
+Findings: 1
+Categories: policy_violation
+Severities: INFO
+Report: results\cisco_all_scan_reports.json
+
+Artifact 10
+----------------------------------------
+Repository: SpencerGeee/SpenTrade
+Path: .agent/skills/typescript-advanced-types/SKILL.md
+Name: typescript-advanced-types
+File SHA: 017fa70e365da7c6f833c0608474a5e428a514a7
+Content hash: 77d01d29c2ae58806f6c077ba6c1619991ed84493f3860980667c9c1682fd19a
+Primary artifact: 1
+Scan status: cached
+Findings: 1
+Categories: policy_violation
+Severities: INFO
+Report: results\cisco_all_scan_reports.json
+
+Artifact 11
+----------------------------------------
+Repository: MikeCheng1208/BattleTree
+Path: .agents/skills/bear-notes/SKILL.md
+Name: bear-notes
+File SHA: 0077766e00fe7ee13ec164799717ee31dad839be
+Content hash: 322c55531e72080f775b68106335240e2f90747ce82a7fb627cc3157e50f44e2
+Primary artifact: 1
+Scan status: cached
+Findings: 1
+Categories: policy_violation
+Severities: INFO
+Report: results\cisco_all_scan_reports.json
+
+Artifact 12
+----------------------------------------
+Repository: MikeCheng1208/BattleTree
+Path: .agents/skills/delight/SKILL.md
+Name: delight
+File SHA: 00166363efb53ba1afd785bf829d87387f9ac78c
+Content hash: b00eb1df36aa90dce2cc4124d6fff1072fb9f557f523441731c500f86a0845ec
+Primary artifact: 1
+Scan status: cached
+Findings: 1
+Categories: policy_violation
+Severities: INFO
+Report: results\cisco_all_scan_reports.json
+
+Artifact 13
+----------------------------------------
+Repository: dzevs/zynk
+Path: .agents/skills/deprecation-and-migration/SKILL.md
+Name: deprecation-and-migration
+File SHA: 008836d60d4cc7196eeee75aa75e4c8946bdfab4
+Content hash: b216f3664098fba1a4295926cbd53cecb8dab7a0253f3a0bbc1b1a24e19fce33
+Primary artifact: 1
+Scan status: cached
+Findings: 1
+Categories: policy_violation
+Severities: INFO
+Report: results\cisco_all_scan_reports.json
+
+Artifact 14
+----------------------------------------
+Repository: yashas-30/NYX
+Path: .agents/skills/dispatching-parallel-agents/SKILL.md
+Name: dispatching-parallel-agents
+File SHA: 00f0362ef85d3b069eba7073455bb8530cf26a0d
+Content hash: 57bbbe99d0faa6efe9093dfaad98d57964fec37b3962f5e0de0d217d2cbb60e0
+Primary artifact: 1
+Scan status: cached
+Findings: 1
+Categories: policy_violation
+Severities: INFO
+Report: results\cisco_all_scan_reports.json
+
+Artifact 15
+----------------------------------------
+Repository: devopstales/aiskillgrid
+Path: .agents/skills/documentation-and-adrs/SKILL.md
+Name: documentation-and-adrs
+File SHA: 00e5be7f2b32bcbd53736add13d71132d16ee959
+Content hash: d2b34b568ba2de3b4953b81e66b97afafa49e68137f5232d71c5b9eec9268f8e
+Primary artifact: 1
+Scan status: cached
+Findings: 1
+Categories: policy_violation
+Severities: INFO
+Report: results\cisco_all_scan_reports.json
+
+Artifact 16
+----------------------------------------
+Repository: SteveChandler/quiver
+Path: .agents/skills/email-sequence/SKILL.md
+Name: email-sequence
+File SHA: 01a6671ab5f5002734e761c9363d11233d76aee5
+Content hash: 37684b62673f633767cc6df4d2e7ddec10d43a9310ebe8a80ffb9633cf3a55b1
+Primary artifact: 1
+Scan status: cached
+Findings: 1
+Categories: policy_violation
+Severities: INFO
+Report: results\cisco_all_scan_reports.json
+
+Artifact 17
+----------------------------------------
+Repository: MikeCheng1208/BattleTree
+Path: .agents/skills/email-sequence/SKILL.md
+Name: email-sequence
+File SHA: 0162988bf37da00b229e6703fdfe96fc2b106399
+Content hash: 7d9688c45a44dd789c44bc7f24330b4792f2d851ed4172aa5eb52c2887f0a650
+Primary artifact: 1
+Scan status: cached
+Findings: 1
+Categories: policy_violation
+Severities: INFO
+Report: results\cisco_all_scan_reports.json
+
+Artifact 18
+----------------------------------------
+Repository: DannySoundarajD/cloud-sim
+Path: .agents/skills/game-development/multiplayer/SKILL.md
+Name: multiplayer
+File SHA: 015f8d30bca681927aa36e69fc86bcdb4c85366b
+Content hash: 029c2e1310c434f5b7e5a15c3d864992421ff9deeae2cf412f54736d9f9f946c
+Primary artifact: 1
+Scan status: cached
+Findings: 1
+Categories: policy_violation
+Severities: INFO
+Report: results\cisco_all_scan_reports.json
+
+Artifact 19
+----------------------------------------
+Repository: MikeCheng1208/BattleTree
+Path: .agents/skills/goplaces/SKILL.md
+Name: goplaces
+File SHA: 0097bef6e6c3f8112b7881951291d6dbe3a3a81e
+Content hash: 6ac57bf06e04304fe0338fe1c85c31b4a38ee8afd9f5b3983c0f15b7e2717172
+Primary artifact: 1
+Scan status: cached
+Findings: 1
+Categories: policy_violation
+Severities: INFO
+Report: results\cisco_all_scan_reports.json
+
+Artifact 20
+----------------------------------------
+Repository: SinghChinmayy/website
+Path: .agents/skills/grill-me/SKILL.md
+Name: grill-me
+File SHA: 00187cea6e59fa3e95a34fbe49323c2abdbcaadb
+Content hash: 2708fcae8e3b3027c5a76c0134cf8296c21be6b73a372be65bb0bd0ca312040d
+Primary artifact: 1
+Scan status: cached
+Findings: 1
+Categories: policy_violation
+Severities: INFO
+Report: results\cisco_all_scan_reports.json
+
+Artifact 21
+----------------------------------------
+Repository: him55710-sudo/uni-foli
+Path: .agents/skills/gstack-plan-design-review/SKILL.md
+Name: plan-design-review
+File SHA: 00479a8ffda45b5346eabc8995584575bad46d8c
+Content hash: e38324be3589885894dbe58eb31e8c9a23ed53f769d3e73cfef723e9004d857b
+Primary artifact: 1
+Scan status: cached
+Findings: 1
+Categories: policy_violation
+Severities: INFO
+Report: results\cisco_all_scan_reports.json
+
+Artifact 22
+----------------------------------------
+Repository: Elf3n-RO/aisproyect
+Path: .agents/skills/impeccable/SKILL.md
+Name: impeccable
+File SHA: 00ae9655e7f63bfa716681464a16010579cacd9e
+Content hash: 6ed6a590cbb311b96fb64263e514c638454ccad185c7d4c14f28fd86e799efdc
+Primary artifact: 1
+Scan status: cached
+Findings: 1
+Categories: policy_violation
+Severities: INFO
+Report: results\cisco_all_scan_reports.json
+
+Artifact 23
+----------------------------------------
+Repository: dpeek/formless
+Path: .agents/skills/improve-codebase-architecture/SKILL.md
+Name: improve-codebase-architecture
+File SHA: 009c3ed4ff2c3ad1706c6685baa22ca077ea9599
+Content hash: a40c629aef1734146a0c8f06042c52a8b3f4a5ae7a3985f18fd1609a076edea8
+Primary artifact: 1
+Scan status: cached
+Findings: 1
+Categories: policy_violation
+Severities: INFO
+Report: results\cisco_all_scan_reports.json
+
+Artifact 24
+----------------------------------------
+Repository: govoel/voel
+Path: .agents/skills/improve-codebase-architecture/SKILL.md
+Name: improve-codebase-architecture
+File SHA: 0169d97c9153550de7004eaeb6800b4cf6d568fc
+Content hash: b95979ddf52b689f6da0426768c5651970d87f18612e03186ab4b66aa9a00662
+Primary artifact: 1
+Scan status: cached
+Findings: 1
+Categories: policy_violation
+Severities: INFO
+Report: results\cisco_all_scan_reports.json
+
+Artifact 25
+----------------------------------------
+Repository: MikeCheng1208/BattleTree
+Path: .agents/skills/learner/SKILL.md
+Name: learner
+File SHA: 00d57446a9c30007afa03f4415beee6abe37bd2e
+Content hash: 86e1f983d05459ae518657f517e15301ed509d9e5e310ec0fba82e4335a7ba66
+Primary artifact: 1
+Scan status: cached
+Findings: 1
+Categories: policy_violation
+Severities: INFO
+Report: results\cisco_all_scan_reports.json
+
+Artifact 26
+----------------------------------------
+Repository: MikeCheng1208/BattleTree
+Path: .agents/skills/loadstone-cli/SKILL.md
+Name: loadstone-cli
+File SHA: 016d4f1446b41465eaa6af8d5cf29187571bcc3a
+Content hash: 233ffbe8fe39880e1248739bd84ea3611d5e7ade465b2b0c724a1b8b9fb08c36
+Primary artifact: 1
+Scan status: cached
+Findings: 1
+Categories: policy_violation
+Severities: INFO
+Report: results\cisco_all_scan_reports.json
+
+Artifact 27
+----------------------------------------
+Repository: sitaurs/pbl-ppe-detection
+Path: .agents/skills/m365-agents-dotnet/SKILL.md
+Name: m365-agents-dotnet
+File SHA: 00ee92a71d6330722aec7351e0d3e25b4d39eaa0
+Content hash: ec783afa75a6dace2da6c3b7033f5f670d8796f2f6142b03790d6d9b43110ccc
+Primary artifact: 1
+Scan status: cached
+Findings: 1
+Categories: policy_violation
+Severities: INFO
+Report: results\cisco_all_scan_reports.json
+
+Artifact 28
+----------------------------------------
+Repository: Dr-SoloDev/ginva
+Path: .agents/skills/m365-agents-dotnet/SKILL.md
+Name: m365-agents-dotnet
+File SHA: 01b1885fcc3ad0a0a492d4cc2f3bb2304f94ce08
+Content hash: e11ae46abff6bccbae5d8e2a5afb0a70b6121c4914cd258d3da9cc8bd4deb0e1
+Primary artifact: 1
+Scan status: cached
+Findings: 1
+Categories: policy_violation
+Severities: INFO
+Report: results\cisco_all_scan_reports.json
+
+Artifact 29
+----------------------------------------
+Repository: andrelandgraf/chat-with-neon
+Path: .agents/skills/neon/SKILL.md
+Name: neon
+File SHA: 015dd90fb0a266f117c5b4538b47ca6bb8c36e69
+Content hash: 863c787b346cf69d01dbee463ab6926d1facacbc266edb526de8e69954948009
+Primary artifact: 1
+Scan status: cached
+Findings: 1
+Categories: policy_violation
+Severities: INFO
+Report: results\cisco_all_scan_reports.json
+
+Artifact 30
+----------------------------------------
+Repository: sitaurs/pbl-ppe-detection
+Path: .agents/skills/scikit-learn/SKILL.md
+Name: scikit-learn
+File SHA: 01a059d5cd83a8c2f2f51105402e732bf19052c0
+Content hash: dea954bf9ee46ccfcf6d109b4ea70d0745ed9113d69295b009aac4189e8141f3
+Primary artifact: 1
+Scan status: cached
+Findings: 0
+Categories: None listed
+Severities: None listed
+Report: results\cisco_all_scan_reports.json
+
+Artifact 31
+----------------------------------------
+Repository: Florina-Alfred/flo
+Path: .agents/skills/setup-matt-pocock-skills/SKILL.md
+Name: setup-matt-pocock-skills
+File SHA: 002d550df67678cca7adcd565bee04fe6f022219
+Content hash: f66e430ba60888af1a40aaafc606f979d44a7197266a4ac4ec0ddf4917abbae4
+Primary artifact: 1
+Scan status: cached
+Findings: 1
+Categories: policy_violation
+Severities: INFO
+Report: results\cisco_all_scan_reports.json
+
+Artifact 32
+----------------------------------------
+Repository: DigitalRavagers/Experiment
+Path: .agents/skills/slideshow/SKILL.md
+Name: slideshow
+File SHA: 00c31afddd43065119f96ea18f4855ce121204e3
+Content hash: dd527c494375c0f4a4cb6700692836b242def06fd8bd4c6d683340ba0138cba2
+Primary artifact: 1
+Scan status: cached
+Findings: 1
+Categories: policy_violation
+Severities: INFO
+Report: results\cisco_all_scan_reports.json
+
+Artifact 33
+----------------------------------------
+Repository: MikeCheng1208/BattleTree
+Path: .agents/skills/sns-patterns/SKILL.md
+Name: sns-patterns
+File SHA: 0029f10cbc6edb6b55716bf818f5c9387a0db2c0
+Content hash: e0d7a58f83aed37b6ec05b6efc1e88ae1f7eac01f71fd8f71600ec22a91eaf98
+Primary artifact: 1
+Scan status: cached
+Findings: 1
+Categories: policy_violation
+Severities: INFO
+Report: results\cisco_all_scan_reports.json
+
+Artifact 34
+----------------------------------------
+Repository: a2mus/smart-da3m
+Path: .agents/skills/speckit-checklist/SKILL.md
+Name: speckit-checklist
+File SHA: 00936e15908faa5dcb7c162cc9f507c95827529c
+Content hash: 4bdc1740b6879b64e1b849a914aa9b302bf7f7ad197eb87a002df3d10e532aa8
+Primary artifact: 1
+Scan status: cached
+Findings: 1
+Categories: policy_violation
+Severities: INFO
+Report: results\cisco_all_scan_reports.json
+
+Artifact 35
+----------------------------------------
+Repository: amallhalim/mezan
+Path: .agents/skills/speckit-clarify/SKILL.md
+Name: speckit-clarify
+File SHA: 01205feffe1081095983bab209edcf733ba15b94
+Content hash: 37afbbfe6e2af1a26e15802375d9b00e0bff72b653eca4e6a4de619b70f79d6f
+Primary artifact: 1
+Scan status: cached
+Findings: 1
+Categories: policy_violation
+Severities: INFO
+Report: results\cisco_all_scan_reports.json
+
+Artifact 36
+----------------------------------------
+Repository: ahmed8mansour/LMS
+Path: .agents/skills/speckit-plan/SKILL.md
+Name: speckit-plan
+File SHA: 019d48088a828b0e6048fd2091e120e9a1761915
+Content hash: 98ff13fcf8867b6acfc45c08ceebd10dcdc073db36046ba67ec6b826c9284912
+Primary artifact: 1
+Scan status: cached
+Findings: 1
+Categories: policy_violation
+Severities: INFO
+Report: results\cisco_all_scan_reports.json
+
+Artifact 37
+----------------------------------------
+Repository: bijuvarghese/MyWealth
+Path: .agents/skills/speckit-plan/SKILL.md
+Name: speckit-plan
+File SHA: 00ca5e5639bcf3321930977716b8de1599e55256
+Content hash: b2c1bbdf89377071b2bcb4dc8d00118afcfa3aefe14487496a92bb871372771e
+Primary artifact: 1
+Scan status: cached
+Findings: 1
+Categories: policy_violation
+Severities: INFO
+Report: results\cisco_all_scan_reports.json
+
+Artifact 38
+----------------------------------------
+Repository: MikeCheng1208/BattleTree
+Path: .agents/skills/speckit-plan/SKILL.md
+Name: speckit-plan
+File SHA: 006e74408152b0d17ab598fb3c1ea0baad40bf26
+Content hash: 927ef57846cf505a3e5672ece481918fbed74dc3e1e275bd168e8490e9036562
+Primary artifact: 1
+Scan status: cached
+Findings: 1
+Categories: policy_violation
+Severities: INFO
+Report: results\cisco_all_scan_reports.json
+
+Artifact 39
+----------------------------------------
+Repository: zeis974/TaxDOM
+Path: .agents/skills/turborepo/SKILL.md
+Name: turborepo
+File SHA: 0157ae9207831ac60780cf5e8ce74bb8ba24aab4
+Content hash: 9096b99a06aa6ccbdddcbf46c94b77bc0009285b629042b5b83bba131648c190
+Primary artifact: 1
+Scan status: cached
+Findings: 1
+Categories: policy_violation
+Severities: INFO
+Report: results\cisco_all_scan_reports.json
+
+Artifact 40
+----------------------------------------
+Repository: BterceroIII/TickedApp
+Path: .agents/skills/turborepo/SKILL.md
+Name: turborepo
+File SHA: 019fd068556f8dfc7b5b7d9135a5e08a7621ebc2
+Content hash: c092ba49bebee00ed00041a92457073ba4c13b9ec459bc3a828f01b6280238a7
+Primary artifact: 1
+Scan status: cached
+Findings: 1
+Categories: policy_violation
+Severities: INFO
+Report: results\cisco_all_scan_reports.json
+
+Artifact 41
+----------------------------------------
+Repository: VinhDat267/REQ
+Path: .agents/skills/typescript-advanced-types/SKILL.md
+Name: typescript-advanced-types
+File SHA: 00a251f7b79d92aa32a1c1c33b0f8ad2cb307de6
+Content hash: 5d575390684b6f4000d0378800f30e703efc953b8ae043d92bafe27ff1ba1f13
+Primary artifact: 1
+Scan status: cached
+Findings: 1
+Categories: policy_violation
+Severities: INFO
+Report: results\cisco_all_scan_reports.json
+
+Artifact 42
+----------------------------------------
+Repository: involvex/noobify-app
+Path: .agents/skills/use-dom/SKILL.md
+Name: use-dom
+File SHA: 01805a263e6429677dbddc3a181cedf44afcea77
+Content hash: e7e03f0b64a481b272056df9ebbd0cd163e33a2cdd17853ee6d94dff2660527b
+Primary artifact: 1
+Scan status: cached
+Findings: 0
+Categories: None listed
+Severities: None listed
+Report: results\cisco_all_scan_reports.json
+
+Artifact 43
+----------------------------------------
+Repository: duc01226/easy-claude
+Path: .agents/skills/workflow-spec-sync/SKILL.md
+Name: workflow-spec-sync
+File SHA: 003a280a1b7fc26a024c1f9784c7143a72e26f7d
+Content hash: 96a54bbe6de8744c200979b049f5072fee62193d0a3298da645e61d74a19120d
+Primary artifact: 1
+Scan status: cached
+Findings: 1
+Categories: policy_violation
+Severities: INFO
+Report: results\cisco_all_scan_reports.json
+
+Artifact 44
+----------------------------------------
+Repository: bcgov/small-claims-assistant-prototype
+Path: .agents/skills/writing-plans/SKILL.md
+Name: writing-plans
+File SHA: 01286c2087490ec9558575a2c2223808f9d4fbf1
+Content hash: 4e9bd184d6c9d17f362caf55323ec80abe831429092be817d3d23a8aebaaefec
+Primary artifact: 1
+Scan status: cached
+Findings: 1
+Categories: policy_violation
+Severities: INFO
+Report: results\cisco_all_scan_reports.json
+
+Artifact 45
+----------------------------------------
+Repository: MikeCheng1208/BattleTree
+Path: .agents/skills/writing-plans/SKILL.md
+Name: writing-plans
+File SHA: 002b1825fde0b8c2010fec59aca29f1829912a88
+Content hash: fc6fb39f5244c6763a231a18bd42283f1aadd3a9054ed963bd76bb792228ce93
+Primary artifact: 1
+Scan status: cached
+Findings: 1
+Categories: policy_violation
+Severities: INFO
+Report: results\cisco_all_scan_reports.json
+
+Artifact 46
+----------------------------------------
+Repository: lexmount/website-skills
+Path: .ai/skills/subagent-driven-development/SKILL.md
+Name: subagent-driven-development
+File SHA: 01a92b90e12d30150837f0a2acb853cbe2acbd17
+Content hash: a17d2a2a9e1609c16100fbc6d1c51c3d318cf402db96cbe674cdec712382a02f
+Primary artifact: 1
+Scan status: cached
+Findings: 1
+Categories: policy_violation
+Severities: INFO
+Report: results\cisco_all_scan_reports.json
+
+Artifact 47
+----------------------------------------
+Repository: ibragimov-oasis/name-navigator
+Path: .antigravity/skills/skills-antigravity/source-antigravity-awesome-skills/plugins/antigravity-awesome-skills-claude/skills/azure-servicebus-dotnet/SKILL.md
+Name: azure-servicebus-dotnet
+File SHA: 0109c5b6d945cf4396d353de8c97cfa06b3118e1
+Content hash: 19710efe52b0e1735f258ba9743ed489a0290fbf4053b9ef07f360a0abfc11e8
+Primary artifact: 1
+Scan status: cached
+Findings: 1
+Categories: policy_violation
+Severities: INFO
+Report: results\cisco_all_scan_reports.json
+
+Artifact 48
+----------------------------------------
+Repository: ibragimov-oasis/name-navigator
+Path: .antigravity/skills/skills-antigravity/source-antigravity-awesome-skills/plugins/antigravity-awesome-skills-claude/skills/database-optimizer/SKILL.md
+Name: database-optimizer
+File SHA: 0181a2c951f8741b58b0df437757278c3a147796
+Content hash: aa19078ab75af9dfdb653fab61bdf995abe99a35affc4750a1dbebb6a19d43fc
+Primary artifact: 1
+Scan status: cached
+Findings: 1
+Categories: policy_violation
+Severities: INFO
+Report: results\cisco_all_scan_reports.json
+
+Artifact 49
+----------------------------------------
+Repository: ibragimov-oasis/name-navigator
+Path: .antigravity/skills/skills-antigravity/source-antigravity-awesome-skills/plugins/antigravity-awesome-skills-claude/skills/growth-engine/SKILL.md
+Name: growth-engine
+File SHA: 012da6a12a4fa30368109b2e863f494ebd5ac26e
+Content hash: c791744676c6b48b29470b58bfa83fa7cf67c617fa6cb872a253724825441f52
+Primary artifact: 1
+Scan status: cached
+Findings: 1
+Categories: policy_violation
+Severities: INFO
+Report: results\cisco_all_scan_reports.json
+
+Artifact 50
+----------------------------------------
+Repository: ibragimov-oasis/name-navigator
+Path: .antigravity/skills/skills-antigravity/source-antigravity-awesome-skills/plugins/antigravity-awesome-skills-claude/skills/senior-frontend/SKILL.md
+Name: senior-frontend
+File SHA: 0026e9763e890b03e627d28101ccd6f48084338b
+Content hash: 27a5076ee6f73c70956e5bb2974c9f04459f7c356db6e1f21c2a45daa3314086
+Primary artifact: 1
+Scan status: cached
+Findings: 1
+Categories: policy_violation
+Severities: INFO
+Report: results\cisco_all_scan_reports.json
+
+Artifact 51
+----------------------------------------
+Repository: CannonCoPilot/Project_Aion
+Path: .claude/skills/_disabled/mcp-builder/SKILL.md
+Name: mcp-builder
+File SHA: 0078dcd80b2c96326ffacfe27394697eff208153
+Content hash: 6194419ca79e5466de32d50f33c61462f091171abf24e1f8dc0f31198abf2f42
+Primary artifact: 1
+Scan status: cached
+Findings: 4
+Categories: supply_chain_attack
+Severities: LOW
+Report: results\cisco_all_scan_reports.json
+
+Artifact 52
+----------------------------------------
+Repository: ag47-pt/Website
+Path: .claude/skills/architecture/SKILL.md
+Name: architecture
+File SHA: 004fbaeb3fb245836cb12b7cf10328cb70475786
+Content hash: 0805cb73d64fc27856764a7bb24f57a4eb8135c27df7bc1e337ad4d05886f459
+Primary artifact: 1
+Scan status: cached
+Findings: 1
+Categories: policy_violation
+Severities: INFO
+Report: results\cisco_all_scan_reports.json
+
+Artifact 53
+----------------------------------------
+Repository: leandrosilvaferreira/gitai-js
+Path: .claude/skills/architecture/SKILL.md
+Name: architecture
+File SHA: 0007d716b489ab6974017385adeb35d99ecd4b18
+Content hash: d54bc5b039e60f33a93a01f27c3b4e6eb30e6a344c7eca14e561df052895d0bc
+Primary artifact: 1
+Scan status: cached
+Findings: 1
+Categories: policy_violation
+Severities: INFO
+Report: results\cisco_all_scan_reports.json
+
+Artifact 54
+----------------------------------------
+Repository: Thiago-Cruz-eng/Hibrygame
+Path: .claude/skills/confluence/SKILL.md
+Name: confluence
+File SHA: 00ca0ebe061b3b7edbab38e94bfa12acc2584973
+Content hash: f12cef37739ded718bd4116f8922392272982bf7c5a1cdb62214942675b7a293
+Primary artifact: 1
+Scan status: cached
+Findings: 0
+Categories: None listed
+Severities: None listed
+Report: results\cisco_all_scan_reports.json
+
+Artifact 55
+----------------------------------------
+Repository: 26mitch26/ai-mall
+Path: .claude/skills/context-save/SKILL.md
+Name: context-save
+File SHA: 014407fbe4e41b7f4ba7291d650225756bc49abc
+Content hash: 4d0de032b9bd129dfbd4b3e115e0d97ef15d7d0e976c847a438d7f54cd7a9a4c
+Primary artifact: 1
+Scan status: cached
+Findings: 1
+Categories: policy_violation
+Severities: INFO
+Report: results\cisco_all_scan_reports.json
+
+Artifact 56
+----------------------------------------
+Repository: cyotee/indexedex
+Path: .claude/skills/crane-architecture/SKILL.md
+Name: crane-architecture
+File SHA: 010b9fa70f49ad2a36c5011c99f6fcde61e063da
+Content hash: 8636bfcf0c1c7d4be39cf9ac7b4775af577a0891909672f123831d278e497559
+Primary artifact: 1
+Scan status: cached
+Findings: 0
+Categories: None listed
+Severities: None listed
+Report: results\cisco_all_scan_reports.json
+
+Artifact 57
+----------------------------------------
+Repository: SHUAXINDIARY/ArknightsLive2d-Web
+Path: .claude/skills/delight/SKILL.md
+Name: delight
+File SHA: 01638978d602da4b1f836557ece15533db5253cb
+Content hash: a078a738548c0683a618493e7f8b96b4b658faa21f13483c17f7447ba816a93e
+Primary artifact: 1
+Scan status: cached
+Findings: 1
+Categories: policy_violation
+Severities: INFO
+Report: results\cisco_all_scan_reports.json
+
+Artifact 58
+----------------------------------------
+Repository: huyonghui666/QuickArt
+Path: .claude/skills/design-consultation/SKILL.md
+Name: design-consultation
+File SHA: 00a5f0f2eca49fa4b3e676f0d1fbd046b1849a6f
+Content hash: 2abe66fa8b0a1e0ae4715f7b39edf195c275c786a07308245f462412ff0c67e5
+Primary artifact: 1
+Scan status: cached
+Findings: 1
+Categories: policy_violation
+Severities: INFO
+Report: results\cisco_all_scan_reports.json
+
+Artifact 59
+----------------------------------------
+Repository: ohdaveed/director-hearing-manager
+Path: .claude/skills/find-docs/SKILL.md
+Name: find-docs
+File SHA: 000df18d2253b094e8946b80d0c48f09027858ff
+Content hash: 576740d0f3e8253f3a4d3f43613d1da5519adf4529c5f1b868886f612df1d44e
+Primary artifact: 1
+Scan status: cached
+Findings: 1
+Categories: policy_violation
+Severities: INFO
+Report: results\cisco_all_scan_reports.json
+
+Artifact 60
+----------------------------------------
+Repository: CarbeneAI/Forge
+Path: .claude/skills/freeze/SKILL.md
+Name: freeze
+File SHA: 00aaef61315517ccf9ba46885d1a19c2cbc9f8fe
+Content hash: 828f9a9f7e55582b7f6979c604cc8aacc0fd472fcca572ea7230282bb281e99a
+Primary artifact: 1
+Scan status: cached
+Findings: 1
+Categories: policy_violation
+Severities: INFO
+Report: results\cisco_all_scan_reports.json
+
+Artifact 61
+----------------------------------------
+Repository: Nightwolf7570/donna2.0
+Path: .claude/skills/frontend-design/SKILL.md
+Name: frontend-design
+File SHA: 0156c4b043b75932350af3b09241823891adc973
+Content hash: a88da55a6b674b78d0ddfad6981040c2c450d9f2c2cf91cf8da8b2f4b1f4af68
+Primary artifact: 1
+Scan status: cached
+Findings: 1
+Categories: policy_violation
+Severities: INFO
+Report: results\cisco_all_scan_reports.json
+
+Artifact 62
+----------------------------------------
+Repository: TorbenMerrald/StableManager
+Path: .claude/skills/global-validation/SKILL.md
+Name: Global Validation
+File SHA: 017d8e2f9ca76ff7d668461fc7041a6411113faf
+Content hash: e1d42f9e755308c5d595b38697b284bece588408e3a53f985a1d1e4d56c2395a
+Primary artifact: 1
+Scan status: cached
+Findings: 2
+Categories: policy_violation
+Severities: INFO
+Report: results\cisco_all_scan_reports.json
+
+Artifact 63
+----------------------------------------
+Repository: overtimepog/AgentTheo
+Path: .claude/skills/global-validation/SKILL.md
+Name: Global Validation
+File SHA: 016d465ed2eae44b7e77f02c265e3e5a8534b238
+Content hash: c84a19a2505351aea39ad07171e5de6392c6dec256ac28716eb6b93a92b81770
+Primary artifact: 1
+Scan status: cached
+Findings: 2
+Categories: policy_violation
+Severities: INFO
+Report: results\cisco_all_scan_reports.json
+
+Artifact 64
+----------------------------------------
+Repository: kazukin123/anet-lab
+Path: .claude/skills/grill-me/SKILL.md
+Name: grill-me
+File SHA: 008d2f209986db596754efc805169e863ce524c7
+Content hash: 59c131103917fe9461f22cea081e2b399732d69733ad702df8b49f87301fe2c1
+Primary artifact: 1
+Scan status: cached
+Findings: 1
+Categories: policy_violation
+Severities: INFO
+Report: results\cisco_all_scan_reports.json
+
+Artifact 65
+----------------------------------------
+Repository: ncarsner/agents-and-skills
+Path: .claude/skills/grill-me/SKILL.md
+Name: grill-me
+File SHA: 0001e94e098c7b0181ac7c9975a90798be6ec2f9
+Content hash: 35cc9c0b9c9e793e677666ce13b54c3558f890a75760ccd2914366b97c333b88
+Primary artifact: 1
+Scan status: cached
+Findings: 1
+Categories: policy_violation
+Severities: INFO
+Report: results\cisco_all_scan_reports.json
+
+Artifact 66
+----------------------------------------
+Repository: navotvolkgroundup/nabot
+Path: .claude/skills/humanizer/SKILL.md
+Name: humanizer
+File SHA: 010f3dc41b621a36ff79e177fdc53f9cc73681c9
+Content hash: 8837a9aa2698a1ae26e6106222206465e4ffe66a6f6fa8842a847b16b8c3ef5c
+Primary artifact: 1
+Scan status: cached
+Findings: 1
+Categories: policy_violation
+Severities: INFO
+Report: results\cisco_all_scan_reports.json
+
+Artifact 67
+----------------------------------------
+Repository: 26zl/cybersec-toolkit
+Path: .claude/skills/implementing-canary-tokens-for-network-intrusion/SKILL.md
+Name: implementing-canary-tokens-for-network-intrusion
+File SHA: 00ba580d3441a17cc93c5da4b0cb904022640eec
+Content hash: 91478d919212791e38629117928269803ec605801a59aa3c356a753364aef71c
+Primary artifact: 1
+Scan status: cached
+Findings: 0
+Categories: None listed
+Severities: None listed
+Report: results\cisco_all_scan_reports.json
+
+Artifact 68
+----------------------------------------
+Repository: 26zl/cybersec-toolkit
+Path: .claude/skills/implementing-identity-governance-with-sailpoint/SKILL.md
+Name: implementing-identity-governance-with-sailpoint
+File SHA: 0000e45054402785f95f8bfc454b1774dd8b839e
+Content hash: 4a281c510a3883f720be065c397568fb3536bb4e73719c2cd3ba8613670047d6
+Primary artifact: 1
+Scan status: cached
+Findings: 0
+Categories: None listed
+Severities: None listed
+Report: results\cisco_all_scan_reports.json
+
+Artifact 69
+----------------------------------------
+Repository: duc01226/EasyPlatform
+Path: .claude/skills/interface-design/SKILL.md
+Name: interface-design
+File SHA: 00b29dcf7968ff5d196dad8151dc4e7e52ef9922
+Content hash: 292a484f9b0a4468c2e339b7f990df26ee5afc054ddca7bc26476792b8dc2ed9
+Primary artifact: 1
+Scan status: cached
+Findings: 1
+Categories: policy_violation
+Severities: INFO
+Report: results\cisco_all_scan_reports.json
+
+Artifact 70
+----------------------------------------
+Repository: dackclup/quantrank
+Path: .claude/skills/mattpocock-setup-harness/SKILL.md
+Name: setup-matt-pocock-skills
+File SHA: 0107ba46b36eebd1bda332d2c18b7f2630fa20d2
+Content hash: 66afb168012708a42c20c3c12c8e7cbcb215a05c7eddf60fa00f130324b0e909
+Primary artifact: 1
+Scan status: cached
+Findings: 1
+Categories: policy_violation
+Severities: INFO
+Report: results\cisco_all_scan_reports.json
+
+Artifact 71
+----------------------------------------
+Repository: tocadaoncamod/agentes-ia-agno
+Path: .claude/skills/mcp-builder/SKILL.md
+Name: mcp-builder
+File SHA: 0082594a0acb1ae6afc6d574b07128fb9166e120
+Content hash: 175fe4b2a01203d49edc3faf38ad7c4732f1fc30bc6838535d5c0a7ff16445ee
+Primary artifact: 1
+Scan status: cached
+Findings: 0
+Categories: None listed
+Severities: None listed
+Report: results\cisco_all_scan_reports.json
+
+Artifact 72
+----------------------------------------
+Repository: fykhan/financial-manager
+Path: .claude/skills/neon/SKILL.md
+Name: neon
+File SHA: 013e9052f5ec86bebc8d8b466d0ebe396c9c3441
+Content hash: 145b5e602848690741046b381c98f5cb7bf176e1d5241ec2821e4320d4c48a71
+Primary artifact: 1
+Scan status: cached
+Findings: 1
+Categories: policy_violation
+Severities: INFO
+Report: results\cisco_all_scan_reports.json
+
+Artifact 73
+----------------------------------------
+Repository: PierreC1024/scubio
+Path: .claude/skills/openspec-archive-change/SKILL.md
+Name: openspec-archive-change
+File SHA: 0105b7e7a1b82f1ebd448b5e0eec7876097cc3fc
+Content hash: a0cd56d732007037dd9c54bdbf156ab834b913298ec03b0d58ddf61f6daaf011
+Primary artifact: 1
+Scan status: cached
+Findings: 0
+Categories: None listed
+Severities: None listed
+Report: results\cisco_all_scan_reports.json
+
+Artifact 74
+----------------------------------------
+Repository: kbroflovski21/lumii-fieldwork
+Path: .claude/skills/plan-design-review/SKILL.md
+Name: plan-design-review
+File SHA: 01945c036de682b6b5104b0fb7f9ba8a3f060b8b
+Content hash: ee6f31dafac502dcdc6fbab9aef622b3cd819a7f3b06b64dca810d388dd9a876
+Primary artifact: 1
+Scan status: cached
+Findings: 1
+Categories: policy_violation
+Severities: INFO
+Report: results\cisco_all_scan_reports.json
+
+Artifact 75
+----------------------------------------
+Repository: Suresh-cs-q/n8nmake.tech
+Path: .claude/skills/programmatic-seo/SKILL.md
+Name: programmatic-seo
+File SHA: 00eb1b54a1d04fc2c04d530c1b6ce2a10b75d427
+Content hash: 52bb90d4d7bbbc8d3a457e4012986ff24cad6bc3a6770cf5e6580e6a37c93841
+Primary artifact: 1
+Scan status: cached
+Findings: 1
+Categories: policy_violation
+Severities: INFO
+Report: results\cisco_all_scan_reports.json
+
+Artifact 76
+----------------------------------------
+Repository: AWS-Educate/template-nextjs-sanity-tailwind-amplify
+Path: .claude/skills/programmatic-seo/SKILL.md
+Name: programmatic-seo
+File SHA: 00e5dac98ff39f46ca3ca6cb0f2699aec746c86d
+Content hash: 0602e928f430986fa712a31335c915c4b594f51dfbef122e01304b855d724f75
+Primary artifact: 1
+Scan status: cached
+Findings: 1
+Categories: policy_violation
+Severities: INFO
+Report: results\cisco_all_scan_reports.json
+
+Artifact 77
+----------------------------------------
+Repository: EvilBit-Labs/DaemonEye
+Path: .claude/skills/rust-testing/SKILL.md
+Name: rust-testing
+File SHA: 00c8866b11b02778b6705cd9d3b2e7a2d99a7cb3
+Content hash: 952cf7e4b3b554705ab9b9c4bf331219e971c075bab1bd4e73bb759abd7a050d
+Primary artifact: 1
+Scan status: cached
+Findings: 1
+Categories: policy_violation
+Severities: INFO
+Report: results\cisco_all_scan_reports.json
+
+Artifact 78
+----------------------------------------
+Repository: HiroAE86/tcc-cdia-2026
+Path: .claude/skills/scikit-learn/SKILL.md
+Name: scikit-learn
+File SHA: 005b505f80ab732a135220522fb6b4ade33e600c
+Content hash: 87985a80806e0525383654608d8ee19270565c64a8ae50e168d7b8d158136dcc
+Primary artifact: 1
+Scan status: cached
+Findings: 0
+Categories: None listed
+Severities: None listed
+Report: results\cisco_all_scan_reports.json
+
+Artifact 79
+----------------------------------------
+Repository: Harvey-Mackie/dotfiles
+Path: .claude/skills/self-improve/SKILL.md
+Name: wrap-up
+File SHA: 00efca79667563e49e2460de5fcb8f0a5edad42c
+Content hash: 2d1f5a91f093d1e626303ece163871325d9c825c8404339443523c81edd0146f
+Primary artifact: 1
+Scan status: cached
+Findings: 1
+Categories: policy_violation
+Severities: INFO
+Report: results\cisco_all_scan_reports.json
+
+Artifact 80
+----------------------------------------
+Repository: foolhardy45/portfolio
+Path: .claude/skills/seo-content-auditor/SKILL.md
+Name: seo-content-auditor
+File SHA: 00f9b03987b94f35c3ce4df82f430fa6db6547d2
+Content hash: 275e6b7e118c4156cb73de73efc040bfbee71c0c6ae9abcf74026392264a0265
+Primary artifact: 1
+Scan status: cached
+Findings: 1
+Categories: policy_violation
+Severities: INFO
+Report: results\cisco_all_scan_reports.json
+
+Artifact 81
+----------------------------------------
+Repository: dinamicaengenhariamkt/xconstrucao-replit
+Path: .claude/skills/site-architecture/SKILL.md
+Name: site-architecture
+File SHA: 012160bac677f934e127f40b4580b2f768aa33e8
+Content hash: 36bb880c523dccef6438c1b61fee0460e9f29a7343192808f4679e69536767d2
+Primary artifact: 1
+Scan status: cached
+Findings: 1
+Categories: policy_violation
+Severities: INFO
+Report: results\cisco_all_scan_reports.json
+
+Artifact 82
+----------------------------------------
+Repository: ibragimov-oasis/name-navigator
+Path: .claude/skills/skills-planning/github-triage/SKILL.md
+Name: github-triage
+File SHA: 01175fc25db442a7d840bec2c05eeb28f2b30f35
+Content hash: 34ee6d016074507ded1d11efeea7632627857b2ede0aa3dcd99319e92d7b3264
+Primary artifact: 1
+Scan status: cached
+Findings: 1
+Categories: policy_violation
+Severities: INFO
+Report: results\cisco_all_scan_reports.json
+
+Artifact 83
+----------------------------------------
+Repository: basithxy/promo-kit
+Path: .claude/skills/slideshow/SKILL.md
+Name: slideshow
+File SHA: 0088bbe9d85f99a45b5390305f6ccd4a1ffd2825
+Content hash: 195a14a2e0e62dd535b5119bd95da5148c245c93e30a277a83c1a5cbc1d8085e
+Primary artifact: 1
+Scan status: cached
+Findings: 1
+Categories: policy_violation
+Severities: INFO
+Report: results\cisco_all_scan_reports.json
+
+Artifact 84
+----------------------------------------
+Repository: robertbravery/FurryFriends
+Path: .claude/skills/speckit-implement/SKILL.md
+Name: speckit-implement
+File SHA: 0051d3adb7a4877a7561e30d6c38b9ff38073067
+Content hash: 792be78a66a693cb443eaf2a1edea1b823823d281565a2b2a6f246238a1485d1
+Primary artifact: 1
+Scan status: cached
+Findings: 1
+Categories: policy_violation
+Severities: INFO
+Report: results\cisco_all_scan_reports.json
+
+Artifact 85
+----------------------------------------
+Repository: benjgrad/workout-ai
+Path: .claude/skills/subagent-driven-development/SKILL.md
+Name: subagent-driven-development
+File SHA: 012df6eaf099bf52fda153b5108918fdbf6cb370
+Content hash: cb483bee1ad1478e363f95493adf4ab349d1cfc9eeec173a5aff260a882169aa
+Primary artifact: 1
+Scan status: cached
+Findings: 1
+Categories: policy_violation
+Severities: INFO
+Report: results\cisco_all_scan_reports.json
+
+Artifact 86
+----------------------------------------
+Repository: jchildree/Agentic-Assembly-Line-System
+Path: .claude/skills/systematic-debugging/SKILL.md
+Name: systematic-debugging
+File SHA: 01410b8ddba944792213bf8bb30a7dbf4ac9acf2
+Content hash: 1575c9103fd88946fb2152c8df1ca2e6a4ae75c9babdaa2f5df26aff1ce7a857
+Primary artifact: 1
+Scan status: cached
+Findings: 1
+Categories: policy_violation
+Severities: INFO
+Report: results\cisco_all_scan_reports.json
+
+Artifact 87
+----------------------------------------
+Repository: Haseeb243/DeTrust
+Path: .claude/skills/webapp-testing/SKILL.md
+Name: webapp-testing
+File SHA: 0184c7096d88b679bb8a70be37b9ffdbf8b604ee
+Content hash: 31e301853c09c350e8a55e8e078a1f6e5873f3cdda6cd05a46ddd3d1f0ab6c61
+Primary artifact: 1
+Scan status: cached
+Findings: 1
+Categories: policy_violation
+Severities: INFO
+Report: results\cisco_all_scan_reports.json
+
+Artifact 88
+----------------------------------------
+Repository: duc01226/easy-claude
+Path: .claude/skills/workflow-spec-sync/SKILL.md
+Name: workflow-spec-sync
+File SHA: 008a5f914eb993f22339c4e41adae8adde159c7f
+Content hash: c02b5a5c43435f44103d108d90225694d62ab129cf98819b5b2ead7d52d563d2
+Primary artifact: 1
+Scan status: cached
+Findings: 1
+Categories: policy_violation
+Severities: INFO
+Report: results\cisco_all_scan_reports.json
+
+Artifact 89
+----------------------------------------
+Repository: efiadm/informatik-ai-studio
+Path: .claude/skills/writing-plans/SKILL.md
+Name: writing-plans
+File SHA: 0139847cd35cfaff24c205dce3d7b3ac16a86d24
+Content hash: df3981afb3ad41803595cbf3137c6c735601adc0d8285d397901e28fc4166042
+Primary artifact: 1
+Scan status: cached
+Findings: 1
+Categories: policy_violation
+Severities: INFO
+Report: results\cisco_all_scan_reports.json
+
+Artifact 90
+----------------------------------------
+Repository: dominicusin/Surypus
+Path: .codebuddy/skills/gsd-validate-phase/SKILL.md
+Name: gsd-validate-phase
+File SHA: 005b44b764b7ef67cadb91a303753ab7188e8946
+Content hash: 85a0eb4ada7d134116b1a39d59eff5951b5e11b5f0d7da93fd92d5b06df2d045
+Primary artifact: 1
+Scan status: cached
+Findings: 1
+Categories: policy_violation
+Severities: INFO
+Report: results\cisco_all_scan_reports.json
+
+Artifact 91
+----------------------------------------
+Repository: dcramer/peated
+Path: .codex/skills/openspec-archive-change/SKILL.md
+Name: openspec-archive-change
+File SHA: 01067cd4f9b08c8d550518fa849b6fdfec6477bb
+Content hash: 6a4e1024e4de99a44182632941a94a6b12598e67dbf18e65eff94c85e3667828
+Primary artifact: 1
+Scan status: cached
+Findings: 0
+Categories: None listed
+Severities: None listed
+Report: results\cisco_all_scan_reports.json
+
+Artifact 92
+----------------------------------------
+Repository: Sologa/codex-pipeline
+Path: .codex/skills/pdf/SKILL.md
+Name: pdf
+File SHA: 00f623c23a48c1657fddffdd524847459d9890c0
+Content hash: aac690847982c5adb514a4f7f636c28bf51ee808dc4d56ed333e31c85c528854
+Primary artifact: 1
+Scan status: cached
+Findings: 0
+Categories: None listed
+Severities: None listed
+Report: results\cisco_all_scan_reports.json
+
+Artifact 93
+----------------------------------------
+Repository: operationd8979/ai_assets
+Path: .codex/skills/speckit-clarify/SKILL.md
+Name: speckit-clarify
+File SHA: 00eba9e3837494aee69b230b7724f4cdc6fc2fb6
+Content hash: 74bf8003b92568eb8cf068cb8228a5002863ae3d203a548356a6e81b25d0aaea
+Primary artifact: 1
+Scan status: cached
+Findings: 1
+Categories: policy_violation
+Severities: INFO
+Report: results\cisco_all_scan_reports.json
+
+Artifact 94
+----------------------------------------
+Repository: alexismanuel/dotfiles
+Path: .config/opencode/skills/systematic-debugging/SKILL.md
+Name: systematic-debugging
+File SHA: 002faafae31b5930998821bdaf5dd0b63477cf47
+Content hash: f21a7c0f126db3f645d1d4d68d3c8d4be325a1411af2df1be8b5509bbd58f555
+Primary artifact: 1
+Scan status: cached
+Findings: 1
+Categories: policy_violation
+Severities: INFO
+Report: results\cisco_all_scan_reports.json
+
+Artifact 95
+----------------------------------------
+Repository: Robin1224/draft-utility
+Path: .cursor/skills/gsd-audit-uat/SKILL.md
+Name: gsd-audit-uat
+File SHA: 001c750ffb403c8ba9bb63d179374b37554903d1
+Content hash: 0ee977522f41fa1012777e5a1c5a148ade91ba566ec77bd7f8577f53a01a4efd
+Primary artifact: 1
+Scan status: cached
+Findings: 1
+Categories: policy_violation
+Severities: INFO
+Report: results\cisco_all_scan_reports.json
+
+Artifact 96
+----------------------------------------
+Repository: ZaneL1u/cloud-cli-proxy
+Path: .cursor/skills/gsd-docs-update/SKILL.md
+Name: gsd-docs-update
+File SHA: 0081a543ede8a92ad11b20577c090d8a832c651d
+Content hash: 64a389ac2acb75e36726397bc93b146631cc0d97b522fe3d43d7813119a1dab3
+Primary artifact: 1
+Scan status: cached
+Findings: 1
+Categories: policy_violation
+Severities: INFO
+Report: results\cisco_all_scan_reports.json
+
+Artifact 97
+----------------------------------------
+Repository: mapengbo0314/native-harness-workflow
+Path: .gemini/skills/improve-codebase-architecture/SKILL.md
+Name: improve-codebase-architecture
+File SHA: 00d396537ef7f285124604982605800b4af19551
+Content hash: 53958c934e78aff21e4bad0bbc7b5b5c2cfead526ef5f05b8bfce04d4c8da9ac
+Primary artifact: 1
+Scan status: cached
+Findings: 1
+Categories: policy_violation
+Severities: INFO
+Report: results\cisco_all_scan_reports.json
+
+Artifact 98
+----------------------------------------
+Repository: vasja34/z00z
+Path: .github/gsd-local-patches/20260705T143105Z-gsd-core-v1.6.1/pre-upgrade/.github/skills/gsd-manager/SKILL.md
+Name: gsd-manager
+File SHA: 019500369d7f6f3932679399a85612c74d32ff36
+Content hash: 4c481e6b280f9175b9e39ead960aa1d1a5f8522e6738098730e9dfd31722ce9c
+Primary artifact: 1
+Scan status: cached
+Findings: 1
+Categories: policy_violation
+Severities: INFO
+Report: results\cisco_all_scan_reports.json
+
+Artifact 99
+----------------------------------------
+Repository: JantonioFC/skillsbank
+Path: .github/plugins/azure-sdk-dotnet/skills/azure-servicebus-dotnet/SKILL.md
+Name: azure-servicebus-dotnet
+File SHA: 00c292ca53d47563837745e1952110982f949e77
+Content hash: 6a16e0ef96cb683daaf6787e488fc65fbfd69d9b220fdb1b4ef5ecee9d36e9ba
+Primary artifact: 1
+Scan status: cached
+Findings: 0
+Categories: None listed
+Severities: None listed
+Report: results\cisco_all_scan_reports.json
+
+Artifact 100
+----------------------------------------
+Repository: tarotclub/go-tpl
+Path: .github/skills/deprecation-and-migration/SKILL.md
+Name: deprecation-and-migration
+File SHA: 00e345599b434761ef56002be44ec50e806e5d6c
+Content hash: c1c0e9a186b18c64e8dfa869807c0f3589befae3f43b36dfa5d6289a4916d404
+Primary artifact: 1
+Scan status: cached
+Findings: 1
+Categories: policy_violation
+Severities: INFO
+Report: results\cisco_all_scan_reports.json
+
+Artifact 101
+----------------------------------------
+Repository: Nirioppai/nirio_features
+Path: .github/skills/gsd-manager/SKILL.md
+Name: gsd-manager
+File SHA: 01a59e947fbd5666b971f4966550471407d35926
+Content hash: ee1727a2fabd209d1554cc54f9187d8a7c36e3bce45b5421063f3e1af2e50aa7
+Primary artifact: 1
+Scan status: cached
+Findings: 1
+Categories: policy_violation
+Severities: INFO
+Report: results\cisco_all_scan_reports.json
+
+Artifact 102
+----------------------------------------
+Repository: ibragimov-oasis/name-navigator
+Path: .github/skills/webapp-testing/SKILL.md
+Name: webapp-testing
+File SHA: 00a68a41c8accb3b909f6d34ac443054bdd50eef
+Content hash: de35993b32f6f25531bfaf4ab4be4c7d0d710e9c92d5ef1ffccd08ea76da493e
+Primary artifact: 1
+Scan status: cached
+Findings: 1
+Categories: policy_violation
+Severities: INFO
+Report: results\cisco_all_scan_reports.json
+
+Artifact 103
+----------------------------------------
+Repository: dominicusin/Surypus
+Path: .hermes/skills/gsd/gsd-manager/SKILL.md
+Name: gsd-manager
+File SHA: 0026c686c6bc2672e6036341d5ee06bad2a4857a
+Content hash: 162056d41aa3eb70e1519f44143123ce2fc31957140fee2d9df46e862f356508
+Primary artifact: 1
+Scan status: cached
+Findings: 1
+Categories: policy_violation
+Severities: INFO
+Report: results\cisco_all_scan_reports.json
+
+Artifact 104
+----------------------------------------
+Repository: MAminn/NECKLINE-V2
+Path: .kimi/skills/speckit-checklist/SKILL.md
+Name: speckit-checklist
+File SHA: 010bbf5205a7bfcf206f5918b2465dad98b28391
+Content hash: 60211dd559005c546c9dbefe94255baa0a6fddf41b6b0746c2e91e93ec893011
+Primary artifact: 1
+Scan status: cached
+Findings: 1
+Categories: policy_violation
+Severities: INFO
+Report: results\cisco_all_scan_reports.json
+
+Artifact 105
+----------------------------------------
+Repository: damianpoole/Loadstone
+Path: .opencode/skills/loadstone-cli/SKILL.md
+Name: loadstone-cli
+File SHA: 00c4a4acf90f7f4de05e0ca415d5b7b43d63e747
+Content hash: 283bf263f6b2a8bd492fb20667b2d34d01094f486d55f34bc8cfe09c45d213f7
+Primary artifact: 1
+Scan status: cached
+Findings: 1
+Categories: policy_violation
+Severities: INFO
+Report: results\cisco_all_scan_reports.json
+
+Artifact 106
+----------------------------------------
+Repository: simodev25/KairosMesh
+Path: .opencode/skills/test-driven-development/SKILL.md
+Name: test-driven-development
+File SHA: 005b28920b910717541fa40695d571c1bcd6d3aa
+Content hash: a2703aee1c831b4d4ad05c9d5298e7cd4185cdc5101ff593f31a94f92123e1e0
+Primary artifact: 1
+Scan status: cached
+Findings: 1
+Categories: policy_violation
+Severities: INFO
+Report: results\cisco_all_scan_reports.json
+
+Artifact 107
+----------------------------------------
+Repository: AdityaArote/TABLZ
+Path: .windsurf/skills/gsd-audit-uat/SKILL.md
+Name: gsd-audit-uat
+File SHA: 0040fced70715524874d48e2c951b8b4347899b7
+Content hash: d959ec57eab4e2f1292f8722805370e050938d8c7ec3b38a6e1b6d33a5f9b278
+Primary artifact: 1
+Scan status: cached
+Findings: 1
+Categories: policy_violation
+Severities: INFO
+Report: results\cisco_all_scan_reports.json
+
+Artifact 108
+----------------------------------------
+Repository: Krippakrull/solar-trace-nav-svelte
+Path: .windsurf/skills/gsd-docs-update/SKILL.md
+Name: gsd-docs-update
+File SHA: 0125545eb734e87e4a406483badeb94a6816f5c4
+Content hash: 8a84378eeb3b063ddb6e89f088c104b2d5e25c7da03ecd7aba5060341630daa5
+Primary artifact: 1
+Scan status: cached
+Findings: 1
+Categories: policy_violation
+Severities: INFO
+Report: results\cisco_all_scan_reports.json
+
+Artifact 109
+----------------------------------------
+Repository: BEKO2210/Firstbrain
+Path: 03 - Resources/Skills/create-issue-gate/SKILL.md
+Name: create-issue-gate
+File SHA: 00a88e9bc6951aba99be8162781375f10fac0976
+Content hash: a95713d11a290fc5bb60a4247bfa67f651f8213fd3165790c595a95b87cc404a
+Primary artifact: 1
+Scan status: cached
+Findings: 1
+Categories: policy_violation
+Severities: INFO
+Report: results\cisco_all_scan_reports.json
+
+Artifact 110
+----------------------------------------
+Repository: BEKO2210/Firstbrain
+Path: 03 - Resources/Skills/github/SKILL.md
+Name: github
+File SHA: 01013686079ed828312982d993fafb2606801964
+Content hash: 15d3bf57d1a005b60d713023e25a963b4394360420fd971bd5d02fcaabb50fd7
+Primary artifact: 1
+Scan status: cached
+Findings: 1
+Categories: policy_violation
+Severities: INFO
+Report: results\cisco_all_scan_reports.json
+
+Artifact 111
+----------------------------------------
+Repository: SevWren/Daily-Motivation-Brain-Helper
+Path: CLAUDE/skills/engineering/setup-matt-pocock-skills/SKILL.md
+Name: setup-matt-pocock-skills
+File SHA: 0083f4fea5e4a05acb8488d5c2ae76557f817a6e
+Content hash: 34b65eb606faf143d6d89f210c88ddb79e6d475cc8d806da59c16db3c363f081
+Primary artifact: 1
+Scan status: cached
+Findings: 1
+Categories: policy_violation
+Severities: INFO
+Report: results\cisco_all_scan_reports.json
+
+Artifact 112
+----------------------------------------
+Repository: lxyeternal/MalSkillBench
+Path: Dataset/Skills/malware/multiplayer/SKILL.md
+Name: multiplayer
+File SHA: 01979827bb9e38beb9ee7096081a9b60eec9df5c
+Content hash: 415b973e9803178f25c2db54e68ef010918a062de75f683f675284ba93580b73
+Primary artifact: 1
+Scan status: cached
+Findings: 1
+Categories: policy_violation
+Severities: INFO
+Report: results\cisco_all_scan_reports.json
+
+Artifact 113
+----------------------------------------
+Repository: curtisault/rust-skills
+Path: SKILL.md
+Name: rust-skills
+File SHA: 0007ed68a065ccf07f69c77dc15a1a8a1a4e4683
+Content hash: e6e37dacf7be70334227e49f769ba0a4812594523e52c3de2b99fd2118dfe3c7
+Primary artifact: 1
+Scan status: cached
+Findings: 0
+Categories: None listed
+Severities: None listed
+Report: results\cisco_all_scan_reports.json
+
+Artifact 114
+----------------------------------------
+Repository: M4F-S/Ultimate-Claude-Skills
+Path: UI-UX/impeccable/.github/skills/impeccable/SKILL.md
+Name: impeccable
+File SHA: 011a492ac22cc970e0f88d8c5ff166ae3f23e2a7
+Content hash: 1645f0f1ac093f2d49e583e8996c39d43093bc45f550999e8e9bdae28a5525b1
+Primary artifact: 1
+Scan status: cached
+Findings: 0
+Categories: None listed
+Severities: None listed
+Report: results\cisco_all_scan_reports.json
+
+Artifact 115
+----------------------------------------
+Repository: lhohan/agentfiles
+Path: agents/dotagents/.agents/skills/find-docs/SKILL.md
+Name: find-docs
+File SHA: 007e630a39cb9a70a65c2d970c639380e138a6a0
+Content hash: 11006b30d6740f65fb54e56ba1c7ae120070d5040888c2bf4ca9c1be5c9c06c2
+Primary artifact: 1
+Scan status: cached
+Findings: 1
+Categories: policy_violation
+Severities: INFO
+Report: results\cisco_all_scan_reports.json
+
+Artifact 116
+----------------------------------------
+Repository: AgentBull/ankole
+Path: app/library/skills/nano-pdf/SKILL.md
+Name: nano-pdf
+File SHA: 01418da9651aba4deb0f503d75df573f9fac6ef1
+Content hash: 22243f0f34d8e1a17ed532e38d7af8e5841f3a50b43840ed259878fc5dc8638c
+Primary artifact: 1
+Scan status: cached
+Findings: 0
+Categories: None listed
+Severities: None listed
+Report: results\cisco_all_scan_reports.json
+
+Artifact 117
+----------------------------------------
+Repository: smukerji/openTorriAI
+Path: apps/api/skills/bundled/cmo-advisor/SKILL.md
+Name: cmo-advisor
+File SHA: 011ad3d8f809793ae5c9331361072cacb8037ab8
+Content hash: 8dd67025757bbe64e7500453b544432f0d55b8f5c2801738d2084564a83ef7d6
+Primary artifact: 1
+Scan status: cached
+Findings: 1
+Categories: policy_violation
+Severities: INFO
+Report: results\cisco_all_scan_reports.json
+
+Artifact 118
+----------------------------------------
+Repository: klaaay/spec-toolkit
+Path: apps/spec-kit-app/public/commands-packages/mattpocock-skills/skills/improve-codebase-architecture/SKILL.md
+Name: improve-codebase-architecture
+File SHA: 003c0869502c119b9a5982d98412b111200260dd
+Content hash: 7d28799719e430b00bacff7f7dafa47f6c753d48c1a11c787a32deff9ad769ae
+Primary artifact: 1
+Scan status: cached
+Findings: 1
+Categories: policy_violation
+Severities: INFO
+Report: results\cisco_all_scan_reports.json
+
+Artifact 119
+----------------------------------------
+Repository: openteams-lab/openteams
+Path: assets/skills/seqera-automation/SKILL.md
+Name: seqera-automation
+File SHA: 017c00ec86458f44b998e6d893e3d7877155be94
+Content hash: 6ac4021a86d959bdf8f7f8c3ea5328f666208e0f3b6e61b53d0e22676022ecef
+Primary artifact: 1
+Scan status: cached
+Findings: 1
+Categories: policy_violation
+Severities: INFO
+Report: results\cisco_all_scan_reports.json
+
+Artifact 120
+----------------------------------------
+Repository: zengbaocheng/hermes-tech-hub
+Path: autonomous-ai-agents/claude-code/SKILL.md
+Name: claude-code
+File SHA: 00197a16a00490617a546b95d5d2b1843456cbe0
+Content hash: 096a7eba836546943968112219f17ac4fc0a5080a26e223b95491e67c2bbf9ed
+Primary artifact: 1
+Scan status: cached
+Findings: 0
+Categories: None listed
+Severities: None listed
+Report: results\cisco_all_scan_reports.json
+
+Artifact 121
+----------------------------------------
+Repository: cyprieng/dotfiles
+Path: claude/dot-claude/skills/grill-me/SKILL.md
+Name: grill-me
+File SHA: 01590087ba06d597c67fd90a3c0401ff2c773f7c
+Content hash: 3b67d3ca7895514a781b2607376a444d4e75b406115a3495edd1ecb0e13ab40c
+Primary artifact: 1
+Scan status: cached
+Findings: 1
+Categories: policy_violation
+Severities: INFO
+Report: results\cisco_all_scan_reports.json
+
+Artifact 122
+----------------------------------------
+Repository: GiorgioBertolotti/dotfiles
+Path: claude/skills/coding-standards/SKILL.md
+Name: coding-standards
+File SHA: 01a26f5af5941c038345d0fc1c50ac9deafb0716
+Content hash: 44e8b293ab37defbbf352d24a2a0ef6ccfa09f0537a0bdac86caa30f717439d5
+Primary artifact: 1
+Scan status: cached
+Findings: 1
+Categories: policy_violation
+Severities: INFO
+Report: results\cisco_all_scan_reports.json
+
+Artifact 123
+----------------------------------------
+Repository: DenisSoldugeev/DenisSoldugeev
+Path: claude/skills/engineering-team/senior-frontend/SKILL.md
+Name: senior-frontend
+File SHA: 007551a4fb5604058e8ec29d118d492d19752a07
+Content hash: b62572eaf78ca3e2c6e94fbeb85f697a1166e9c2c2ad5aaf6b1d6fde60d5ad33
+Primary artifact: 1
+Scan status: cached
+Findings: 1
+Categories: policy_violation
+Severities: INFO
+Report: results\cisco_all_scan_reports.json
+
+Artifact 124
+----------------------------------------
+Repository: RUC-NLPIR/ClawTrojan
+Path: claw_trojan/envs/cs_delay_002/step_1/workspace/skills/planning-with-files/SKILL.md
+Name: planning-with-files
+File SHA: 01aed9297187a1b61949f4e565a0c69eeb45b6b3
+Content hash: c5c8f3abb55846f6d9852c76207f85e13d90d5157c779f36c938ab28ee33c58b
+Primary artifact: 1
+Scan status: cached
+Findings: 1
+Categories: policy_violation
+Severities: INFO
+Report: results\cisco_all_scan_reports.json
+
+Artifact 125
+----------------------------------------
+Repository: hiyenwong/ai_collection
+Path: collection/skills/nlp-llm/llama-cpp/SKILL.md
+Name: llama-cpp
+File SHA: 003bddf1207080f5fc802aafcae851571677c571
+Content hash: f87353cbf58be2d20267508a53590e27734144066349a55bd88ac911a29876f9
+Primary artifact: 1
+Scan status: cached
+Findings: 0
+Categories: None listed
+Severities: None listed
+Report: results\cisco_all_scan_reports.json
+
+Artifact 126
+----------------------------------------
+Repository: modbender/skill-library-mcp
+Path: data/api-gateway/SKILL.md
+Name: api-gateway
+File SHA: 004c516edd812dec085b9cd86168bca162f3a7c4
+Content hash: d28029bf4973ae00db3febe5b3fdbff09c9e6d502f58ef11da6ec59225ce9439
+Primary artifact: 1
+Scan status: cached
+Findings: 1
+Categories: policy_violation
+Severities: INFO
+Report: results\cisco_all_scan_reports.json
+
+Artifact 127
+----------------------------------------
+Repository: modbender/skill-library-mcp
+Path: data/bear-notes/SKILL.md
+Name: bear-notes
+File SHA: 018ff195e3b09a2359664e17b57609cda4bffbf6
+Content hash: eafbd567fa4fbf2eac074e32853dea45d0bdf69785f8bf3391756027f0734225
+Primary artifact: 1
+Scan status: cached
+Findings: 1
+Categories: policy_violation
+Severities: INFO
+Report: results\cisco_all_scan_reports.json
+
+Artifact 128
+----------------------------------------
+Repository: majiayu000/claude-skill-registry-data
+Path: data/camsnap/SKILL.md
+Name: camsnap
+File SHA: 012795e248d58b73788a85faf3851dfa54dc4891
+Content hash: 16f1e6e6c95988d85b2bc16c3bee33b72b033506f0c75de23d4348986aadbf85
+Primary artifact: 1
+Scan status: cached
+Findings: 1
+Categories: policy_violation
+Severities: INFO
+Report: results\cisco_all_scan_reports.json
+
+Artifact 129
+----------------------------------------
+Repository: majiayu000/claude-skill-registry-data
+Path: design/frontend-design-duc01226-easyplatform/SKILL.md
+Name: frontend-design
+File SHA: 011aa559da4db48521b7bec432070535f722b7b4
+Content hash: 75e1f265c7a4416375732340d297baa4c1b41071647b82eaedec3dc27b32f793
+Primary artifact: 1
+Scan status: cached
+Findings: 0
+Categories: None listed
+Severities: None listed
+Report: results\cisco_all_scan_reports.json
+
+Artifact 130
+----------------------------------------
+Repository: Adaptive-Liquidity/aeon-lab
+Path: docs/es/skills/springboot-security/SKILL.md
+Name: springboot-security
+File SHA: 00a36e6f694e86f26b08cbd676bad5b2cd1d6fbb
+Content hash: 3c0e8812d055c2f504d1cfbff63548e4b950ee22a1433e3fd65d538a1bf8a0fc
+Primary artifact: 1
+Scan status: cached
+Findings: 1
+Categories: policy_violation
+Severities: INFO
+Report: results\cisco_all_scan_reports.json
+
+Artifact 131
+----------------------------------------
+Repository: loulanyue/awesome-claude-notes
+Path: docs/zh-TW/skills/springboot-security/SKILL.md
+Name: springboot-security
+File SHA: 003e13183d4af920632b8ba0d19765abfeec6d68
+Content hash: 058502d9f9f78fa9496c67bb0257b2eb48809937557738ed5c97d9bc6cb13765
+Primary artifact: 1
+Scan status: cached
+Findings: 1
+Categories: policy_violation
+Severities: INFO
+Report: results\cisco_all_scan_reports.json
+
+Artifact 132
+----------------------------------------
+Repository: majiayu000/claude-skill-registry-data
+Path: documents/xlsx-szweibel-claude-skills/SKILL.md
+Name: xlsx
+File SHA: 0094238164723569551fb887d0ed6409949b0c2c
+Content hash: 1eaf52145adb714f33e4fb6b397bcd35e7f5c90e9be8f18d548a61b5e1556836
+Primary artifact: 1
+Scan status: cached
+Findings: 0
+Categories: None listed
+Severities: None listed
+Report: results\cisco_all_scan_reports.json
+
+Artifact 133
+----------------------------------------
+Repository: adacosdev/dotfiles
+Path: dot_config/opencode/skills/sdd-spec/SKILL.md
+Name: sdd-spec
+File SHA: 00b1c6548c49deecad53703dce2ed417117bd0a5
+Content hash: cf11709757e53eaf900cfb1e1f04a2975bd6db9bb956e2c2d99b5483d17dd67a
+Primary artifact: 1
+Scan status: cached
+Findings: 0
+Categories: None listed
+Severities: None listed
+Report: results\cisco_all_scan_reports.json
+
+Artifact 134
+----------------------------------------
+Repository: abdtirtayasa24/myworkflows-skills
+Path: engineering/skills/documentation-and-adrs/SKILL.md
+Name: documentation-and-adrs
+File SHA: 018f436d9cfbd1c9f93f702fa42cda0e15f8c775
+Content hash: 0431be2821a1a3b2a13210de8e42a91f0900ffd4191b2d0cfe71f03a4b48ff01
+Primary artifact: 1
+Scan status: cached
+Findings: 1
+Categories: policy_violation
+Severities: INFO
+Report: results\cisco_all_scan_reports.json
+
+Artifact 135
+----------------------------------------
+Repository: abdtirtayasa24/myworkflows-skills
+Path: engineering/skills/shipping-and-launch/SKILL.md
+Name: shipping-and-launch
+File SHA: 00045af62821545014e9a6869c3f394882dd2479
+Content hash: 608246f4439916c8c54dc0d17a72c1bd6b7aa7a8e099b49d2229dd1963b47ec2
+Primary artifact: 1
+Scan status: cached
+Findings: 1
+Categories: policy_violation
+Severities: INFO
+Report: results\cisco_all_scan_reports.json
+
+Artifact 136
+----------------------------------------
+Repository: JoChanhee/claude-tips
+Path: everything-claude-code/docs/zh-CN/skills/rust-testing/SKILL.md
+Name: rust-testing
+File SHA: 0105e4d532fc4b916c2e78b79d44336f1860e1f1
+Content hash: a89cd8e0f2f985a83837bac7bd67a39326dacc591405adca78d0b038641e3f7a
+Primary artifact: 1
+Scan status: cached
+Findings: 1
+Categories: policy_violation
+Severities: INFO
+Report: results\cisco_all_scan_reports.json
+
+Artifact 137
+----------------------------------------
+Repository: stanleykao72/goclaw-plugins
+Path: finance/skills/journal-entry/SKILL.md
+Name: journal-entry
+File SHA: 00ce27c7ef5faba60d32d9680a0cd36958c5b432
+Content hash: cdd0dcf5b26551c2aef10e0dc03ed20c458f844d8037903c10ba856cbc83b0b9
+Primary artifact: 1
+Scan status: cached
+Findings: 1
+Categories: policy_violation
+Severities: INFO
+Report: results\cisco_all_scan_reports.json
+
+Artifact 138
+----------------------------------------
+Repository: sanskarbasnet/fstack
+Path: freeze/SKILL.md
+Name: freeze
+File SHA: 00c95b267fbb754c43fdb78f3f783775cc40f960
+Content hash: 7636a0d2d9ee7f860fd1f446a4257ca58e3777d6e8e8760634f2a4f07f6860c4
+Primary artifact: 1
+Scan status: cached
+Findings: 1
+Categories: policy_violation
+Severities: INFO
+Report: results\cisco_all_scan_reports.json
+
+Artifact 139
+----------------------------------------
+Repository: DiKeVoi/DiKeVoi-Mono
+Path: frontend/.agents/skills/use-dom/SKILL.md
+Name: use-dom
+File SHA: 00e02723dfe9e32625b45b7011ba7e63d8359329
+Content hash: 97d80e3ed323c837dfbbff07c4a15def65f0ad07e4700bebe603d6735924b148
+Primary artifact: 1
+Scan status: cached
+Findings: 0
+Categories: None listed
+Severities: None listed
+Report: results\cisco_all_scan_reports.json
+
+Artifact 140
+----------------------------------------
+Repository: 42team-ru/fsp_kubok
+Path: frontend/.rovodev/skills/impeccable/SKILL.md
+Name: impeccable
+File SHA: 0071bc561636203a60053b71485361ec36a887f2
+Content hash: a9106a89b32299176d38f7a7e7835e49daf9e0559d120b7d78cd1b3bfa5a55ae
+Primary artifact: 1
+Scan status: cached
+Findings: 0
+Categories: None listed
+Severities: None listed
+Report: results\cisco_all_scan_reports.json
+
+Artifact 141
+----------------------------------------
+Repository: dansusman/skills
+Path: grill-me/SKILL.md
+Name: grill-me
+File SHA: 0027e049433c6bb37ae4a0700dc927e7bb7abd00
+Content hash: beaaa16e0502c341da66e2d74d26d73586159ee5925036e57cb2ec1ca0bf1b15
+Primary artifact: 1
+Scan status: cached
+Findings: 1
+Categories: policy_violation
+Severities: INFO
+Report: results\cisco_all_scan_reports.json
+
+Artifact 142
+----------------------------------------
+Repository: popoffvg/dotfiles
+Path: harness/claude/skills/grill-me/SKILL.md
+Name: grill-me
+File SHA: 001228042cc9c12a011bdd91d66f502ed06177e4
+Content hash: af4a5469166afce89feeff91e9e7a420757886bba6ca2720c8d4d91c281f932c
+Primary artifact: 1
+Scan status: cached
+Findings: 1
+Categories: policy_violation
+Severities: INFO
+Report: results\cisco_all_scan_reports.json
+
+Artifact 143
+----------------------------------------
+Repository: karais89/agent-skills-for-codex
+Path: harness/source/full/root/.agents/skills/security-and-hardening/SKILL.md
+Name: security-and-hardening
+File SHA: 001ba5ff5db6c905e55cd6c997e07bf0451e1aec
+Content hash: 75055f64f76e0a9ed5dcf20e11796825d50d00de0bfd4b30d0eea25bf571098c
+Primary artifact: 1
+Scan status: cached
+Findings: 2
+Categories: command_injection; policy_violation
+Severities: HIGH; INFO
+Report: results\cisco_all_scan_reports.json
+
+Artifact 144
+----------------------------------------
+Repository: inkblue123/everything_with_me_idle_RPG
+Path: hjj_work/.agents/skills/improve-codebase-architecture/SKILL.md
+Name: improve-codebase-architecture
+File SHA: 01a56353cdeba7604b3854f67c8af730d0207361
+Content hash: 5408ce415a8610568edaf44bd7a32e35ca2b8a65051bcae7d3ed61801e20088d
+Primary artifact: 1
+Scan status: cached
+Findings: 1
+Categories: policy_violation
+Severities: INFO
+Report: results\cisco_all_scan_reports.json
+
+Artifact 145
+----------------------------------------
+Repository: zhugez/OrbitSmith
+Path: kit/.agent/skills/copywriting/SKILL.md
+Name: copywriting
+File SHA: 006999de9d4b0c71da64185cb64453c5cbcd8d6d
+Content hash: ef29280c7c9151fce817479dc84b27e72a003c7fe879f30bf8689f1284b2f30b
+Primary artifact: 1
+Scan status: cached
+Findings: 1
+Categories: policy_violation
+Severities: INFO
+Report: results\cisco_all_scan_reports.json
+
+Artifact 146
+----------------------------------------
+Repository: MikeTreml/MissionControl
+Path: library/specializations/game-development/skills/procedural-generation/SKILL.md
+Name: procedural-generation
+File SHA: 00f255184596fcf5e6c33d84c83431880639f311
+Content hash: 436eaf4f6dcf3d75f4dbb4119afdf3a86eabe98129df8884907b8cedf5f0c867
+Primary artifact: 1
+Scan status: cached
+Findings: 1
+Categories: policy_violation
+Severities: INFO
+Report: results\cisco_all_scan_reports.json
+
+Artifact 147
+----------------------------------------
+Repository: a5c-ai/babysitter
+Path: library/specializations/game-development/skills/procedural-generation/SKILL.md
+Name: procedural-generation
+File SHA: 00906a3e861995627778cfc880ddf97b30a30597
+Content hash: f792f5ef06dd7ca521579273755c97551de9ffced5d40ff9176ee6895a1db608
+Primary artifact: 1
+Scan status: cached
+Findings: 1
+Categories: policy_violation
+Severities: INFO
+Report: results\cisco_all_scan_reports.json
+
+Artifact 148
+----------------------------------------
+Repository: majiayu000/claude-skill-registry-data
+Path: marketing/sns-patterns/SKILL.md
+Name: sns-patterns
+File SHA: 00c652b9e63aa68f7aa4ffa2e4dbc68075e87230
+Content hash: a09a7a43aaf911be9802e12312a058d39ee34034ca68a738dc4eefa7a48a16c1
+Primary artifact: 1
+Scan status: cached
+Findings: 1
+Categories: policy_violation
+Severities: INFO
+Report: results\cisco_all_scan_reports.json
+
+Artifact 149
+----------------------------------------
+Repository: crycriM/hermes-skills
+Path: meta/skill-factory/SKILL.md
+Name: Skill Factory
+File SHA: 008b0539af87afce30b2ffabe1a5c652824f3a48
+Content hash: 4c76a01d97cafc8484dd1184afa1998991798477327b2417977a720f9779c9c0
+Primary artifact: 1
+Scan status: cached
+Findings: 2
+Categories: policy_violation
+Severities: INFO
+Report: results\cisco_all_scan_reports.json
+
+Artifact 150
+----------------------------------------
+Repository: aashutosh396/mindpalace
+Path: mindpalace/skills/global/autonomous-ai-agents/claude-code/SKILL.md
+Name: claude-code
+File SHA: 0089e7cfa0fa05e2a7eda84fe27403e6df6d6aaa
+Content hash: 6d9c997cc0156d9048c518d6ed26b7c6dd9bfd6d1d31fd9ae41ed4dfe33a35c8
+Primary artifact: 1
+Scan status: cached
+Findings: 0
+Categories: None listed
+Severities: None listed
+Report: results\cisco_all_scan_reports.json
+
+Artifact 151
+----------------------------------------
+Repository: HenriqueMC17/agente-core
+Path: modules/development/python-testing-patterns/SKILL.md
+Name: python-testing-patterns
+File SHA: 00de4e5ad10ff2742ae7cdcba32d255f2176dc06
+Content hash: 865afdf8313f81ddfada116fe98136c09301e058672f6cccc09a0674d1d556d4
+Primary artifact: 1
+Scan status: cached
+Findings: 1
+Categories: policy_violation
+Severities: INFO
+Report: results\cisco_all_scan_reports.json
+
+Artifact 152
+----------------------------------------
+Repository: alecs5am/ralphy
+Path: notes/skills/humanizer/SKILL.md
+Name: humanizer
+File SHA: 00275d62cb15e972263b10f3b967553fdfd68f37
+Content hash: ac5488b5bf4d55470c9723549eebdf31e56c1d526afca1322af84d7e8a1a8fa9
+Primary artifact: 1
+Scan status: cached
+Findings: 0
+Categories: None listed
+Severities: None listed
+Report: results\cisco_all_scan_reports.json
+
+Artifact 153
+----------------------------------------
+Repository: hcj8861/my-opemclaw
+Path: openclaw-config/skills/api-gateway/SKILL.md
+Name: api-gateway
+File SHA: 00fec3b91322b4c7ac3816bfa1faa968e18155f3
+Content hash: cf033c5c31a6341832cfd58b964a4b9e856c2a5b1c99f99742938d2b6c5ab440
+Primary artifact: 1
+Scan status: cached
+Findings: 1
+Categories: policy_violation
+Severities: INFO
+Report: results\cisco_all_scan_reports.json
+
+Artifact 154
+----------------------------------------
+Repository: third774/dotfiles
+Path: opencode/skills/systematic-debugging/SKILL.md
+Name: systematic-debugging
+File SHA: 0190a6e28506ae5ea5fe58422a19cfff122f56d2
+Content hash: b3b51ab77ca0fbd1ee705a79ccf5c9b488a251926d41b72259543af9001c4305
+Primary artifact: 1
+Scan status: cached
+Findings: 1
+Categories: policy_violation
+Severities: INFO
+Report: results\cisco_all_scan_reports.json
+
+Artifact 155
+----------------------------------------
+Repository: dheerkt/dotfiles
+Path: opencode/skills/test-driven-development/SKILL.md
+Name: test-driven-development
+File SHA: 01250be74504cf9965feb6d70a8cfc91ba83c135
+Content hash: ba26bc3e897f13eab104d705e299dd3ce018e0dd04c0d9617a28e2912945b181
+Primary artifact: 1
+Scan status: cached
+Findings: 0
+Categories: None listed
+Severities: None listed
+Report: results\cisco_all_scan_reports.json
+
+Artifact 156
+----------------------------------------
+Repository: RemiPelloux/OpenAgents
+Path: optional-skills/devops/hermes-s6-container-supervision/SKILL.md
+Name: hermes-s6-container-supervision
+File SHA: 0057e8d4524006a7ad14a0ade5bb960d5ca8e2f6
+Content hash: f267df7a7813ea4202a55861e412b7f4927ad0ec6f3b6e7eeaaca2f82c77647e
+Primary artifact: 1
+Scan status: cached
+Findings: 0
+Categories: None listed
+Severities: None listed
+Report: results\cisco_all_scan_reports.json
+
+Artifact 157
+----------------------------------------
+Repository: Lord1Egypt/awesome-skill-forge
+Path: optional-skills/drug-discovery/SKILL.md
+Name: drug-discovery
+File SHA: 0100d6d196e055062cb5521552194b268c6fb9df
+Content hash: 332733d3cfece349ee9b37d914aa5a2af608a6ff47aa76d8b29c5b6415b40c3d
+Primary artifact: 1
+Scan status: cached
+Findings: 1
+Categories: social_engineering
+Severities: LOW
+Report: results\cisco_all_scan_reports.json
+
+Artifact 158
+----------------------------------------
+Repository: SKYGOD07/Rakshastra
+Path: optional-skills/research/drug-discovery/SKILL.md
+Name: drug-discovery
+File SHA: 014157ff3471b1d41e405e9287c37fffc4804454
+Content hash: df96c5b4cdd84c47221899480af27dd1775360a4d0d2fa4b4117d50c24f35ee7
+Primary artifact: 1
+Scan status: cached
+Findings: 0
+Categories: None listed
+Severities: None listed
+Report: results\cisco_all_scan_reports.json
+
+Artifact 159
+----------------------------------------
+Repository: greencm/gstuck
+Path: output/gstack/context-save/SKILL.md
+Name: context-save
+File SHA: 01857d534824afc920229b8e456cff67446e7cac
+Content hash: bf998fa4bdfa3f54a6d0f9ebdf6e66c47e3b1e74c5aa90f874b620d7915c6350
+Primary artifact: 1
+Scan status: cached
+Findings: 1
+Categories: policy_violation
+Severities: INFO
+Report: results\cisco_all_scan_reports.json
+
+Artifact 160
+----------------------------------------
+Repository: claudianus/superliora
+Path: packages/agent-core/src/skill/catalog/luokai-cmo-advisor/SKILL.md
+Name: cmo-advisor
+File SHA: 00a986db0a01679a9f59bd96ce5ec403bf0355ab
+Content hash: 23b9ee7e748ea43cd197f136691cb581264d09a1fe8b36c0704de08a16031cc6
+Primary artifact: 1
+Scan status: cached
+Findings: 0
+Categories: None listed
+Severities: None listed
+Report: results\cisco_all_scan_reports.json
+
+Artifact 161
+----------------------------------------
+Repository: claudianus/superliora
+Path: packages/agent-core/src/skill/catalog/luokai-llama-cpp/SKILL.md
+Name: llama-cpp
+File SHA: 011e2f27d76cd3080f1b2f4ededd0a3c7b260485
+Content hash: 2ffec99aa3cb20ad8b63dcf56472f8f033a4336257f38ff07ff4b2dc0f41f9de
+Primary artifact: 1
+Scan status: cached
+Findings: 1
+Categories: supply_chain_attack
+Severities: LOW
+Report: results\cisco_all_scan_reports.json
+
+Artifact 162
+----------------------------------------
+Repository: justinjilg/brainstorm
+Path: packages/core/src/skills/builtin/shipping-and-launch/SKILL.md
+Name: shipping-and-launch
+File SHA: 004f097cae649184e9dafc08afcb370c7040c73b
+Content hash: fed25c35f7eed14680ca305bc0ad171d23e9bfefd3100e7934bbad3a9208d1c4
+Primary artifact: 1
+Scan status: cached
+Findings: 1
+Categories: policy_violation
+Severities: INFO
+Report: results\cisco_all_scan_reports.json
+
+Artifact 163
+----------------------------------------
+Repository: hung319/agent-hive
+Path: packages/opencode-hive/skills/ask-questions-if-underspecified/SKILL.md
+Name: ask-questions-if-underspecified
+File SHA: 00429e4e4dca17d010da0d84f757b7d9e6f7d324
+Content hash: e0c6d89964a4f8ed598b979ff7e16a20401c4ec502688c0fb225a4b199d171bf
+Primary artifact: 1
+Scan status: cached
+Findings: 1
+Categories: policy_violation
+Severities: INFO
+Report: results\cisco_all_scan_reports.json
+
+Artifact 164
+----------------------------------------
+Repository: GeorgeQLe/agentic-skills
+Path: packs/business-research/codex/competitive-analysis/archive/v0.17/SKILL.md
+Name: competitive-analysis
+File SHA: 0188e26d755c5ab328ac023bc3089c7fce7e7cfb
+Content hash: 4efd06d451d4e74631216cde4accacd82a5c7c780c5a5980c7d74691923398c4
+Primary artifact: 1
+Scan status: cached
+Findings: 1
+Categories: policy_violation
+Severities: INFO
+Report: results\cisco_all_scan_reports.json
+
+Artifact 165
+----------------------------------------
+Repository: GeorgeQLe/agentic-skills
+Path: packs/business-research/codex/competitive-analysis/archive/v0.22/SKILL.md
+Name: competitive-analysis
+File SHA: 00cdc51b3b16983b4ee4bc749eb324acb45264f5
+Content hash: 5ae70518c5c7d646d71908b5d75d145204505fb271ed1ef9bcb1790328e1b1be
+Primary artifact: 1
+Scan status: cached
+Findings: 1
+Categories: policy_violation
+Severities: INFO
+Report: results\cisco_all_scan_reports.json
+
+Artifact 166
+----------------------------------------
+Repository: onbjerg/dot
+Path: pi/skills/github/SKILL.md
+Name: github
+File SHA: 01663f08b50f7163c4702abc5116b25bc799dd4c
+Content hash: 0b8a1ac3e28bc28f4d0fd154146f678f371e5dc55dff7079ab0c3df847fd4059
+Primary artifact: 1
+Scan status: cached
+Findings: 1
+Categories: policy_violation
+Severities: INFO
+Report: results\cisco_all_scan_reports.json
+
+Artifact 167
+----------------------------------------
+Repository: mattonweb/ai-assistant-foundry
+Path: plan-software/sickn33/planning-with-files/SKILL.md
+Name: planning-with-files
+File SHA: 0064778c50f181738f8e1db4db422518adb0034f
+Content hash: cc6aa8bdb630da7154035c6176b174ad0b33081297b1676f368397593d2f77c3
+Primary artifact: 1
+Scan status: cached
+Findings: 1
+Categories: policy_violation
+Severities: INFO
+Report: results\cisco_all_scan_reports.json
+
+Artifact 168
+----------------------------------------
+Repository: wesleyegberto/software-engineering-skills
+Path: plugins/devops/skills/k8s-security-policies/SKILL.md
+Name: k8s-security-policies
+File SHA: 01261691a429d3155dfbb9b33e4129dd7ee63350
+Content hash: a6698af541534b8c8b476c43ee297d07dcd57b26fd979d2c46af400c3c585d27
+Primary artifact: 1
+Scan status: cached
+Findings: 1
+Categories: policy_violation
+Severities: INFO
+Report: results\cisco_all_scan_reports.json
+
+Artifact 169
+----------------------------------------
+Repository: kjgarza/marketplace-claude
+Path: plugins/rapid-mvp/skills/wrap-up/SKILL.md
+Name: wrap-up
+File SHA: 0135c39bc91f1d33af2e7d9115c8dc3ff8e68168
+Content hash: 2f771d444d6486344d0ab26e7329d4d9f04846b143082ed98f8d0c854f10e988
+Primary artifact: 1
+Scan status: cached
+Findings: 1
+Categories: policy_violation
+Severities: INFO
+Report: results\cisco_all_scan_reports.json
+
+Artifact 170
+----------------------------------------
+Repository: dcmirandah/agent-skills
+Path: powers/subagent-driven-development/SKILL.md
+Name: subagent-driven-development
+File SHA: 006899c9cbdc363b83d71d7cded9112f724963b8
+Content hash: 27ba54e606b189fe67074c67c8a8379835b09432d9f97b97b719144a8748c51e
+Primary artifact: 1
+Scan status: cached
+Findings: 1
+Categories: policy_violation
+Severities: INFO
+Report: results\cisco_all_scan_reports.json
+
+Artifact 171
+----------------------------------------
+Repository: nota-america/forgecat-agent-profiles
+Path: profiles/anthropics/knowledge-work-plugins/anthropics_knowledge-work-plugins_finance/for-claude/.claude/skills/journal-entry/SKILL.md
+Name: journal-entry
+File SHA: 0136208da296ab001195ef4e0dc1a867f914e05f
+Content hash: 1c84a41481644947c6ab355bebc29f4ed37f879d50d724d6e415adb95aea2f12
+Primary artifact: 1
+Scan status: cached
+Findings: 1
+Categories: policy_violation
+Severities: INFO
+Report: results\cisco_all_scan_reports.json
+
+Artifact 172
+----------------------------------------
+Repository: niyatna/openintent
+Path: profiles/default/skills/productivity/xlsx/SKILL.md
+Name: xlsx
+File SHA: 012b80a366e36d7b4f790031003f773515c45644
+Content hash: e93c0e10f64063db165f38e6b46c57ee98037de199d235c3c1f01381d8391f4a
+Primary artifact: 1
+Scan status: cached
+Findings: 0
+Categories: None listed
+Severities: None listed
+Report: results\cisco_all_scan_reports.json
+
+Artifact 173
+----------------------------------------
+Repository: AhmedHassaan-7OS/money_follow
+Path: project_disc/.agents/skills/speckit-implement/SKILL.md
+Name: speckit-implement
+File SHA: 00c81ae83914cf6608aaec60f95e5b18398c214a
+Content hash: 24eb9c9293bb867302bce76a37186c465703ff4e18b3c9096e5bb6291da6cb10
+Primary artifact: 1
+Scan status: cached
+Findings: 1
+Categories: policy_violation
+Severities: INFO
+Report: results\cisco_all_scan_reports.json
+
+Artifact 174
+----------------------------------------
+Repository: pa4uslf/Migrationed_skills
+Path: projects/seomachine-codex/skills/copy-editing/SKILL.md
+Name: copy-editing
+File SHA: 001bcaadd4cff3b17a29febe7a8791b613733023
+Content hash: febdc548f2d6bb017d287d6327ee1563c12a87029772d293a9823ceb743c1b58
+Primary artifact: 1
+Scan status: cached
+Findings: 1
+Categories: policy_violation
+Severities: INFO
+Report: results\cisco_all_scan_reports.json
+
+Artifact 175
+----------------------------------------
+Repository: swaruplab/operon
+Path: protocols/cellular-senescence-agent/SKILL.md
+Name: cellular-senescence-agent
+File SHA: 0117846268894419bcf52eb786f4becf4a1e92f7
+Content hash: 422ce029ab3b24d23a7e6d31e6a8bf29e1ffff92514b590312e02fa4eb31673f
+Primary artifact: 1
+Scan status: cached
+Findings: 1
+Categories: policy_violation
+Severities: INFO
+Report: results\cisco_all_scan_reports.json
+
+Artifact 176
+----------------------------------------
+Repository: ForceInjection/domain-driven-design-skills
+Path: relative-skills/claude-skill-registry/skills/testing/dispatching-parallel-agents-ederheisler-agent-skills-ederheisler-agent-skills/SKILL.md
+Name: dispatching-parallel-agents
+File SHA: 00b69a01d814f04b5ba42ee9e9d152093321be96
+Content hash: 1bbf2256d7cae1320917b1f6410985bcc1121394796d53decac30f5588dc8934
+Primary artifact: 1
+Scan status: cached
+Findings: 1
+Categories: policy_violation
+Severities: INFO
+Report: results\cisco_all_scan_reports.json
+
+Artifact 177
+----------------------------------------
+Repository: liammcleod-hub/blog
+Path: repo-skills/marketing-library/skills/programmatic-seo/SKILL.md
+Name: programmatic-seo
+File SHA: 019b5adc7a4fc16feb8c5e38805aa453aaefabaf
+Content hash: f10eb7e13b5b64932ef06115371e28cda7f4fc64cb9c7b85ffabee04e404852d
+Primary artifact: 1
+Scan status: cached
+Findings: 1
+Categories: policy_violation
+Severities: INFO
+Report: results\cisco_all_scan_reports.json
+
+Artifact 178
+----------------------------------------
+Repository: YomMongkolphanna/SECURITY_BRAIN
+Path: security_brain/brain/ai_agent/skills/anthropic/implementing-canary-tokens-for-network-intrusion/SKILL.md
+Name: implementing-canary-tokens-for-network-intrusion
+File SHA: 00f517e3da1c967b81ad26f245c1f3c07e216ca6
+Content hash: 9ff18742d3000acebae508c5c5dd6e53bb0764c06887fbf3186adbdb5b2184b0
+Primary artifact: 1
+Scan status: cached
+Findings: 2
+Categories: policy_violation; social_engineering
+Severities: INFO; LOW
+Report: results\cisco_all_scan_reports.json
+
+Artifact 179
+----------------------------------------
+Repository: NONEitnoname/testaiassistant
+Path: server/skills/algorithmic-art/SKILL.md
+Name: algorithmic-art
+File SHA: 0189aae53d1f4e47656c9e6df283017c4b9535b2
+Content hash: 50298be42829f93e800179eab1471bbc44f5efdddaaf42f224ce60f9113a4f89
+Primary artifact: 1
+Scan status: cached
+Findings: 0
+Categories: None listed
+Severities: None listed
+Report: results\cisco_all_scan_reports.json
+
+Artifact 180
+----------------------------------------
+Repository: jjmartres/ai-coding-agents
+Path: shared/.ai-agents/skills/humanizer/SKILL.md
+Name: humanizer
+File SHA: 00ff704dd47cc168e0ef8ca3b257196d47ff7c9c
+Content hash: 33c99bc12ad8115ef296ee0af0394133105aaae9719eba91a1c1acc31d954c6e
+Primary artifact: 1
+Scan status: cached
+Findings: 1
+Categories: policy_violation
+Severities: INFO
+Report: results\cisco_all_scan_reports.json
+
+Artifact 181
+----------------------------------------
+Repository: heximao/agents
+Path: skill-archive/docker-hermes/software-development/hermes-s6-container-supervision/SKILL.md
+Name: hermes-s6-container-supervision
+File SHA: 016a418717d2526919348dd912f305c43c1b1319
+Content hash: b6157c28c8c43ed988422eae63f2076340c12e644e547f2694a5c22667bd8407
+Primary artifact: 1
+Scan status: cached
+Findings: 0
+Categories: None listed
+Severities: None listed
+Report: results\cisco_all_scan_reports.json
+
+Artifact 182
+----------------------------------------
+Repository: David-Li0406/meta-skill-evloving
+Path: skill-flow/data/skills-refined-36k/skillsmp/merged-1f2332bd2e67424d-crane-architecture/SKILL.md
+Name: crane-architecture
+File SHA: 01a6baaed7eb8a674e44355c7ca4bcd62b68c81c
+Content hash: 7c7d5927106aff353012a5f848d1c979ae14e422d91408ed7a230cbbe646ab52
+Primary artifact: 1
+Scan status: cached
+Findings: 1
+Categories: policy_violation
+Severities: INFO
+Report: results\cisco_all_scan_reports.json
+
+Artifact 183
+----------------------------------------
+Repository: 0xharryriddle/codex-field-kit
+Path: skills-hermes/codex-agents/seo-content-auditor/SKILL.md
+Name: seo-content-auditor
+File SHA: 0162b3e0992a61099ebb376a17876246c2560d7e
+Content hash: 0b006ee8f808b8e28dabf1e4d1f6f24ac52e5c692da1e68b876869026ec0a29b
+Primary artifact: 1
+Scan status: cached
+Findings: 1
+Categories: policy_violation
+Severities: INFO
+Report: results\cisco_all_scan_reports.json
+
+Artifact 184
+----------------------------------------
+Repository: anubhavg-icpl/vibe
+Path: skills/ag-copywriting/SKILL.md
+Name: copywriting
+File SHA: 004b3935bfa2a26a312996120badf538b5168d7e
+Content hash: ee8c6f9fcc99d91cef62ce39ed6ee7fa5329c409a6029d6bfd5dbafdb4204b14
+Primary artifact: 1
+Scan status: cached
+Findings: 0
+Categories: None listed
+Severities: None listed
+Report: results\cisco_all_scan_reports.json
+
+Artifact 185
+----------------------------------------
+Repository: ComeOnOliver/skillshub
+Path: skills/aiskillstore/marketplace/toolshell/qwen-image-pro/SKILL.md
+Name: qwen-image-pro
+File SHA: 01a4f971ff1585831c066eac58f5015e4d25cc25
+Content hash: 576494f5d29d2bf014a4baea0ea152689782981b728f1ee530466053db4545eb
+Primary artifact: 1
+Scan status: cached
+Findings: 1
+Categories: policy_violation
+Severities: INFO
+Report: results\cisco_all_scan_reports.json
+
+Artifact 186
+----------------------------------------
+Repository: richard-devbot/SDLC-rstack
+Path: skills/algorithmic-art/SKILL.md
+Name: algorithmic-art
+File SHA: 006e18a1cd42550f435aa6f1db1d2d4b47bee168
+Content hash: e2d716c848d0de29798b91ea46ff1ee7df73d67c65d0414f7c95dccd2408997f
+Primary artifact: 1
+Scan status: cached
+Findings: 0
+Categories: None listed
+Severities: None listed
+Report: results\cisco_all_scan_reports.json
+
+Artifact 187
+----------------------------------------
+Repository: ComeOnOliver/skillshub
+Path: skills/antfu/skills/turborepo/SKILL.md
+Name: turborepo
+File SHA: 001336fd9b354f299618a6a04e78a764392543e4
+Content hash: 70773a8fe73700a8a1f97637c102b95044c32b71a6189743d74050ce290aa05f
+Primary artifact: 1
+Scan status: cached
+Findings: 1
+Categories: policy_violation
+Severities: INFO
+Report: results\cisco_all_scan_reports.json
+
+Artifact 188
+----------------------------------------
+Repository: killvxk/cybersecurity-skills-zh
+Path: skills/building-soc-metrics-and-kpi-tracking/SKILL.md
+Name: building-soc-metrics-and-kpi-tracking
+File SHA: 00a0fb076fc0f937c6c721590734df6dd204c4bc
+Content hash: 2322aaa6a9e3eb06ec5ab4386a512011e0788eba5b50ae8876af6609f961365d
+Primary artifact: 1
+Scan status: cached
+Findings: 0
+Categories: None listed
+Severities: None listed
+Report: results\cisco_all_scan_reports.json
+
+Artifact 189
+----------------------------------------
+Repository: Kimurist2024/rverythong-skills
+Path: skills/building-soc-metrics-and-kpi-tracking/SKILL.md
+Name: building-soc-metrics-and-kpi-tracking
+File SHA: 019fc7f33c9e247eea582189826c47e91f76b785
+Content hash: a37404df4408591d68848ca01aa9be1a3e7a6d973c9ab626bf2e069382b909dc
+Primary artifact: 1
+Scan status: cached
+Findings: 0
+Categories: None listed
+Severities: None listed
+Report: results\cisco_all_scan_reports.json
+
+Artifact 190
+----------------------------------------
+Repository: thiagofernandes1987-create/APEX
+Path: skills/business/marketing-skill/copy-editing/SKILL.md
+Name: copy-editing
+File SHA: 0097c79fced94037c4b59f6c005ad44d782ba37a
+Content hash: 8caf2f026169e6198acb208c7d3de1d47392335abe9158d6ffaa74982675dc47
+Primary artifact: 1
+Scan status: cached
+Findings: 0
+Categories: None listed
+Severities: None listed
+Report: results\cisco_all_scan_reports.json
+
+Artifact 191
+----------------------------------------
+Repository: spinabot/brigade
+Path: skills/camsnap/SKILL.md
+Name: camsnap
+File SHA: 00370a1eafc0bcf7cc706cdb8eaebf6d14280547
+Content hash: c8e9b20d2504cb63057bc375efcf80e90c57e8166ed80540c26c3be9f44375b1
+Primary artifact: 1
+Scan status: cached
+Findings: 1
+Categories: policy_violation
+Severities: INFO
+Report: results\cisco_all_scan_reports.json
+
+Artifact 192
+----------------------------------------
+Repository: FridrichMethod/awesome-skills
+Path: skills/cellular-senescence-agent/SKILL.md
+Name: cellular-senescence-agent
+File SHA: 00b83271563253318a661a7026fba3dea48a6492
+Content hash: 336445c6fe2e16244d90ace1da9ea0d6edef54b66f8fddc423a0182f7e97b1d9
+Primary artifact: 1
+Scan status: cached
+Findings: 1
+Categories: policy_violation
+Severities: INFO
+Report: results\cisco_all_scan_reports.json
+
+Artifact 193
+----------------------------------------
+Repository: membranedev/application-skills
+Path: skills/confluence/SKILL.md
+Name: confluence
+File SHA: 00ae201fd7c2d99275a7aaeb40cfdbcbc35a188e
+Content hash: 78825f7e59f16a6ee2ad04bc50a7b5af4271c9310cc3b76d57371686316056f5
+Primary artifact: 1
+Scan status: cached
+Findings: 0
+Categories: None listed
+Severities: None listed
+Report: results\cisco_all_scan_reports.json
+
+Artifact 194
+----------------------------------------
+Repository: MustafaKemal0146/fetih
+Path: skills/cybersecurity/cloud-security/implementing-secrets-management-with-vault/SKILL.md
+Name: implementing-secrets-management-with-vault
+File SHA: 0061cc63ac67614eca66debe455160a7a655059a
+Content hash: e4183f3dcc6db53a1e7a9029dac06ff9f00bb4221d61ee8ccad2e220fa2e2d63
+Primary artifact: 1
+Scan status: cached
+Findings: 4
+Categories: hardcoded_secrets; policy_violation; social_engineering
+Severities: HIGH; INFO; LOW
+Report: results\cisco_all_scan_reports.json
+
+Artifact 195
+----------------------------------------
+Repository: Avila-Tek/avila-tek-skill-pack
+Path: skills/dev-security-and-hardening/SKILL.md
+Name: security-and-hardening
+File SHA: 00cd3a6533c88cf8d806859087bd1ef22c9b5f9d
+Content hash: 67fec5a74a827904fa461e759b2d99ae3cd0ddaca1b6867fa99b0cd929d6c167
+Primary artifact: 1
+Scan status: cached
+Findings: 2
+Categories: command_injection; policy_violation
+Severities: HIGH; INFO
+Report: results\cisco_all_scan_reports.json
+
+Artifact 196
+----------------------------------------
+Repository: diegosouzapw/awesome-omni-skill
+Path: skills/development/database-optimizer-techwavedev/SKILL.md
+Name: database-optimizer
+File SHA: 00acd0dc576747edbfccaacff7799bdcad7768ae
+Content hash: 7028d5db69b603c57656f713d833143cc85865a25c8ec0284dfdde4d54d89cd1
+Primary artifact: 1
+Scan status: cached
+Findings: 1
+Categories: policy_violation
+Severities: INFO
+Report: results\cisco_all_scan_reports.json
+
+Artifact 197
+----------------------------------------
+Repository: ImaginerLabs/skill-manager
+Path: skills/document-processing/pdf/SKILL.md
+Name: pdf
+File SHA: 01abbe971cd71177acc899774394787b9247b32b
+Content hash: acedfcc63237107459809bde0cbfe95080f5bada55dbeada8494b74205027db5
+Primary artifact: 1
+Scan status: cached
+Findings: 0
+Categories: None listed
+Severities: None listed
+Report: results\cisco_all_scan_reports.json
+
+Artifact 198
+----------------------------------------
+Repository: brixtonpham/claude-config
+Path: skills/document-skills/xlsx/SKILL.md
+Name: xlsx
+File SHA: 00bbe555f64829578ce835e0da3545ec4df57103
+Content hash: f041e2873ba34dd0c8cff6eb63b65271b1747b7e57278a91fc2605e67e32d8df
+Primary artifact: 1
+Scan status: cached
+Findings: 0
+Categories: None listed
+Severities: None listed
+Report: results\cisco_all_scan_reports.json
+
+Artifact 199
+----------------------------------------
+Repository: BJSebastian/claude-code
+Path: skills/engineering/improve-codebase-architecture/SKILL.md
+Name: improve-codebase-architecture
+File SHA: 00f4c3ae4b8a4d6a8f7b5424d931a4aa65183e5e
+Content hash: 312ff1cfbbd12eba8de1a0da2e05637d5f1709a1b84fbbe84e5be417e39649ce
+Primary artifact: 1
+Scan status: cached
+Findings: 1
+Categories: policy_violation
+Severities: INFO
+Report: results\cisco_all_scan_reports.json
+
+Artifact 200
+----------------------------------------
+Repository: Sheshiyer/brandmint-oracle-aleph
+Path: skills/external/inference-sh/upstream/ab546d072f1e/tools/image/qwen-image-2-pro/SKILL.md
+Name: qwen-image-pro
+File SHA: 0097355413b21b06628f9c0464303bbe179d3f4a
+Content hash: 1c32f130c51900a79e1ce3d6d46ef6eb2059433d2d34f3c079785a7cc651a2bc
+Primary artifact: 1
+Scan status: cached
+Findings: 3
+Categories: command_injection; data_exfiltration; policy_violation
+Severities: HIGH; INFO
+Report: results\cisco_all_scan_reports.json
+
+Artifact 201
+----------------------------------------
+Repository: sputnikus/opencodedots
+Path: skills/find-docs/SKILL.md
+Name: find-docs
+File SHA: 0198472fe933955cdd243e8ed608009b3dfbc20b
+Content hash: a9a954efd89df8ab0ea41808dc40c4607c45d4a141cf584ed05821934822bd32
+Primary artifact: 1
+Scan status: cached
+Findings: 1
+Categories: policy_violation
+Severities: INFO
+Report: results\cisco_all_scan_reports.json
+
+Artifact 202
+----------------------------------------
+Repository: Fmarzochi/EGC
+Path: skills/general/coding-standards/SKILL.md
+Name: coding-standards
+File SHA: 01a289477298bbb070fc7f5d185216041a79a082
+Content hash: 36b1bcc62fd98e4687df5a08e430db7613000eb4069cd9a510b55be8dd1d3f38
+Primary artifact: 1
+Scan status: cached
+Findings: 1
+Categories: policy_violation
+Severities: INFO
+Report: results\cisco_all_scan_reports.json
+
+Artifact 203
+----------------------------------------
+Repository: Flexasaurusrex/OpenPaw
+Path: skills/goplaces/SKILL.md
+Name: goplaces
+File SHA: 0048428a27b5a0bd9e8d8a017a82cdbcf10fc2eb
+Content hash: 175f9d6bd0003a8eb97aa41b9b202fe3415281beffe9360eaaded08f5762f41b
+Primary artifact: 1
+Scan status: cached
+Findings: 1
+Categories: policy_violation
+Severities: INFO
+Report: results\cisco_all_scan_reports.json
+
+Artifact 204
+----------------------------------------
+Repository: antob/pi-agent-config
+Path: skills/grill-me/SKILL.md
+Name: grill-me
+File SHA: 0009ad770eae101c57fa2ac4d9f151f842975e62
+Content hash: 7bead6564da03dd3fd3cf2a5725bc5afac7c1132112679cfcffa2ec815b84947
+Primary artifact: 1
+Scan status: cached
+Findings: 1
+Categories: policy_violation
+Severities: INFO
+Report: results\cisco_all_scan_reports.json
+
+Artifact 205
+----------------------------------------
+Repository: marktantongco/opencodelinux
+Path: skills/grill-me/SKILL.md
+Name: grill-me
+File SHA: 0161412b5c51b96a77d3eb1cb488f80b823bcd2a
+Content hash: 687ac60f473bf2d7cdae08aa9453aac6936fc6d5e3a3bb72f2546f0372d69f16
+Primary artifact: 1
+Scan status: cached
+Findings: 1
+Categories: policy_violation
+Severities: INFO
+Report: results\cisco_all_scan_reports.json
+
+Artifact 206
+----------------------------------------
+Repository: LoganDark/get-shit-done
+Path: skills/gsd-sketch/SKILL.md
+Name: gsd-sketch
+File SHA: 00c4ec6b1679b2fbae17be875346732c4f3b882f
+Content hash: 11ef7d436090ae0982a5081f24c74030a6e402271dde68058f02fdcdf71e24a2
+Primary artifact: 1
+Scan status: cached
+Findings: 1
+Categories: policy_violation
+Severities: INFO
+Report: results\cisco_all_scan_reports.json
+
+Artifact 207
+----------------------------------------
+Repository: FarisHijazi/dotclaude
+Path: skills/gsd-sketch/SKILL.md
+Name: gsd-sketch
+File SHA: 01958be3c0e7e1dd31deff98838c5ae04324d4ea
+Content hash: 4b4e84f22e56abf6172a5e441bed3206c0241c19399b1f644076d499e77422d2
+Primary artifact: 1
+Scan status: cached
+Findings: 1
+Categories: policy_violation
+Severities: INFO
+Report: results\cisco_all_scan_reports.json
+
+Artifact 208
+----------------------------------------
+Repository: killvxk/cybersecurity-skills-zh
+Path: skills/implementing-secrets-management-with-vault/SKILL.md
+Name: implementing-secrets-management-with-vault
+File SHA: 00aca2914b605da5a295fa4f5e234f6f8ae0a884
+Content hash: d3105522f6beaff13c8880f013b69600e7093555b305324e3083d7c1f868fc99
+Primary artifact: 1
+Scan status: cached
+Findings: 1
+Categories: hardcoded_secrets
+Severities: HIGH
+Report: results\cisco_all_scan_reports.json
+
+Artifact 209
+----------------------------------------
+Repository: thiagofernandes1987-create/APEX
+Path: skills/integrations/composio/seqera-automation/SKILL.md
+Name: seqera-automation
+File SHA: 0150503b2572928c71a737cdaf4220ad7444f901
+Content hash: 1fcd7290d7aaecd589e4b02f92d386d4cceff25cd2d64184a5e0dfc0c537f903
+Primary artifact: 1
+Scan status: cached
+Findings: 1
+Categories: policy_violation
+Severities: INFO
+Report: results\cisco_all_scan_reports.json
+
+Artifact 210
+----------------------------------------
+Repository: jralph/.config-opencode
+Path: skills/interface-design/SKILL.md
+Name: interface-design
+File SHA: 017c976e1e621705303160f176b85aadbde46ef5
+Content hash: 6911d1084cb017cfb67f7e15dd7dee7e18a9842fe303039b083f7b7f337b3944
+Primary artifact: 1
+Scan status: cached
+Findings: 1
+Categories: policy_violation
+Severities: INFO
+Report: results\cisco_all_scan_reports.json
+
+Artifact 211
+----------------------------------------
+Repository: yunaamelia/apex-fast
+Path: skills/k8s-security-policies/SKILL.md
+Name: k8s-security-policies
+File SHA: 00c1a10ff537c5603b7a075116f71f236d36bb36
+Content hash: 631e788aa02eac512d7351924ffa79adebc59667610a570f9031f440f94bcaf2
+Primary artifact: 1
+Scan status: cached
+Findings: 1
+Categories: policy_violation
+Severities: INFO
+Report: results\cisco_all_scan_reports.json
+
+Artifact 212
+----------------------------------------
+Repository: Thomashighbaugh/opencode
+Path: skills/learner/SKILL.md
+Name: learner
+File SHA: 00f43816b5f7604280d6b989fa13450cf8580925
+Content hash: a8dda226298e1a0c33de68069a31c0c5e68fc2f43a32cce687f429177d21c052
+Primary artifact: 1
+Scan status: cached
+Findings: 1
+Categories: policy_violation
+Severities: INFO
+Report: results\cisco_all_scan_reports.json
+
+Artifact 213
+----------------------------------------
+Repository: fluid-commerce/DesignOS
+Path: skills/marketing/email-sequence/SKILL.md
+Name: email-sequence
+File SHA: 010fc4fad2b6f98f94829fa6e3b480e69c792772
+Content hash: b21cd4c511f3be7d2c69755f9ede89dafbad26c0a9065b6c6eb7904c153f4736
+Primary artifact: 1
+Scan status: cached
+Findings: 1
+Categories: policy_violation
+Severities: INFO
+Report: results\cisco_all_scan_reports.json
+
+Artifact 214
+----------------------------------------
+Repository: sambawy01/PA-Template
+Path: skills/mcp-builder/SKILL.md
+Name: mcp-builder
+File SHA: 009f4218e33e632063d616a0e1dd8335880e42e1
+Content hash: 3a681260314bd10170d3d62b999070b915db4a256633c0bd2c2c5acc6d1994ea
+Primary artifact: 1
+Scan status: cached
+Findings: 0
+Categories: None listed
+Severities: None listed
+Report: results\cisco_all_scan_reports.json
+
+Artifact 215
+----------------------------------------
+Repository: diegosouzapw/awesome-omni-skill
+Path: skills/product/writing-plans-neversight/SKILL.md
+Name: writing-plans
+File SHA: 00c25f1212b5c9f86d08574416c369c2077a1f71
+Content hash: 9c2716e40066dc59435948392b7c634ba5ff23ed6e3e1596a1d0da4b125631ca
+Primary artifact: 1
+Scan status: cached
+Findings: 1
+Categories: policy_violation
+Severities: INFO
+Report: results\cisco_all_scan_reports.json
+
+Artifact 216
+----------------------------------------
+Repository: cabezno/bmb-encover-agent
+Path: skills/productivity/nano-pdf/SKILL.md
+Name: nano-pdf
+File SHA: 018564a84f3dba13c79b5f905fc87141855fffe9
+Content hash: e7e0e3b90b9e6e69a23f0bb5d73a1b6a9600e1f6cb65e597d5e2ba4842406b9e
+Primary artifact: 1
+Scan status: cached
+Findings: 0
+Categories: None listed
+Severities: None listed
+Report: results\cisco_all_scan_reports.json
+
+Artifact 217
+----------------------------------------
+Repository: nicourrutia98/opencode-config-snapshot
+Path: skills/sdd-spec/SKILL.md
+Name: sdd-spec
+File SHA: 003ecec34403cc86e9a1430c09727461baeaf91b
+Content hash: 0171eea89f6b825bcb5dca15f9a6696821ec05eafcb0f0121c0f8de5ee6667cb
+Primary artifact: 1
+Scan status: cached
+Findings: 0
+Categories: None listed
+Severities: None listed
+Report: results\cisco_all_scan_reports.json
+
+Artifact 218
+----------------------------------------
+Repository: Alan-TheGentleman/gentle-ai-enterprise
+Path: skills/sdd-spec/SKILL.md
+Name: sdd-spec
+File SHA: 00c5353311fb65496d1cce71b082703581987073
+Content hash: a972f3a240eecc23cfc25687faa34f521555ef34d1d64a1e58d2a87774f556c5
+Primary artifact: 1
+Scan status: cached
+Findings: 0
+Categories: None listed
+Severities: None listed
+Report: results\cisco_all_scan_reports.json
+
+Artifact 219
+----------------------------------------
+Repository: JantonioFC/skillsbank
+Path: skills/site-architecture/SKILL.md
+Name: site-architecture
+File SHA: 0036c11c7e1f03d28f0102f87ae939ef12066035
+Content hash: a63596ab3246acef51d5470c7279ae028edbf75aac5d3d5a3810a98b0773b242
+Primary artifact: 1
+Scan status: cached
+Findings: 0
+Categories: None listed
+Severities: None listed
+Report: results\cisco_all_scan_reports.json
+
+Artifact 220
+----------------------------------------
+Repository: prince3626ezechiel-lang/ivoire-monade-palantir
+Path: skills/skill-factory/SKILL.md
+Name: Skill Factory
+File SHA: 005b950934772f7cf9ce252e5aefa5722b8ad7c7
+Content hash: abf370b39967395293a7b4be0f51b21e13e10b24a8a2cf7eb6db4637bb225706
+Primary artifact: 1
+Scan status: cached
+Findings: 2
+Categories: policy_violation
+Severities: INFO
+Report: results\cisco_all_scan_reports.json
+
+Artifact 221
+----------------------------------------
+Repository: aayushsoam/clawbo-agent
+Path: skills/software-development/systematic-debugging/SKILL.md
+Name: systematic-debugging
+File SHA: 00d5bf2ad6d7152d04cb0e5ab2f237a48c034b48
+Content hash: b7a588a3ae4ec5be3d95f62bb2bbeacf76225979f5785827b3cf44b44aad25a8
+Primary artifact: 1
+Scan status: cached
+Findings: 0
+Categories: None listed
+Severities: None listed
+Report: results\cisco_all_scan_reports.json
+
+Artifact 222
+----------------------------------------
+Repository: SriramGandhiS/Skills
+Path: skills/subagent-driven-development/SKILL.md
+Name: subagent-driven-development
+File SHA: 015abed180d0a65a2da9b90c9d80334b16475ea5
+Content hash: 66f53c3bc774dc773bd48086806e303af4e2bbef7252008335a48b3f1c90b223
+Primary artifact: 1
+Scan status: cached
+Findings: 1
+Categories: policy_violation
+Severities: INFO
+Report: results\cisco_all_scan_reports.json
+
+Artifact 223
+----------------------------------------
+Repository: skyvanguard/sky
+Path: skills/summarize/SKILL.md
+Name: summarize
+File SHA: 0013548732acbb4479a7ab165219a7374c575ee1
+Content hash: 93451a27fc656521a5956627681877c4673086d4b3dfce1d15e5d0a6ecbb0199
+Primary artifact: 1
+Scan status: cached
+Findings: 1
+Categories: policy_violation
+Severities: INFO
+Report: results\cisco_all_scan_reports.json
+
+Artifact 224
+----------------------------------------
+Repository: estebanrfp/gos
+Path: skills/summarize/SKILL.md
+Name: summarize
+File SHA: 008b37d48d57a94f15baa630745fe43b76c91ff2
+Content hash: bf3aab9a14aad508c8b490e73e2b9babddd119af19ba7e99b5bdf0e0108e4237
+Primary artifact: 1
+Scan status: cached
+Findings: 1
+Categories: policy_violation
+Severities: INFO
+Report: results\cisco_all_scan_reports.json
+
+Artifact 225
+----------------------------------------
+Repository: boazcstrike/opencode
+Path: skills/systematic-debugging/SKILL.md
+Name: systematic-debugging
+File SHA: 00c5f2798c49d74688198f5b1cde4fbf7ecd4ebe
+Content hash: 815058ef01ddbe5ed12ace4c54c58e0b5334e83d46a8aa1cefccb2ac9ac4f450
+Primary artifact: 1
+Scan status: cached
+Findings: 1
+Categories: policy_violation
+Severities: INFO
+Report: results\cisco_all_scan_reports.json
+
+Artifact 226
+----------------------------------------
+Repository: rootcastleco/rei-skills
+Path: skills/temporal-python-testing/SKILL.md
+Name: temporal-python-testing
+File SHA: 017f0338cb0a22595894dd3031bf040353913ee6
+Content hash: 00d93c073950bcfb4767516f63664eae868511c501b1dc7816651d3dd02cf637
+Primary artifact: 1
+Scan status: cached
+Findings: 1
+Categories: policy_violation
+Severities: INFO
+Report: results\cisco_all_scan_reports.json
+
+Artifact 227
+----------------------------------------
+Repository: bpnrockstar/UnifiedBugHunter
+Path: skills/web2-vuln-classes/SKILL.md
+Name: web2-vuln-classes
+File SHA: 000071155a19641bc46d1592420f2c78e6f0a658
+Content hash: b67d73bef526f7a5aa4ad83753829d33ee72ca6387685947a93d794065961d3b
+Primary artifact: 1
+Scan status: cached
+Findings: 5
+Categories: command_injection; obfuscation; policy_violation
+Severities: CRITICAL; HIGH; INFO; MEDIUM
+Report: results\cisco_all_scan_reports.json
+
+Artifact 228
+----------------------------------------
+Repository: Mikacr1138/claude-bug-bounty
+Path: skills/web2-vuln-classes/SKILL.md
+Name: web2-vuln-classes
+File SHA: 015b31aad8a3311d2012e43557c6f989d9b4c5ee
+Content hash: 81d1eed13caa5f8c193c967dc47bd9f86d95fa2385869d5fb94d92ddf0e6adec
+Primary artifact: 1
+Scan status: cached
+Findings: 4
+Categories: command_injection; policy_violation; prompt_injection
+Severities: HIGH; INFO
+Report: results\cisco_all_scan_reports.json
+
+Artifact 229
+----------------------------------------
+Repository: ivfarias/workspace-socrates
+Path: skills/writing-plans/SKILL.md
+Name: writing-plans
+File SHA: 00d6bcf7d8ed3bfd182025076bb3893d8caa8c1f
+Content hash: 6f8cd0234430baadbd4bd9754a4a66a9af5b3ecaff7ca2264ae1605af542b38f
+Primary artifact: 1
+Scan status: cached
+Findings: 1
+Categories: policy_violation
+Severities: INFO
+Report: results\cisco_all_scan_reports.json
+
+Artifact 230
+----------------------------------------
+Repository: Spaik7/Alfred
+Path: skills_library/productivity/nano-pdf/SKILL.md
+Name: nano-pdf
+File SHA: 0012772450c6a557cc0f289dbb28b7dcc46cd5a7
+Content hash: 49135ca467f21648eb056615c7f7344a6dc3bf156b528ba49b87614048f83775
+Primary artifact: 1
+Scan status: cached
+Findings: 0
+Categories: None listed
+Severities: None listed
+Report: results\cisco_all_scan_reports.json
+
+Artifact 231
+----------------------------------------
+Repository: ninjasitm/ai-assisted-dev-toolkit
+Path: src/monorepo/.agents/skills/dispatching-parallel-agents/SKILL.md
+Name: dispatching-parallel-agents
+File SHA: 00263d19c8fc660166b85ffa049e2ebc77d56c84
+Content hash: 78725887ec74e388bb53bf2ec2e644691e0d600aa3a6b675d9f7639e2d0f098d
+Primary artifact: 1
+Scan status: cached
+Findings: 1
+Categories: policy_violation
+Severities: INFO
+Report: results\cisco_all_scan_reports.json
+
+Artifact 232
+----------------------------------------
+Repository: Molly-agi/Molly-Core
+Path: src/skills/registry/skills/cybersecurity/skills/implementing-identity-governance-with-sailpoint/SKILL.md
+Name: implementing-identity-governance-with-sailpoint
+File SHA: 00db4ce48b16f5266b1f7d64bf5304fcdb16eb3f
+Content hash: 5f022c9fbc51e2a84578499511ec6fd20c58c9c6ac3b705f6db7e23d633496f1
+Primary artifact: 1
+Scan status: cached
+Findings: 0
+Categories: None listed
+Severities: None listed
+Report: results\cisco_all_scan_reports.json
+
+Artifact 233
+----------------------------------------
+Repository: Mrlyk/superharness
+Path: src/skills/subagent-driven-development/SKILL.md
+Name: subagent-driven-development
+File SHA: 019e33658eefb47a9dd25f97d0c1917f390c654c
+Content hash: 2fa443ad216ad56c7d069fca727516c99961c292ec1767588ccfe2ffac9db33b
+Primary artifact: 1
+Scan status: cached
+Findings: 1
+Categories: policy_violation
+Severities: INFO
+Report: results\cisco_all_scan_reports.json
+
+Artifact 234
+----------------------------------------
+Repository: spalsh-spec/ai-stack-template
+Path: stack/skills/design-consultation/SKILL.md
+Name: design-consultation
+File SHA: 01ac0d7bc2e2c61a6086097931f97a5b63e1fe10
+Content hash: 6bec7dc8bce94f237db3d66f252c7041e540cdf3b552a30186aa3d2b5ada08cf
+Primary artifact: 1
+Scan status: cached
+Findings: 1
+Categories: policy_violation
+Severities: INFO
+Report: results\cisco_all_scan_reports.json
+
+Artifact 235
+----------------------------------------
+Repository: martineserios/thebrana
+Path: system/skills/rust-skills/SKILL.md
+Name: rust-skills
+File SHA: 010ce323f40ca138f4c3ff747891c68a7c754393
+Content hash: 17fefe234333df73373f5c236c27eebe9c80ccdeda10886eb019396be4c9609c
+Primary artifact: 1
+Scan status: cached
+Findings: 1
+Categories: policy_violation
+Severities: INFO
+Report: results\cisco_all_scan_reports.json
+
+Artifact 236
+----------------------------------------
+Repository: Arun-FEDEV/ide-ai-framework
+Path: templates/project/.ide-ai-framework/skills/github-triage/SKILL.md
+Name: github-triage
+File SHA: 00ece91de51e683bac2df43011977c151a6527d3
+Content hash: a3d25f106158d724b85d767f43e4be47846971dd20bce0f05f7b3eed10df590b
+Primary artifact: 1
+Scan status: cached
+Findings: 1
+Categories: policy_violation
+Severities: INFO
+Report: results\cisco_all_scan_reports.json
+
+Artifact 237
+----------------------------------------
+Repository: ibragimov-oasis/vibe-coder
+Path: vc-kit/content/COMBINED/COMBINED/skills/skills-antigravity/source-antigravity-awesome-skills/plugins/antigravity-awesome-skills-claude/skills/ask-questions-if-underspecified/SKILL.md
+Name: ask-questions-if-underspecified
+File SHA: 0150755c9f40454d9cb2ff16dcae5c8caa1853f1
+Content hash: 6abc3b272a5760244c92291b52fca8427460c1fee0d9e8bff37592d84b1eeed0
+Primary artifact: 1
+Scan status: cached
+Findings: 1
+Categories: policy_violation
+Severities: INFO
+Report: results\cisco_all_scan_reports.json
+
+Artifact 238
+----------------------------------------
+Repository: SriramGandhiS/Skills
+Path: web-assets/docs/ja-JP/skills/coding-standards/SKILL.md
+Name: coding-standards
+File SHA: 00508cfa807f9b796b71941705aeacfa09d0e158
+Content hash: 42d0f3062be88a103d8c0aa0e1d20b8e47acb0777d67a759a1f6e962b46890cc
+Primary artifact: 1
+Scan status: cached
+Findings: 1
+Categories: policy_violation
+Severities: INFO
+Report: results\cisco_all_scan_reports.json
+
+EXACT DUPLICATE GROUP COMPARISONS
+=======================================================
+
+SIBLING GROUP COMPARISONS
+=======================================================
+
+Group: artifact_siblings_1
+Artifacts: 2
+Distinct content versions: 2
+Artifacts with findings: 2
+Total findings across artifacts: 2
+Findings differ across versions: False
+Repositories: MikeCheng1208/BattleTree; SteveChandler/quiver
+Paths: .agents/skills/email-sequence/SKILL.md
+
+Group: artifact_siblings_2
+Artifacts: 2
+Distinct content versions: 2
+Artifacts with findings: 2
+Total findings across artifacts: 2
+Findings differ across versions: False
+Repositories: dpeek/formless; govoel/voel
+Paths: .agents/skills/improve-codebase-architecture/SKILL.md
+
+Group: artifact_siblings_3
+Artifacts: 2
+Distinct content versions: 2
+Artifacts with findings: 2
+Total findings across artifacts: 2
+Findings differ across versions: False
+Repositories: BterceroIII/TickedApp; zeis974/TaxDOM
+Paths: .agents/skills/turborepo/SKILL.md
+
+Group: artifact_siblings_4
+Artifacts: 2
+Distinct content versions: 2
+Artifacts with findings: 2
+Total findings across artifacts: 2
+Findings differ across versions: False
+Repositories: MikeCheng1208/BattleTree; bcgov/small-claims-assistant-prototype
+Paths: .agents/skills/writing-plans/SKILL.md
+
+Group: artifact_siblings_5
+Artifacts: 2
+Distinct content versions: 2
+Artifacts with findings: 2
+Total findings across artifacts: 2
+Findings differ across versions: False
+Repositories: ag47-pt/Website; leandrosilvaferreira/gitai-js
+Paths: .claude/skills/architecture/SKILL.md
+
+Group: artifact_siblings_6
+Artifacts: 2
+Distinct content versions: 2
+Artifacts with findings: 2
+Total findings across artifacts: 2
+Findings differ across versions: False
+Repositories: AWS-Educate/template-nextjs-sanity-tailwind-amplify; Suresh-cs-q/n8nmake.tech
+Paths: .claude/skills/programmatic-seo/SKILL.md
+
+Group: artifact_siblings_7
+Artifacts: 2
+Distinct content versions: 2
+Artifacts with findings: 2
+Total findings across artifacts: 2
+Findings differ across versions: False
+Repositories: MikeTreml/MissionControl; a5c-ai/babysitter
+Paths: library/specializations/game-development/skills/procedural-generation/SKILL.md
+
+Group: artifact_siblings_8
+Artifacts: 2
+Distinct content versions: 2
+Artifacts with findings: 0
+Total findings across artifacts: 0
+Findings differ across versions: False
+Repositories: Kimurist2024/rverythong-skills; killvxk/cybersecurity-skills-zh
+Paths: skills/building-soc-metrics-and-kpi-tracking/SKILL.md
+
+Group: artifact_siblings_9
+Artifacts: 2
+Distinct content versions: 2
+Artifacts with findings: 2
+Total findings across artifacts: 9
+Findings differ across versions: True
+Repositories: Mikacr1138/claude-bug-bounty; bpnrockstar/UnifiedBugHunter
+Paths: skills/web2-vuln-classes/SKILL.md
+
+SCAN ERRORS
+=======================================================
+No scan errors were recorded.
+
+RESEARCH NOTES
+=======================================================
+- Findings are scanner detections, not proof of malicious behavior.
+- Different findings across modified versions are candidates for manual review.
+- Exact duplicate files share content; this does not prove copy direction.
+- Raw scanner reports are stored together in cisco_all_scan_reports.json.

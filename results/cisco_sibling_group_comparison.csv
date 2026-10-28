@@ -1,0 +1,10 @@
+﻿group_type,group_id,artifact_count,distinct_content_versions,artifacts_with_findings,total_findings_across_artifacts,distinct_finding_signatures,findings_differ_across_versions,repositories,artifact_paths
+artifact_siblings,artifact_siblings_1,2,2,2,2,1,False,MikeCheng1208/BattleTree; SteveChandler/quiver,.agents/skills/email-sequence/SKILL.md
+artifact_siblings,artifact_siblings_2,2,2,2,2,1,False,dpeek/formless; govoel/voel,.agents/skills/improve-codebase-architecture/SKILL.md
+artifact_siblings,artifact_siblings_3,2,2,2,2,1,False,BterceroIII/TickedApp; zeis974/TaxDOM,.agents/skills/turborepo/SKILL.md
+artifact_siblings,artifact_siblings_4,2,2,2,2,1,False,MikeCheng1208/BattleTree; bcgov/small-claims-assistant-prototype,.agents/skills/writing-plans/SKILL.md
+artifact_siblings,artifact_siblings_5,2,2,2,2,1,False,ag47-pt/Website; leandrosilvaferreira/gitai-js,.claude/skills/architecture/SKILL.md
+artifact_siblings,artifact_siblings_6,2,2,2,2,1,False,AWS-Educate/template-nextjs-sanity-tailwind-amplify; Suresh-cs-q/n8nmake.tech,.claude/skills/programmatic-seo/SKILL.md
+artifact_siblings,artifact_siblings_7,2,2,2,2,1,False,MikeTreml/MissionControl; a5c-ai/babysitter,library/specializations/game-development/skills/procedural-generation/SKILL.md
+artifact_siblings,artifact_siblings_8,2,2,0,0,0,False,Kimurist2024/rverythong-skills; killvxk/cybersecurity-skills-zh,skills/building-soc-metrics-and-kpi-tracking/SKILL.md
+artifact_siblings,artifact_siblings_9,2,2,2,9,6,True,Mikacr1138/claude-bug-bounty; bpnrockstar/UnifiedBugHunter,skills/web2-vuln-classes/SKILL.md
