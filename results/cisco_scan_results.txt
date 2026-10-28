@@ -2271,7 +2271,7 @@ Name: shipping-and-launch
 File SHA: 004f097cae649184e9dafc08afcb370c7040c73b
 Content hash: fed25c35f7eed14680ca305bc0ad171d23e9bfefd3100e7934bbad3a9208d1c4
 Primary artifact: 1
-Scan status: completed
+Scan status: cached
 Findings: 1
 Categories: policy_violation
 Severities: INFO
@@ -2285,7 +2285,7 @@ Name: ask-questions-if-underspecified
 File SHA: 00429e4e4dca17d010da0d84f757b7d9e6f7d324
 Content hash: e0c6d89964a4f8ed598b979ff7e16a20401c4ec502688c0fb225a4b199d171bf
 Primary artifact: 1
-Scan status: completed
+Scan status: cached
 Findings: 1
 Categories: policy_violation
 Severities: INFO
@@ -2299,7 +2299,7 @@ Name: competitive-analysis
 File SHA: 0188e26d755c5ab328ac023bc3089c7fce7e7cfb
 Content hash: 4efd06d451d4e74631216cde4accacd82a5c7c780c5a5980c7d74691923398c4
 Primary artifact: 1
-Scan status: completed
+Scan status: cached
 Findings: 1
 Categories: policy_violation
 Severities: INFO
@@ -2313,7 +2313,7 @@ Name: competitive-analysis
 File SHA: 00cdc51b3b16983b4ee4bc749eb324acb45264f5
 Content hash: 5ae70518c5c7d646d71908b5d75d145204505fb271ed1ef9bcb1790328e1b1be
 Primary artifact: 1
-Scan status: completed
+Scan status: cached
 Findings: 1
 Categories: policy_violation
 Severities: INFO
@@ -2327,7 +2327,7 @@ Name: github
 File SHA: 01663f08b50f7163c4702abc5116b25bc799dd4c
 Content hash: 0b8a1ac3e28bc28f4d0fd154146f678f371e5dc55dff7079ab0c3df847fd4059
 Primary artifact: 1
-Scan status: completed
+Scan status: cached
 Findings: 1
 Categories: policy_violation
 Severities: INFO
@@ -2341,7 +2341,7 @@ Name: planning-with-files
 File SHA: 0064778c50f181738f8e1db4db422518adb0034f
 Content hash: cc6aa8bdb630da7154035c6176b174ad0b33081297b1676f368397593d2f77c3
 Primary artifact: 1
-Scan status: completed
+Scan status: cached
 Findings: 1
 Categories: policy_violation
 Severities: INFO
@@ -2355,7 +2355,7 @@ Name: k8s-security-policies
 File SHA: 01261691a429d3155dfbb9b33e4129dd7ee63350
 Content hash: a6698af541534b8c8b476c43ee297d07dcd57b26fd979d2c46af400c3c585d27
 Primary artifact: 1
-Scan status: completed
+Scan status: cached
 Findings: 1
 Categories: policy_violation
 Severities: INFO
@@ -2369,7 +2369,7 @@ Name: wrap-up
 File SHA: 0135c39bc91f1d33af2e7d9115c8dc3ff8e68168
 Content hash: 2f771d444d6486344d0ab26e7329d4d9f04846b143082ed98f8d0c854f10e988
 Primary artifact: 1
-Scan status: completed
+Scan status: cached
 Findings: 1
 Categories: policy_violation
 Severities: INFO
@@ -2383,7 +2383,7 @@ Name: subagent-driven-development
 File SHA: 006899c9cbdc363b83d71d7cded9112f724963b8
 Content hash: 27ba54e606b189fe67074c67c8a8379835b09432d9f97b97b719144a8748c51e
 Primary artifact: 1
-Scan status: completed
+Scan status: cached
 Findings: 1
 Categories: policy_violation
 Severities: INFO
@@ -2397,7 +2397,7 @@ Name: journal-entry
 File SHA: 0136208da296ab001195ef4e0dc1a867f914e05f
 Content hash: 1c84a41481644947c6ab355bebc29f4ed37f879d50d724d6e415adb95aea2f12
 Primary artifact: 1
-Scan status: completed
+Scan status: cached
 Findings: 1
 Categories: policy_violation
 Severities: INFO
@@ -2411,7 +2411,7 @@ Name: xlsx
 File SHA: 012b80a366e36d7b4f790031003f773515c45644
 Content hash: e93c0e10f64063db165f38e6b46c57ee98037de199d235c3c1f01381d8391f4a
 Primary artifact: 1
-Scan status: completed
+Scan status: cached
 Findings: 0
 Categories: None listed
 Severities: None listed
@@ -2425,7 +2425,7 @@ Name: speckit-implement
 File SHA: 00c81ae83914cf6608aaec60f95e5b18398c214a
 Content hash: 24eb9c9293bb867302bce76a37186c465703ff4e18b3c9096e5bb6291da6cb10
 Primary artifact: 1
-Scan status: completed
+Scan status: cached
 Findings: 1
 Categories: policy_violation
 Severities: INFO
@@ -2439,7 +2439,7 @@ Name: copy-editing
 File SHA: 001bcaadd4cff3b17a29febe7a8791b613733023
 Content hash: febdc548f2d6bb017d287d6327ee1563c12a87029772d293a9823ceb743c1b58
 Primary artifact: 1
-Scan status: completed
+Scan status: cached
 Findings: 1
 Categories: policy_violation
 Severities: INFO
@@ -2453,7 +2453,7 @@ Name: cellular-senescence-agent
 File SHA: 0117846268894419bcf52eb786f4becf4a1e92f7
 Content hash: 422ce029ab3b24d23a7e6d31e6a8bf29e1ffff92514b590312e02fa4eb31673f
 Primary artifact: 1
-Scan status: completed
+Scan status: cached
 Findings: 1
 Categories: policy_violation
 Severities: INFO
@@ -2467,7 +2467,7 @@ Name: dispatching-parallel-agents
 File SHA: 00b69a01d814f04b5ba42ee9e9d152093321be96
 Content hash: 1bbf2256d7cae1320917b1f6410985bcc1121394796d53decac30f5588dc8934
 Primary artifact: 1
-Scan status: completed
+Scan status: cached
 Findings: 1
 Categories: policy_violation
 Severities: INFO
@@ -2481,7 +2481,7 @@ Name: programmatic-seo
 File SHA: 019b5adc7a4fc16feb8c5e38805aa453aaefabaf
 Content hash: f10eb7e13b5b64932ef06115371e28cda7f4fc64cb9c7b85ffabee04e404852d
 Primary artifact: 1
-Scan status: completed
+Scan status: cached
 Findings: 1
 Categories: policy_violation
 Severities: INFO
@@ -2495,7 +2495,7 @@ Name: implementing-canary-tokens-for-network-intrusion
 File SHA: 00f517e3da1c967b81ad26f245c1f3c07e216ca6
 Content hash: 9ff18742d3000acebae508c5c5dd6e53bb0764c06887fbf3186adbdb5b2184b0
 Primary artifact: 1
-Scan status: completed
+Scan status: cached
 Findings: 2
 Categories: policy_violation; social_engineering
 Severities: INFO; LOW
@@ -2509,7 +2509,7 @@ Name: algorithmic-art
 File SHA: 0189aae53d1f4e47656c9e6df283017c4b9535b2
 Content hash: 50298be42829f93e800179eab1471bbc44f5efdddaaf42f224ce60f9113a4f89
 Primary artifact: 1
-Scan status: completed
+Scan status: cached
 Findings: 0
 Categories: None listed
 Severities: None listed
@@ -2523,7 +2523,7 @@ Name: humanizer
 File SHA: 00ff704dd47cc168e0ef8ca3b257196d47ff7c9c
 Content hash: 33c99bc12ad8115ef296ee0af0394133105aaae9719eba91a1c1acc31d954c6e
 Primary artifact: 1
-Scan status: completed
+Scan status: cached
 Findings: 1
 Categories: policy_violation
 Severities: INFO
@@ -2537,7 +2537,7 @@ Name: hermes-s6-container-supervision
 File SHA: 016a418717d2526919348dd912f305c43c1b1319
 Content hash: b6157c28c8c43ed988422eae63f2076340c12e644e547f2694a5c22667bd8407
 Primary artifact: 1
-Scan status: completed
+Scan status: cached
 Findings: 0
 Categories: None listed
 Severities: None listed
@@ -2551,7 +2551,7 @@ Name: crane-architecture
 File SHA: 01a6baaed7eb8a674e44355c7ca4bcd62b68c81c
 Content hash: 7c7d5927106aff353012a5f848d1c979ae14e422d91408ed7a230cbbe646ab52
 Primary artifact: 1
-Scan status: completed
+Scan status: cached
 Findings: 1
 Categories: policy_violation
 Severities: INFO
@@ -2565,7 +2565,7 @@ Name: seo-content-auditor
 File SHA: 0162b3e0992a61099ebb376a17876246c2560d7e
 Content hash: 0b006ee8f808b8e28dabf1e4d1f6f24ac52e5c692da1e68b876869026ec0a29b
 Primary artifact: 1
-Scan status: completed
+Scan status: cached
 Findings: 1
 Categories: policy_violation
 Severities: INFO
@@ -2579,7 +2579,7 @@ Name: copywriting
 File SHA: 004b3935bfa2a26a312996120badf538b5168d7e
 Content hash: ee8c6f9fcc99d91cef62ce39ed6ee7fa5329c409a6029d6bfd5dbafdb4204b14
 Primary artifact: 1
-Scan status: completed
+Scan status: cached
 Findings: 0
 Categories: None listed
 Severities: None listed
@@ -2593,7 +2593,7 @@ Name: qwen-image-pro
 File SHA: 01a4f971ff1585831c066eac58f5015e4d25cc25
 Content hash: 576494f5d29d2bf014a4baea0ea152689782981b728f1ee530466053db4545eb
 Primary artifact: 1
-Scan status: completed
+Scan status: cached
 Findings: 1
 Categories: policy_violation
 Severities: INFO
@@ -2607,7 +2607,7 @@ Name: algorithmic-art
 File SHA: 006e18a1cd42550f435aa6f1db1d2d4b47bee168
 Content hash: e2d716c848d0de29798b91ea46ff1ee7df73d67c65d0414f7c95dccd2408997f
 Primary artifact: 1
-Scan status: completed
+Scan status: cached
 Findings: 0
 Categories: None listed
 Severities: None listed
@@ -2621,7 +2621,7 @@ Name: turborepo
 File SHA: 001336fd9b354f299618a6a04e78a764392543e4
 Content hash: 70773a8fe73700a8a1f97637c102b95044c32b71a6189743d74050ce290aa05f
 Primary artifact: 1
-Scan status: completed
+Scan status: cached
 Findings: 1
 Categories: policy_violation
 Severities: INFO
@@ -2635,7 +2635,7 @@ Name: building-soc-metrics-and-kpi-tracking
 File SHA: 00a0fb076fc0f937c6c721590734df6dd204c4bc
 Content hash: 2322aaa6a9e3eb06ec5ab4386a512011e0788eba5b50ae8876af6609f961365d
 Primary artifact: 1
-Scan status: completed
+Scan status: cached
 Findings: 0
 Categories: None listed
 Severities: None listed
@@ -2649,7 +2649,7 @@ Name: building-soc-metrics-and-kpi-tracking
 File SHA: 019fc7f33c9e247eea582189826c47e91f76b785
 Content hash: a37404df4408591d68848ca01aa9be1a3e7a6d973c9ab626bf2e069382b909dc
 Primary artifact: 1
-Scan status: completed
+Scan status: cached
 Findings: 0
 Categories: None listed
 Severities: None listed
@@ -2663,7 +2663,7 @@ Name: copy-editing
 File SHA: 0097c79fced94037c4b59f6c005ad44d782ba37a
 Content hash: 8caf2f026169e6198acb208c7d3de1d47392335abe9158d6ffaa74982675dc47
 Primary artifact: 1
-Scan status: completed
+Scan status: cached
 Findings: 0
 Categories: None listed
 Severities: None listed
@@ -2677,7 +2677,7 @@ Name: camsnap
 File SHA: 00370a1eafc0bcf7cc706cdb8eaebf6d14280547
 Content hash: c8e9b20d2504cb63057bc375efcf80e90c57e8166ed80540c26c3be9f44375b1
 Primary artifact: 1
-Scan status: completed
+Scan status: cached
 Findings: 1
 Categories: policy_violation
 Severities: INFO
@@ -2691,7 +2691,7 @@ Name: cellular-senescence-agent
 File SHA: 00b83271563253318a661a7026fba3dea48a6492
 Content hash: 336445c6fe2e16244d90ace1da9ea0d6edef54b66f8fddc423a0182f7e97b1d9
 Primary artifact: 1
-Scan status: completed
+Scan status: cached
 Findings: 1
 Categories: policy_violation
 Severities: INFO
@@ -2705,7 +2705,7 @@ Name: confluence
 File SHA: 00ae201fd7c2d99275a7aaeb40cfdbcbc35a188e
 Content hash: 78825f7e59f16a6ee2ad04bc50a7b5af4271c9310cc3b76d57371686316056f5
 Primary artifact: 1
-Scan status: completed
+Scan status: cached
 Findings: 0
 Categories: None listed
 Severities: None listed
@@ -2719,7 +2719,7 @@ Name: implementing-secrets-management-with-vault
 File SHA: 0061cc63ac67614eca66debe455160a7a655059a
 Content hash: e4183f3dcc6db53a1e7a9029dac06ff9f00bb4221d61ee8ccad2e220fa2e2d63
 Primary artifact: 1
-Scan status: completed
+Scan status: cached
 Findings: 4
 Categories: hardcoded_secrets; policy_violation; social_engineering
 Severities: HIGH; INFO; LOW
@@ -2733,7 +2733,7 @@ Name: security-and-hardening
 File SHA: 00cd3a6533c88cf8d806859087bd1ef22c9b5f9d
 Content hash: 67fec5a74a827904fa461e759b2d99ae3cd0ddaca1b6867fa99b0cd929d6c167
 Primary artifact: 1
-Scan status: completed
+Scan status: cached
 Findings: 2
 Categories: command_injection; policy_violation
 Severities: HIGH; INFO
@@ -2747,7 +2747,7 @@ Name: database-optimizer
 File SHA: 00acd0dc576747edbfccaacff7799bdcad7768ae
 Content hash: 7028d5db69b603c57656f713d833143cc85865a25c8ec0284dfdde4d54d89cd1
 Primary artifact: 1
-Scan status: completed
+Scan status: cached
 Findings: 1
 Categories: policy_violation
 Severities: INFO
@@ -2761,7 +2761,7 @@ Name: pdf
 File SHA: 01abbe971cd71177acc899774394787b9247b32b
 Content hash: acedfcc63237107459809bde0cbfe95080f5bada55dbeada8494b74205027db5
 Primary artifact: 1
-Scan status: completed
+Scan status: cached
 Findings: 0
 Categories: None listed
 Severities: None listed
@@ -2775,7 +2775,7 @@ Name: xlsx
 File SHA: 00bbe555f64829578ce835e0da3545ec4df57103
 Content hash: f041e2873ba34dd0c8cff6eb63b65271b1747b7e57278a91fc2605e67e32d8df
 Primary artifact: 1
-Scan status: completed
+Scan status: cached
 Findings: 0
 Categories: None listed
 Severities: None listed
@@ -2789,7 +2789,7 @@ Name: improve-codebase-architecture
 File SHA: 00f4c3ae4b8a4d6a8f7b5424d931a4aa65183e5e
 Content hash: 312ff1cfbbd12eba8de1a0da2e05637d5f1709a1b84fbbe84e5be417e39649ce
 Primary artifact: 1
-Scan status: completed
+Scan status: cached
 Findings: 1
 Categories: policy_violation
 Severities: INFO
@@ -2803,7 +2803,7 @@ Name: qwen-image-pro
 File SHA: 0097355413b21b06628f9c0464303bbe179d3f4a
 Content hash: 1c32f130c51900a79e1ce3d6d46ef6eb2059433d2d34f3c079785a7cc651a2bc
 Primary artifact: 1
-Scan status: completed
+Scan status: cached
 Findings: 3
 Categories: command_injection; data_exfiltration; policy_violation
 Severities: HIGH; INFO
@@ -2817,7 +2817,7 @@ Name: find-docs
 File SHA: 0198472fe933955cdd243e8ed608009b3dfbc20b
 Content hash: a9a954efd89df8ab0ea41808dc40c4607c45d4a141cf584ed05821934822bd32
 Primary artifact: 1
-Scan status: completed
+Scan status: cached
 Findings: 1
 Categories: policy_violation
 Severities: INFO
@@ -2831,7 +2831,7 @@ Name: coding-standards
 File SHA: 01a289477298bbb070fc7f5d185216041a79a082
 Content hash: 36b1bcc62fd98e4687df5a08e430db7613000eb4069cd9a510b55be8dd1d3f38
 Primary artifact: 1
-Scan status: completed
+Scan status: cached
 Findings: 1
 Categories: policy_violation
 Severities: INFO
@@ -2845,7 +2845,7 @@ Name: goplaces
 File SHA: 0048428a27b5a0bd9e8d8a017a82cdbcf10fc2eb
 Content hash: 175f9d6bd0003a8eb97aa41b9b202fe3415281beffe9360eaaded08f5762f41b
 Primary artifact: 1
-Scan status: completed
+Scan status: cached
 Findings: 1
 Categories: policy_violation
 Severities: INFO
@@ -2859,7 +2859,7 @@ Name: grill-me
 File SHA: 0009ad770eae101c57fa2ac4d9f151f842975e62
 Content hash: 7bead6564da03dd3fd3cf2a5725bc5afac7c1132112679cfcffa2ec815b84947
 Primary artifact: 1
-Scan status: completed
+Scan status: cached
 Findings: 1
 Categories: policy_violation
 Severities: INFO
@@ -2873,7 +2873,7 @@ Name: grill-me
 File SHA: 0161412b5c51b96a77d3eb1cb488f80b823bcd2a
 Content hash: 687ac60f473bf2d7cdae08aa9453aac6936fc6d5e3a3bb72f2546f0372d69f16
 Primary artifact: 1
-Scan status: completed
+Scan status: cached
 Findings: 1
 Categories: policy_violation
 Severities: INFO
@@ -2887,7 +2887,7 @@ Name: gsd-sketch
 File SHA: 00c4ec6b1679b2fbae17be875346732c4f3b882f
 Content hash: 11ef7d436090ae0982a5081f24c74030a6e402271dde68058f02fdcdf71e24a2
 Primary artifact: 1
-Scan status: completed
+Scan status: cached
 Findings: 1
 Categories: policy_violation
 Severities: INFO
@@ -2901,7 +2901,7 @@ Name: gsd-sketch
 File SHA: 01958be3c0e7e1dd31deff98838c5ae04324d4ea
 Content hash: 4b4e84f22e56abf6172a5e441bed3206c0241c19399b1f644076d499e77422d2
 Primary artifact: 1
-Scan status: completed
+Scan status: cached
 Findings: 1
 Categories: policy_violation
 Severities: INFO
@@ -2915,7 +2915,7 @@ Name: implementing-secrets-management-with-vault
 File SHA: 00aca2914b605da5a295fa4f5e234f6f8ae0a884
 Content hash: d3105522f6beaff13c8880f013b69600e7093555b305324e3083d7c1f868fc99
 Primary artifact: 1
-Scan status: completed
+Scan status: cached
 Findings: 1
 Categories: hardcoded_secrets
 Severities: HIGH
@@ -2929,7 +2929,7 @@ Name: seqera-automation
 File SHA: 0150503b2572928c71a737cdaf4220ad7444f901
 Content hash: 1fcd7290d7aaecd589e4b02f92d386d4cceff25cd2d64184a5e0dfc0c537f903
 Primary artifact: 1
-Scan status: completed
+Scan status: cached
 Findings: 1
 Categories: policy_violation
 Severities: INFO
@@ -2943,7 +2943,7 @@ Name: interface-design
 File SHA: 017c976e1e621705303160f176b85aadbde46ef5
 Content hash: 6911d1084cb017cfb67f7e15dd7dee7e18a9842fe303039b083f7b7f337b3944
 Primary artifact: 1
-Scan status: completed
+Scan status: cached
 Findings: 1
 Categories: policy_violation
 Severities: INFO
@@ -2957,7 +2957,7 @@ Name: k8s-security-policies
 File SHA: 00c1a10ff537c5603b7a075116f71f236d36bb36
 Content hash: 631e788aa02eac512d7351924ffa79adebc59667610a570f9031f440f94bcaf2
 Primary artifact: 1
-Scan status: completed
+Scan status: cached
 Findings: 1
 Categories: policy_violation
 Severities: INFO
@@ -2971,7 +2971,7 @@ Name: learner
 File SHA: 00f43816b5f7604280d6b989fa13450cf8580925
 Content hash: a8dda226298e1a0c33de68069a31c0c5e68fc2f43a32cce687f429177d21c052
 Primary artifact: 1
-Scan status: completed
+Scan status: cached
 Findings: 1
 Categories: policy_violation
 Severities: INFO
@@ -2985,7 +2985,7 @@ Name: email-sequence
 File SHA: 010fc4fad2b6f98f94829fa6e3b480e69c792772
 Content hash: b21cd4c511f3be7d2c69755f9ede89dafbad26c0a9065b6c6eb7904c153f4736
 Primary artifact: 1
-Scan status: completed
+Scan status: cached
 Findings: 1
 Categories: policy_violation
 Severities: INFO
@@ -2999,7 +2999,7 @@ Name: mcp-builder
 File SHA: 009f4218e33e632063d616a0e1dd8335880e42e1
 Content hash: 3a681260314bd10170d3d62b999070b915db4a256633c0bd2c2c5acc6d1994ea
 Primary artifact: 1
-Scan status: completed
+Scan status: cached
 Findings: 0
 Categories: None listed
 Severities: None listed
@@ -3013,7 +3013,7 @@ Name: writing-plans
 File SHA: 00c25f1212b5c9f86d08574416c369c2077a1f71
 Content hash: 9c2716e40066dc59435948392b7c634ba5ff23ed6e3e1596a1d0da4b125631ca
 Primary artifact: 1
-Scan status: completed
+Scan status: cached
 Findings: 1
 Categories: policy_violation
 Severities: INFO
@@ -3027,7 +3027,7 @@ Name: nano-pdf
 File SHA: 018564a84f3dba13c79b5f905fc87141855fffe9
 Content hash: e7e0e3b90b9e6e69a23f0bb5d73a1b6a9600e1f6cb65e597d5e2ba4842406b9e
 Primary artifact: 1
-Scan status: completed
+Scan status: cached
 Findings: 0
 Categories: None listed
 Severities: None listed
@@ -3041,7 +3041,7 @@ Name: sdd-spec
 File SHA: 003ecec34403cc86e9a1430c09727461baeaf91b
 Content hash: 0171eea89f6b825bcb5dca15f9a6696821ec05eafcb0f0121c0f8de5ee6667cb
 Primary artifact: 1
-Scan status: completed
+Scan status: cached
 Findings: 0
 Categories: None listed
 Severities: None listed
@@ -3055,7 +3055,7 @@ Name: sdd-spec
 File SHA: 00c5353311fb65496d1cce71b082703581987073
 Content hash: a972f3a240eecc23cfc25687faa34f521555ef34d1d64a1e58d2a87774f556c5
 Primary artifact: 1
-Scan status: completed
+Scan status: cached
 Findings: 0
 Categories: None listed
 Severities: None listed
@@ -3069,7 +3069,7 @@ Name: site-architecture
 File SHA: 0036c11c7e1f03d28f0102f87ae939ef12066035
 Content hash: a63596ab3246acef51d5470c7279ae028edbf75aac5d3d5a3810a98b0773b242
 Primary artifact: 1
-Scan status: completed
+Scan status: cached
 Findings: 0
 Categories: None listed
 Severities: None listed
@@ -3083,7 +3083,7 @@ Name: Skill Factory
 File SHA: 005b950934772f7cf9ce252e5aefa5722b8ad7c7
 Content hash: abf370b39967395293a7b4be0f51b21e13e10b24a8a2cf7eb6db4637bb225706
 Primary artifact: 1
-Scan status: completed
+Scan status: cached
 Findings: 2
 Categories: policy_violation
 Severities: INFO
@@ -3097,7 +3097,7 @@ Name: systematic-debugging
 File SHA: 00d5bf2ad6d7152d04cb0e5ab2f237a48c034b48
 Content hash: b7a588a3ae4ec5be3d95f62bb2bbeacf76225979f5785827b3cf44b44aad25a8
 Primary artifact: 1
-Scan status: completed
+Scan status: cached
 Findings: 0
 Categories: None listed
 Severities: None listed
@@ -3111,7 +3111,7 @@ Name: subagent-driven-development
 File SHA: 015abed180d0a65a2da9b90c9d80334b16475ea5
 Content hash: 66f53c3bc774dc773bd48086806e303af4e2bbef7252008335a48b3f1c90b223
 Primary artifact: 1
-Scan status: completed
+Scan status: cached
 Findings: 1
 Categories: policy_violation
 Severities: INFO
@@ -3125,7 +3125,7 @@ Name: summarize
 File SHA: 0013548732acbb4479a7ab165219a7374c575ee1
 Content hash: 93451a27fc656521a5956627681877c4673086d4b3dfce1d15e5d0a6ecbb0199
 Primary artifact: 1
-Scan status: completed
+Scan status: cached
 Findings: 1
 Categories: policy_violation
 Severities: INFO
@@ -3139,7 +3139,7 @@ Name: summarize
 File SHA: 008b37d48d57a94f15baa630745fe43b76c91ff2
 Content hash: bf3aab9a14aad508c8b490e73e2b9babddd119af19ba7e99b5bdf0e0108e4237
 Primary artifact: 1
-Scan status: completed
+Scan status: cached
 Findings: 1
 Categories: policy_violation
 Severities: INFO
@@ -3153,7 +3153,7 @@ Name: systematic-debugging
 File SHA: 00c5f2798c49d74688198f5b1cde4fbf7ecd4ebe
 Content hash: 815058ef01ddbe5ed12ace4c54c58e0b5334e83d46a8aa1cefccb2ac9ac4f450
 Primary artifact: 1
-Scan status: completed
+Scan status: cached
 Findings: 1
 Categories: policy_violation
 Severities: INFO
@@ -3167,7 +3167,7 @@ Name: temporal-python-testing
 File SHA: 017f0338cb0a22595894dd3031bf040353913ee6
 Content hash: 00d93c073950bcfb4767516f63664eae868511c501b1dc7816651d3dd02cf637
 Primary artifact: 1
-Scan status: completed
+Scan status: cached
 Findings: 1
 Categories: policy_violation
 Severities: INFO
@@ -3181,7 +3181,7 @@ Name: web2-vuln-classes
 File SHA: 000071155a19641bc46d1592420f2c78e6f0a658
 Content hash: b67d73bef526f7a5aa4ad83753829d33ee72ca6387685947a93d794065961d3b
 Primary artifact: 1
-Scan status: completed
+Scan status: cached
 Findings: 5
 Categories: command_injection; obfuscation; policy_violation
 Severities: CRITICAL; HIGH; INFO; MEDIUM
@@ -3195,7 +3195,7 @@ Name: web2-vuln-classes
 File SHA: 015b31aad8a3311d2012e43557c6f989d9b4c5ee
 Content hash: 81d1eed13caa5f8c193c967dc47bd9f86d95fa2385869d5fb94d92ddf0e6adec
 Primary artifact: 1
-Scan status: completed
+Scan status: cached
 Findings: 4
 Categories: command_injection; policy_violation; prompt_injection
 Severities: HIGH; INFO
@@ -3209,7 +3209,7 @@ Name: writing-plans
 File SHA: 00d6bcf7d8ed3bfd182025076bb3893d8caa8c1f
 Content hash: 6f8cd0234430baadbd4bd9754a4a66a9af5b3ecaff7ca2264ae1605af542b38f
 Primary artifact: 1
-Scan status: completed
+Scan status: cached
 Findings: 1
 Categories: policy_violation
 Severities: INFO
@@ -3223,7 +3223,7 @@ Name: nano-pdf
 File SHA: 0012772450c6a557cc0f289dbb28b7dcc46cd5a7
 Content hash: 49135ca467f21648eb056615c7f7344a6dc3bf156b528ba49b87614048f83775
 Primary artifact: 1
-Scan status: completed
+Scan status: cached
 Findings: 0
 Categories: None listed
 Severities: None listed
@@ -3237,7 +3237,7 @@ Name: dispatching-parallel-agents
 File SHA: 00263d19c8fc660166b85ffa049e2ebc77d56c84
 Content hash: 78725887ec74e388bb53bf2ec2e644691e0d600aa3a6b675d9f7639e2d0f098d
 Primary artifact: 1
-Scan status: completed
+Scan status: cached
 Findings: 1
 Categories: policy_violation
 Severities: INFO
@@ -3251,7 +3251,7 @@ Name: implementing-identity-governance-with-sailpoint
 File SHA: 00db4ce48b16f5266b1f7d64bf5304fcdb16eb3f
 Content hash: 5f022c9fbc51e2a84578499511ec6fd20c58c9c6ac3b705f6db7e23d633496f1
 Primary artifact: 1
-Scan status: completed
+Scan status: cached
 Findings: 0
 Categories: None listed
 Severities: None listed
@@ -3265,7 +3265,7 @@ Name: subagent-driven-development
 File SHA: 019e33658eefb47a9dd25f97d0c1917f390c654c
 Content hash: 2fa443ad216ad56c7d069fca727516c99961c292ec1767588ccfe2ffac9db33b
 Primary artifact: 1
-Scan status: completed
+Scan status: cached
 Findings: 1
 Categories: policy_violation
 Severities: INFO
@@ -3279,7 +3279,7 @@ Name: design-consultation
 File SHA: 01ac0d7bc2e2c61a6086097931f97a5b63e1fe10
 Content hash: 6bec7dc8bce94f237db3d66f252c7041e540cdf3b552a30186aa3d2b5ada08cf
 Primary artifact: 1
-Scan status: completed
+Scan status: cached
 Findings: 1
 Categories: policy_violation
 Severities: INFO
@@ -3293,7 +3293,7 @@ Name: rust-skills
 File SHA: 010ce323f40ca138f4c3ff747891c68a7c754393
 Content hash: 17fefe234333df73373f5c236c27eebe9c80ccdeda10886eb019396be4c9609c
 Primary artifact: 1
-Scan status: completed
+Scan status: cached
 Findings: 1
 Categories: policy_violation
 Severities: INFO
@@ -3307,7 +3307,7 @@ Name: github-triage
 File SHA: 00ece91de51e683bac2df43011977c151a6527d3
 Content hash: a3d25f106158d724b85d767f43e4be47846971dd20bce0f05f7b3eed10df590b
 Primary artifact: 1
-Scan status: completed
+Scan status: cached
 Findings: 1
 Categories: policy_violation
 Severities: INFO
@@ -3321,7 +3321,7 @@ Name: ask-questions-if-underspecified
 File SHA: 0150755c9f40454d9cb2ff16dcae5c8caa1853f1
 Content hash: 6abc3b272a5760244c92291b52fca8427460c1fee0d9e8bff37592d84b1eeed0
 Primary artifact: 1
-Scan status: completed
+Scan status: cached
 Findings: 1
 Categories: policy_violation
 Severities: INFO
@@ -3335,7 +3335,7 @@ Name: coding-standards
 File SHA: 00508cfa807f9b796b71941705aeacfa09d0e158
 Content hash: 42d0f3062be88a103d8c0aa0e1d20b8e47acb0777d67a759a1f6e962b46890cc
 Primary artifact: 1
-Scan status: completed
+Scan status: cached
 Findings: 1
 Categories: policy_violation
 Severities: INFO
