@@ -1,0 +1,55 @@
+BASELINE VS. VARIANT CISCO SCANNER COMPARISON
+================================================
+
+OVERVIEW
+--------
+Total baseline-variant pairs analyzed: 188
+
+BASELINE RESULTS
+----------------
+Average findings: 0.88
+Records with findings: 154
+Records with zero findings: 34
+
+VARIANT RESULTS
+---------------
+Average findings: 0.87
+Records with findings: 147
+Records with zero findings: 41
+
+PAIRED COMPARISON
+-----------------
+More findings in variant: 11
+More findings in baseline: 19
+Same finding count: 158
+
+INTERPRETATION
+--------------
+These results compare the total number of scanner findings.
+The same finding count does not necessarily mean the skills have
+the same types of security findings.
+
+Scanner findings are alerts and do not prove that a skill is malicious
+or that the reported behavior was executed.
+
+FINDING TYPES
+-------------
+The following counts show how many unique content versions had each finding category.
+A content version is counted once per category, even if it appears in multiple pairs.
+
+Baseline finding types:
+  policy_violation: 98 unique content versions
+  social_engineering: 2 unique content versions
+  command_injection: 2 unique content versions
+  supply_chain_attack: 1 unique content versions
+  obfuscation: 1 unique content versions
+  hardcoded_secrets: 1 unique content versions
+
+Variant finding types:
+  policy_violation: 124 unique content versions
+  command_injection: 3 unique content versions
+  social_engineering: 1 unique content versions
+  data_exfiltration: 1 unique content versions
+  supply_chain_attack: 1 unique content versions
+  prompt_injection: 1 unique content versions
+  hardcoded_secrets: 1 unique content versions

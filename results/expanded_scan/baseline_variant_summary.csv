@@ -1,0 +1,9 @@
+measure,group,records,unique_sha_hashes,records_with_findings,records_with_zero_findings,average_findings_per_record,median_findings_per_record,total_findings_across_pair_records
+pair_records,baseline,1436,650,1288,148,0.9373259052924791,1.0,1346
+pair_records,variant,1436,1197,1259,177,0.9456824512534819,1.0,1358
+paired_outcome,more findings in variant,140,,,,,,
+paired_outcome,more findings in baseline,146,,,,,,
+paired_outcome,same finding count,1150,,,,,,
+paired_outcome,unknown,0,,,,,,
+unique_content_versions,baseline,650,650,565,85,0.936923076923077,1.0,609
+unique_content_versions,variant,1197,1197,1051,146,0.9465329991645781,1.0,1133

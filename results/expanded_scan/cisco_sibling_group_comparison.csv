@@ -1,0 +1,57 @@
+﻿group_type,group_id,artifact_count,distinct_content_versions,artifacts_with_findings,total_findings_across_artifacts,distinct_finding_signatures,findings_differ_across_versions,repositories,artifact_paths
+artifact_siblings,artifact_siblings_1,4,4,3,3,1,True,Clyra-AI/axym; Ivy0406/seasons-care; VinhHoang03/Handigo-Platform; lukeshay/astro-aws,.agents/skills/code-review/SKILL.md
+artifact_siblings,artifact_siblings_2,2,2,2,2,1,False,JooduG/RPGlitch; vigneshksaithal/reddit-civ,.agents/skills/design/SKILL.md
+artifact_siblings,artifact_siblings_3,2,2,2,2,1,False,MikeCheng1208/BattleTree; SteveChandler/quiver,.agents/skills/email-sequence/SKILL.md
+artifact_siblings,artifact_siblings_4,2,2,1,1,1,True,canyouio/NetDevOps-Platforms; sievepub-2000/octoagent,.agents/skills/fireworks-tech-graph/SKILL.md
+artifact_siblings,artifact_siblings_5,3,3,2,2,2,True,AndreaKinder/RomsManager; KasperPac/Assemblio; MikeCheng1208/BattleTree,.agents/skills/frontend-design/SKILL.md
+artifact_siblings,artifact_siblings_6,2,2,2,2,1,False,dpeek/formless; govoel/voel,.agents/skills/improve-codebase-architecture/SKILL.md
+artifact_siblings,artifact_siblings_7,2,2,2,2,1,False,franckcl1989/russh-extra; verl-project/verl-vla,.agents/skills/issue/SKILL.md
+artifact_siblings,artifact_siblings_8,2,2,1,1,1,True,laguagu/agents-best-practices; mikegogulski/abase-django-blog-integration-test,.agents/skills/skill-creator/SKILL.md
+artifact_siblings,artifact_siblings_9,2,2,2,3,2,True,LennardZuendorf/pytest-bench-action; projectmiluju/baegok,.agents/skills/spec/SKILL.md
+artifact_siblings,artifact_siblings_10,4,4,4,4,1,False,BterceroIII/TickedApp; figueroaignacio/nachui; gursheyss/styx-old; zeis974/TaxDOM,.agents/skills/turborepo/SKILL.md
+artifact_siblings,artifact_siblings_11,3,3,2,2,1,True,AdriP-maker/Proyecto_Vaquitas; ahmed2004954/Trusted-Academic; sanchitmoh/CFO,.agents/skills/ui-ux-pro-max/SKILL.md
+artifact_siblings,artifact_siblings_12,2,2,2,2,1,False,MikeCheng1208/BattleTree; bcgov/small-claims-assistant-prototype,.agents/skills/writing-plans/SKILL.md
+artifact_siblings,artifact_siblings_13,3,3,3,3,1,False,DonaldMurillo/momentum-cms; caobingsheng/skills; rzx007/nanobot-ts,.claude/skills/agent-browser/SKILL.md
+artifact_siblings,artifact_siblings_14,3,3,3,3,1,False,ag47-pt/Website; fardavide/Aura; leandrosilvaferreira/gitai-js,.claude/skills/architecture/SKILL.md
+artifact_siblings,artifact_siblings_15,10,10,10,10,1,False,MetaMask/ocap-kernel; Mjvolk3/torchcell; davidbarbosa-gocimit/Hackathon2026; deanmoses/tacocat-gallery-hosting-aws; facujuarez/template-harness-engineering; haribote/dotfiles; jpelaezcardenas/antigravity-app; ooneex/skeleton-spa; sudopark/TodoCalendar; thuyavan00/job-agent,.claude/skills/commit/SKILL.md
+artifact_siblings,artifact_siblings_16,2,2,2,2,1,False,mgoericke/claude-skills-devcontainer; pcortellezzi/rs_trader,.claude/skills/doc/SKILL.md
+artifact_siblings,artifact_siblings_17,3,3,2,2,1,True,dsivov/ai_development_team; ebongard/renfield; gyChen-3725/myskills,.claude/skills/git-workflow/SKILL.md
+artifact_siblings,artifact_siblings_18,2,2,2,3,2,True,Atypical-Consulting/Koine; timtoronto634/timtoronto634.github.io,.claude/skills/merge-pr/SKILL.md
+artifact_siblings,artifact_siblings_19,3,3,3,4,2,True,Lbstrydom/claude-engineering-skills; ajmartin94/CookingAssistant; gpwork4u/specflow-demo,.claude/skills/plan/SKILL.md
+artifact_siblings,artifact_siblings_20,2,2,2,2,1,False,AWS-Educate/template-nextjs-sanity-tailwind-amplify; Suresh-cs-q/n8nmake.tech,.claude/skills/programmatic-seo/SKILL.md
+artifact_siblings,artifact_siblings_21,2,2,2,2,1,False,jsg3121/poke-korea; penserai/gopher-cli,.claude/skills/research/SKILL.md
+artifact_siblings,artifact_siblings_22,2,2,2,2,1,False,iamdavebock/Bambu-AI; zjykzj/ModelFlow,.claude/skills/spec/SKILL.md
+artifact_siblings,artifact_siblings_23,2,2,2,2,1,False,Hollow468/dotfile; NikitaDmitrieff/auto-co-meta,.claude/skills/team/SKILL.md
+artifact_siblings,artifact_siblings_24,2,2,2,2,1,False,onyedikachi-david/QuickPredict; skomax/skills,.claude/skills/telegram-bot/SKILL.md
+artifact_siblings,artifact_siblings_25,2,2,2,2,1,False,ibragimov-oasis/name-navigator; naoki1213mj/travel-marketing-ai,.github/skills/webapp-testing/SKILL.md
+artifact_siblings,artifact_siblings_26,2,2,2,2,1,False,simodev25/KairosMesh; tykowale/darwin,.opencode/skills/test-driven-development/SKILL.md
+artifact_siblings,artifact_siblings_27,13,13,11,12,2,True,384961890-ui/Brain-v1.2.0; Guanff/claude-code-job-tracker; Orange-Long320/skills; OrangeViolin/skill-evolve; app-incubator-xyz/skill-vetter; chen3feng/ai-code-analysis; curtisault/rust-skills; farridkun/farridkun-polymarket-copytrading; lemon888yyy/ces; linhle123/business-coach-skill; ni202383/report-skill; pinshuai/literature-review-skill; zweien/image-gen-skill,SKILL.md
+artifact_siblings,artifact_siblings_28,2,2,1,1,1,True,JayRHa/AgentSkills; Niko-Vanetti/niko-skills,debug-detective/SKILL.md
+artifact_siblings,artifact_siblings_29,2,2,2,2,1,False,MikeTreml/MissionControl; a5c-ai/babysitter,library/specializations/game-development/skills/procedural-generation/SKILL.md
+artifact_siblings,artifact_siblings_30,2,2,0,0,0,False,SKYGOD07/Rakshastra; aayushsoam/clawbot-agent,optional-skills/creative/hyperframes/SKILL.md
+artifact_siblings,artifact_siblings_31,3,3,0,0,0,False,THTProtocol/lastochka; ZardLi1115/zedclaw; devMoez/titan,optional-skills/mlops/training/trl-fine-tuning/SKILL.md
+artifact_siblings,artifact_siblings_32,2,2,0,0,0,False,ZardLi1115/zedclaw; dheiver2/mangaba-agent,optional-skills/productivity/memento-flashcards/SKILL.md
+artifact_siblings,artifact_siblings_33,2,2,2,2,1,False,futuregerald/futuregerald-claude-plugin; poly-gents/syncolab-skills,skills/api-design-principles/SKILL.md
+artifact_siblings,artifact_siblings_34,2,2,2,2,1,False,gkvoelkl/python-selma; skyvanguard/sky,skills/blogwatcher/SKILL.md
+artifact_siblings,artifact_siblings_35,2,2,0,0,0,False,Kimurist2024/rverythong-skills; killvxk/cybersecurity-skills-zh,skills/building-soc-metrics-and-kpi-tracking/SKILL.md
+artifact_siblings,artifact_siblings_36,5,5,5,5,1,False,Imma2013/Alubackend; Moyal17/claude-development-eco-system; ahgraber/skills; alkalomo/ai-dev-resources; polzon/copilot-settings,skills/code-review/SKILL.md
+artifact_siblings,artifact_siblings_37,2,2,2,2,1,False,Frostmoore/falmingdragon; svenflow/dispatch,skills/contacts/SKILL.md
+artifact_siblings,artifact_siblings_38,2,2,2,2,1,False,Rassis7/my-opencode; guojun21/openSearch,skills/create-plan/SKILL.md
+artifact_siblings,artifact_siblings_39,2,2,2,2,1,False,thechandanbhagat/claude-skills; wagleanuj/aha,skills/debug/SKILL.md
+artifact_siblings,artifact_siblings_40,2,2,2,2,1,False,jamalahmed2001/onyx; marktantongco/opencodelinux,skills/elevenlabs-tts/SKILL.md
+artifact_siblings,artifact_siblings_41,2,2,2,2,1,False,VentsiIliev/project-management-system; gfcampos1/my-skills,skills/frontend-implementation/SKILL.md
+artifact_siblings,artifact_siblings_42,2,2,1,1,1,True,joabgonzalez/ai-agents-skills; jralph/.config-opencode,skills/interface-design/SKILL.md
+artifact_siblings,artifact_siblings_43,2,2,1,1,1,True,Crumbgrabber/llm_system_template_agents_skills_patterns_tools_prompts; diegosouzapw/awesome-omni-skills,skills/internal-comms/SKILL.md
+artifact_siblings,artifact_siblings_44,2,2,2,3,2,True,Ajie16/hermes; baphled/dotopencode,skills/monitoring/SKILL.md
+artifact_siblings,artifact_siblings_45,2,2,1,1,1,True,Wizarck/nexandro; jrjsmrtn/obsidian-skills,skills/obsidian-cli/SKILL.md
+artifact_siblings,artifact_siblings_46,2,2,2,2,1,False,anajuliabit/aeon; look-itsaxiom/claudity-assurance,skills/onboard/SKILL.md
+artifact_siblings,artifact_siblings_47,2,2,2,2,1,False,FranciscoJRSantos/personal-agents; ryanlavin/ccx-harness,skills/plan/SKILL.md
+artifact_siblings,artifact_siblings_48,2,2,2,2,1,False,MaxGzLi/claudeorc; coreyhaines31/makerskills,skills/pm/SKILL.md
+artifact_siblings,artifact_siblings_49,2,2,1,1,1,True,GustavoGutierrez/engineering-skills; KevinBrother/kssbox-plugin,skills/prd-writer/SKILL.md
+artifact_siblings,artifact_siblings_50,4,4,2,2,1,True,JantonioFC/skillsbank; bartr/ai; cardinalconseils/claude-starter; suwandre/my-codex-config,skills/prd/SKILL.md
+artifact_siblings,artifact_siblings_51,3,3,3,3,1,False,fernandoxavier02/Pipeline-Orchestrator; lendtrain/complete-pipeline; trevorbyrum/claude_plugin,skills/review/SKILL.md
+artifact_siblings,artifact_siblings_52,4,4,4,4,1,False,EdWrld/config.files; PeterPonyu/oh-my-cursor; manikumarkv/devrunway-claude-plugin; vasuag09/harness-claude,skills/security-review/SKILL.md
+artifact_siblings,artifact_siblings_53,4,4,3,3,1,True,LongNgn204/local-coding-agent; lamtuanvu/agentskills; lemonlqf/openclaw-rtsp; niekbeckers/skills,skills/skill-creator/SKILL.md
+artifact_siblings,artifact_siblings_54,3,3,3,3,1,False,FDL32/orquestador-de-agentes; boazcstrike/opencode; serbulent-av/agentic-coding,skills/systematic-debugging/SKILL.md
+artifact_siblings,artifact_siblings_55,2,2,2,2,1,False,dohoon84/openchiken; eliransu/digital-brain,skills/task/SKILL.md
+artifact_siblings,artifact_siblings_56,2,2,2,9,6,True,Mikacr1138/claude-bug-bounty; bpnrockstar/UnifiedBugHunter,skills/web2-vuln-classes/SKILL.md

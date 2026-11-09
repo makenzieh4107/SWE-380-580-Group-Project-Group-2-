@@ -1,0 +1,62 @@
+BASELINE VS. VARIANT CISCO SCANNER COMPARISON
+================================================
+
+OVERVIEW
+--------
+Total baseline-variant pairs analyzed: 1436
+
+BASELINE RESULTS
+----------------
+Average findings: 0.94
+Records with findings: 1288
+Records with zero findings: 148
+
+VARIANT RESULTS
+---------------
+Average findings: 0.95
+Records with findings: 1259
+Records with zero findings: 177
+
+PAIRED COMPARISON
+-----------------
+More findings in variant: 140
+More findings in baseline: 146
+Same finding count: 1150
+
+INTERPRETATION
+--------------
+These results compare the total number of scanner findings.
+The same finding count does not necessarily mean the skills have
+the same types of security findings.
+
+Scanner findings are alerts and do not prove that a skill is malicious
+or that the reported behavior was executed.
+
+FINDING TYPES
+-------------
+The following counts show how many unique content versions had each finding category.
+A content version is counted once per category, even if it appears in multiple pairs.
+
+Baseline finding types:
+  policy_violation: 560 unique content versions
+  command_injection: 8 unique content versions
+  social_engineering: 5 unique content versions
+  data_exfiltration: 4 unique content versions
+  supply_chain_attack: 2 unique content versions
+  obfuscation: 2 unique content versions
+  hardcoded_secrets: 2 unique content versions
+  malware: 2 unique content versions
+  autonomy_abuse: 1 unique content versions
+
+Variant finding types:
+  policy_violation: 1041 unique content versions
+  command_injection: 16 unique content versions
+  social_engineering: 12 unique content versions
+  data_exfiltration: 6 unique content versions
+  supply_chain_attack: 6 unique content versions
+  prompt_injection: 5 unique content versions
+  hardcoded_secrets: 2 unique content versions
+  obfuscation: 1 unique content versions
+  unauthorized_tool_use: 1 unique content versions
+  malware: 1 unique content versions
+  autonomy_abuse: 1 unique content versions
