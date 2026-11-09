@@ -12,6 +12,10 @@
 * **`last_commit_at`** — Time of the last recorded commit.
 * **`dedup_primary`** — Identifies the GitSkills-designated primary artifact in a duplicate group.
 
+* **`Baseline Skill`** — The original version of a skill used as a starting point for comparison. It represents the earlier version before the modifications being studied.
+
+* **`Variant Skill`** — A modified or reused version of a baseline skill. It may containt changes to its instructions, content, or functionality.
+
 ## Security Categories
 
 - **`command_execution`** — Indicates that the artifact contains patterns

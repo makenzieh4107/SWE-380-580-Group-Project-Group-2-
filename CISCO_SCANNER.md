@@ -69,6 +69,3 @@ for baseline and variant artifacts to identify potential changes in
 security-sensitive behavior. Manual review and the skill's stated
 purpose help assess whether those changes may represent unnecessary or
 excessive capabilities.
-
-The scanner supports this investigation, but it does not by itself
-establish that a modification exceeds what is necessary.

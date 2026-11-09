@@ -2,7 +2,7 @@
 Compare Cisco scanner results for baseline and variant skills.
 
 Run from the repository root:
-    python src/compare_baseline_variants.py
+    python src/compare_extended.py
 
 Default inputs:
     charts/name_variant_pairs.csv
