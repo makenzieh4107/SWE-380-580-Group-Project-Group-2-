@@ -28,6 +28,7 @@ import json
 import os
 import shutil
 import subprocess
+import sys
 import tempfile
 
 from collections import defaultdict
@@ -64,6 +65,26 @@ SCANNER_ARGUMENTS = [
     "--format",
     "json",
 ]
+
+
+def safe_print(*values, sep=" ", end="\n", file=None):
+    """Print text without crashing when the terminal cannot encode some characters."""
+    stream = file if file is not None else sys.stdout
+    encoding = getattr(stream, "encoding", None) or "utf-8"
+    safe_values = []
+
+    for value in values:
+        text = str(value)
+        try:
+            text.encode(encoding)
+            safe_values.append(text)
+        except UnicodeEncodeError:
+            safe_values.append(
+                text.encode(encoding, errors="backslashreplace").decode(encoding)
+            )
+
+    print(*safe_values, sep=sep, end=end, file=stream)
+
 
 def save_report_cache(cached_scans, metadata=None):
     """Persist the latest scanner results to the consolidated JSON cache.
@@ -1227,13 +1248,13 @@ def main():
                 unique_items,
                 start=1,
             ):
-                print(
+                safe_print(
                     f"[{position}/{len(unique_items)}] "
                     f"{artifact.get('repo_full_name')} :: "
                     f"{artifact.get('path')}"
                 )
                 if content_hash in scan_by_hash:
-                    print(
+                    safe_print(
                         f"    Status: cached | "
                         f"Findings: "
                         f"{scan_by_hash[content_hash].get('findings_count', 0)}"
