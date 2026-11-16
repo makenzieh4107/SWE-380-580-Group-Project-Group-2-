@@ -23,6 +23,16 @@ More findings in variant: 140
 More findings in baseline: 146
 Same finding count: 1150
 
+SEVERITY COMPARISON
+-------------------
+Number of pair records containing each severity:
+
+INFO: Baseline = 1282, Variant = 1248
+LOW: Baseline = 14, Variant = 32
+MEDIUM: Baseline = 5, Variant = 2
+HIGH: Baseline = 17, Variant = 24
+CRITICAL: Baseline = 2, Variant = 8
+
 INTERPRETATION
 --------------
 These results compare the total number of scanner findings.

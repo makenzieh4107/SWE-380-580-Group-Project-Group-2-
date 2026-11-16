@@ -31,6 +31,13 @@ Differences in findings between paired baseline and variant versions.
 
 The types and severity of security findings detected.
 
+### Severity Meaning
+**INFO:** Informational observation. Something is worth noting, but it may not represent a direct security threat.
+**LOW:** A potential security concern with relatively limited impact.
+**MEDIUM:** A more significant potential security issue that deserves investigation.
+**HIGH:** A serious potential security issue that could have substantial impact.
+**CRITICAL:** An especially serious issue that may require immediate attention.
+
 How frequently findings appear across unique skill content versions.
 
 The project also includes manual review of selected scanner findings to help evaluate the results.

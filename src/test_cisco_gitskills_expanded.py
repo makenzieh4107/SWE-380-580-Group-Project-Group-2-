@@ -66,7 +66,13 @@ SCANNER_ARGUMENTS = [
 ]
 
 def save_report_cache(cached_scans, metadata=None):
-    """Save completed scanner reports immediately."""
+    """Persist the latest scanner results to the consolidated JSON cache.
+
+    This function writes a temporary file first and only replaces the main cache
+    after the write succeeds. That atomic update keeps the cached report usable
+    even if a run is interrupted mid-write and makes it easier to resume scans
+    without reprocessing content hashes that already completed.
+    """
 
     RESULTS_DIR.mkdir(parents=True, exist_ok=True)
 
@@ -102,7 +108,13 @@ def save_report_cache(cached_scans, metadata=None):
 # ============================================================
 
 def write_csv(file_path, rows, columns):
-    """Write result dictionaries to CSV."""
+    """Write a list of row dictionaries to a CSV file with a fixed schema.
+
+    This helper keeps output generation consistent across the duplicate report,
+    sibling comparison, and scan error summaries. It ensures the CSV includes the
+    expected headers and ignores any extra keys so each output file stays stable
+    and easy to read downstream.
+    """
 
     file_path.parent.mkdir(parents=True, exist_ok=True)
 
@@ -121,7 +133,13 @@ def write_csv(file_path, rows, columns):
 
 
 def normalize_value(value):
-    """Convert optional values into comparable strings."""
+    """Convert database values to a consistent, comparable string form.
+
+    Many GitSkills rows contain nullable values or mixed types, so this helper
+    standardizes them before comparing repository names, paths, and hashes. That
+    keeps downstream identity checks stable even when the source database stores
+    blanks, ints, or None values differently.
+    """
 
     if value is None:
         return None
@@ -129,7 +147,12 @@ def normalize_value(value):
 
 
 def calculate_content_hash(content):
-    """Calculate SHA-256 from actual content."""
+    """Compute a deterministic hash for the artifact body itself.
+
+    This is the content-based identity used when the database lacks a trusted
+    file_sha value or when the script needs to collapse duplicate markdown files
+    that contain the same text even if they came from different metadata rows.
+    """
 
     return hashlib.sha256(
         content.encode("utf-8", errors="replace")
@@ -137,13 +160,24 @@ def calculate_content_hash(content):
 
 
 def make_artifact_key(index, row):
-    """Create a unique identifier for this run."""
+    """Assign a stable in-memory identifier to each artifact row.
+
+    The script may repeatedly filter, group, and compare the same database rows,
+    so this helper gives each record a readable internal key that is unique for a
+    given run. It is primarily used to link artifacts to their sibling and
+    duplicate groups without relying on database row IDs.
+    """
 
     return f"artifact_{index}"
 
 
 def artifact_identity(artifact):
-    """Return the database identity used to match CSV entries."""
+    """Build the canonical identity tuple used to match artifacts to the CSV.
+
+    Matching depends on repository name, path, and hash so each row can be
+    reliably linked back to a baseline or variant entry even when the database
+    contains multiple versions or metadata variations for the same file.
+    """
 
     return (
         normalize_value(artifact.get("repo_full_name")),
@@ -157,12 +191,13 @@ def artifact_identity(artifact):
 # ============================================================
 
 def load_selected_pairs():
-    """
-    Load baseline and variant artifacts explicitly listed in the CSV.
+    """Load only the baseline/variant rows explicitly listed in the similarity CSV.
 
-    The CSV must contain:
-        baseline_repo, baseline_path, baseline_sha,
-        variant_repo, variant_path, variant_sha
+    This function validates the required columns, strips accidental whitespace,
+    rejects incomplete or merge-conflict rows, and builds a set of unique
+    artifact identities to scan. It acts as the gatekeeper for the rest of the
+    workflow so the database queries only match the artifact set chosen for
+    comparison.
     """
 
     if not PAIR_CSV.exists():
@@ -271,7 +306,13 @@ def load_selected_pairs():
 # ============================================================
 
 def load_artifacts():
-    """Load Markdown artifacts and sibling relationship rows."""
+    """Load the relevant GitSkills markdown artifacts and any sibling metadata.
+
+    This function attaches the database read-only, checks for required tables and
+    columns, and narrows the result set to Markdown content that is non-empty.
+    It also computes content hashes for deduplication and returns the sibling
+    relationship rows needed to build connected artifact groups.
+    """
 
     if not DB_PATH.exists():
         raise FileNotFoundError(
@@ -423,7 +464,13 @@ def load_artifacts():
 # ============================================================
 
 def build_sibling_groups(artifacts, sibling_rows, sibling_columns):
-    """Build connected groups from recognizable sibling links."""
+    """Connect artifacts that appear to belong to the same sibling relationship group.
+
+    This helper uses a union-find structure to merge artifacts that share identity
+    fields or sibling-link columns, which is useful when the database records
+    related content versions that are not exact duplicates. The result is a list
+    of artifact groups whose members should be compared together.
+    """
 
     parent = {
         artifact["artifact_key"]: artifact["artifact_key"]
@@ -538,7 +585,13 @@ FINDING_LIST_KEYS = {
 
 
 def extract_findings(report):
-    """Extract finding objects from common JSON report layouts."""
+    """Walk a scanner report and pull out the first list of finding objects it sees.
+
+    Cisco scanner JSON can nest findings in slightly different locations across
+    versions, so this helper recursively searches the structure for common keys
+    such as findings, issues, or detections. It returns the first populated list
+    it finds so later summary logic can work with a consistent representation.
+    """
 
     if not isinstance(report, (dict, list)):
         return []
@@ -573,7 +626,13 @@ def extract_findings(report):
 
 
 def value_from_finding(finding, candidate_keys):
-    """Find the first matching field in a finding."""
+    """Return the first usable value for a set of likely field names in a finding.
+
+    Scanner outputs are inconsistent across schemas, so this helper normalizes
+    field names and picks the first recognized value it finds. That makes it much
+    easier to summarize categories, severities, or rule identifiers without
+    hard-coding every possible JSON layout.
+    """
 
     if not isinstance(finding, dict):
         return ""
@@ -595,7 +654,13 @@ def value_from_finding(finding, candidate_keys):
 
 
 def summarize_report(report):
-    """Create a compact finding summary."""
+    """Convert a raw scanner report into a compact summary for comparisons.
+
+    This normalizes the findings into counts, category/severity strings, and a
+    set of signatures that captures the combination of category, severity, and
+    rule identifier. The resulting summary is small enough to store in the cache
+    while still being useful for duplicate detection and reporting.
+    """
 
     findings = extract_findings(report)
 
@@ -635,7 +700,13 @@ def summarize_report(report):
 
 
 def cached_scan_result(content_hash, cached_scans):
-    """Return a normalized result for a reusable cached report."""
+    """Return a normalized scan result when a matching cache entry exists.
+
+    The cache stores previously successful scans keyed by content hash so the
+    script can skip expensive re-scanning for identical Markdown content. This
+    helper validates that the cached entry still matches the expected structure
+    before returning a summary that behaves like a fresh scan result.
+    """
 
     if not USE_REPORT_CACHE or content_hash not in cached_scans:
         return None
@@ -668,7 +739,13 @@ def cached_scan_result(content_hash, cached_scans):
 # ============================================================
 
 def scan_unique_skill(artifact, scanner_path, cached_scans):
-    """Scan one content hash or reuse its cached report."""
+    """Run the scanner for one unique artifact content version or reuse its cache.
+
+    This function isolates scanning to a content hash, which prevents duplicate
+    markdown files with identical text from being rescanned. It writes the skill
+    contents to a temporary directory, invokes the scanner, and normalizes any
+    JSON or process error into a consistent record structure for downstream use.
+    """
 
     content_hash = artifact["content_hash"]
     cached_result = cached_scan_result(content_hash, cached_scans)
@@ -788,7 +865,14 @@ def scan_unique_skill(artifact, scanner_path, cached_scans):
 # ============================================================
 
 def compare_groups(artifacts, scan_by_hash, groups, group_type):
-    """Summarize finding differences within groups."""
+    """Summarize the scanning differences across duplicate or sibling groups.
+
+    Each group is evaluated as a set of related artifacts that may share content
+    or metadata links. The function totals findings, tracks whether the group has
+    multiple content versions, and records whether the underlying finding
+    signatures differ across those versions so reviewers can focus on real
+    variation rather than duplicate rows.
+    """
 
     artifact_by_key = {
         artifact["artifact_key"]: artifact
@@ -878,7 +962,13 @@ def write_readable_results(
     sibling_rows,
     error_rows,
 ):
-    """Write a readable summary of the scan results."""
+    """Write a human-readable summary of the scan results for review and archival.
+
+    This function turns the technical result tables into a readable narrative
+    that lists per-artifact outcomes, duplicate/sibling comparisons, and any scan
+    failures. It is designed for analysts reading the output without opening the
+    CSV files directly and keeps the report in a single place for later review.
+    """
 
     output_path = RESULTS_DIR / "cisco_scan_results.txt"
 
@@ -966,6 +1056,14 @@ def write_readable_results(
 # ============================================================
 
 def main():
+    """Run the end-to-end expanded Cisco scan workflow for selected GitSkills artifacts.
+
+    This entry point loads the user-selected baseline/variant list, matches those
+    artifacts against the database, deduplicates by content hash, executes the
+    scanner only for unique content versions, and writes both machine-readable
+    CSV outputs and a readable text summary. It also reuses cached reports to make
+    repeated runs faster while still preserving detailed analysis output.
+    """
     RESULTS_DIR.mkdir(parents=True, exist_ok=True)
 
     # Load prior consolidated reports as a cache, if enabled.

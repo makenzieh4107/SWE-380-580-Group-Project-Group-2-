@@ -18,6 +18,9 @@ This script only reads existing CSV files. It does not rerun the scanner.
 from pathlib import Path
 import argparse
 import pandas as pd
+import matplotlib.pyplot as plt
+import json
+
 
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -28,6 +31,13 @@ DEFAULT_OUTPUT_DIR = ROOT / "results" / "expanded_scan"
 
 
 def load_inputs(pair_file: Path, scan_file: Path):
+    """Load and validate the input CSVs before any comparison logic runs.
+
+    This helper verifies the required schema, trims SHA values, drops incomplete
+    pair records, and fails fast if the scanner data contains duplicate file
+    hashes. Those checks keep the rest of the pipeline working against a clean,
+    consistent dataset rather than silently mixing partial or ambiguous results.
+    """
     pairs = pd.read_csv(pair_file, dtype=str)
     scans = pd.read_csv(scan_file, dtype={"file_sha": str})
 
@@ -87,6 +97,13 @@ def load_inputs(pair_file: Path, scan_file: Path):
 
 
 def build_pair_comparison(pairs: pd.DataFrame, scans: pd.DataFrame):
+    """Join each baseline/variant pair to the exact scanner records it represents.
+
+    The comparison is anchored on SHA values so every pair is evaluated against
+    the same content version on both sides. The function also computes a
+    per-pair outcome describing whether the variant had more findings, fewer
+    findings, no change, or an unknown result when counts were missing.
+    """
     scan_lookup = scans.set_index("file_sha")
 
     baseline_hashes = set(scan_lookup.index)
@@ -146,6 +163,13 @@ def build_pair_comparison(pairs: pd.DataFrame, scans: pd.DataFrame):
 
 
 def make_summary(pair_results: pd.DataFrame, scans: pd.DataFrame):
+    """Summarize the pair-level comparison into a compact reporting table.
+
+    This helper groups metrics into three categories: per-record summaries,
+    paired outcome totals, and unique content-version summaries. By tracking
+    unique SHA-based content separately, it avoids inflating counts when the
+    same file version appears in multiple pair comparisons.
+    """
     summary_rows = []
 
     # Pair-record summary: each row in the pair CSV contributes once.
@@ -213,8 +237,26 @@ def make_summary(pair_results: pd.DataFrame, scans: pd.DataFrame):
 
     return pd.DataFrame(summary_rows)
 
+def count_severity_records(pair_results, column, severity):
+    """Count pair records that include a specific severity label.
+
+    The severity column stores a semicolon-delimited list of severities, so this
+    helper parses each value and checks whether the requested label appears
+    anywhere in that list. Reusing this logic keeps the report and summary
+    sections consistent without repeating the same string-matching pattern.
+    """
+    return pair_results[column].fillna("").astype(str).str.upper().str.contains(
+        rf"\b{severity}\b", regex=True
+    ).sum()
+
 def write_text_report(pair_results, output_file):
-    """Create a human-readable text report of the comparison."""
+    """Create a plain-language report that explains the comparison results.
+
+    This function converts the numeric comparison into a readable narrative for
+    reviewers who may not want to open the CSV or charts. It combines overall
+    counts, paired outcome summaries, and category breakdowns so the report can
+    stand alone as a concise interpretation of the scanner results.
+    """
 
     lines = [
         "BASELINE VS. VARIANT CISCO SCANNER COMPARISON",
@@ -242,6 +284,29 @@ def write_text_report(pair_results, output_file):
         f"More findings in baseline: {(pair_results['pair_outcome'] == 'more findings in baseline').sum()}",
         f"Same finding count: {(pair_results['pair_outcome'] == 'same finding count').sum()}",
         "",
+        "SEVERITY COMPARISON",
+        "-------------------",
+        "Number of pair records containing each severity:",
+        "",
+    ]
+
+    severities = ["INFO", "LOW", "MEDIUM", "HIGH", "CRITICAL"]
+
+    for severity in severities:
+        baseline_count = count_severity_records(
+            pair_results, "baseline_severities", severity
+        )
+        variant_count = count_severity_records(
+            pair_results, "variant_severities", severity
+        )
+
+        lines.append(
+            f"{severity}: Baseline = {baseline_count}, "
+            f"Variant = {variant_count}"
+        )
+
+    lines.extend([
+        "",
         "INTERPRETATION",
         "--------------",
         "These results compare the total number of scanner findings.",
@@ -250,10 +315,6 @@ def write_text_report(pair_results, output_file):
         "",
         "Scanner findings are alerts and do not prove that a skill is malicious",
         "or that the reported behavior was executed.",
-    ]
-
-        # Finding types by baseline and variant
-    lines.extend([
         "",
         "FINDING TYPES",
         "-------------",
@@ -301,15 +362,277 @@ def write_text_report(pair_results, output_file):
 
     output_file.write_text("\n".join(lines), encoding="utf-8")
 
+def create_severity_chart(pair_results, output_dir):
+    """Visualize how often each severity appears across unique content versions.
+
+    The chart compares the baseline and variant sets by counting unique SHA-based
+    content versions that contain each severity level. This keeps the plot aligned
+    with the dataset's actual artifacts rather than counting the same content
+    multiple times just because it appears in several pair comparisons.
+    """
+
+    severities = ["INFO", "LOW", "MEDIUM", "HIGH", "CRITICAL"]
+    results = {"Baseline": [], "Variant": []}
+
+    for group in ("baseline", "variant"):
+        sha_column = f"{group}_sha"
+        severity_column = f"{group}_severities"
+
+        unique_versions = pair_results[
+            [sha_column, severity_column]
+        ].drop_duplicates(subset=[sha_column])
+
+        for severity in severities:
+            count = unique_versions[severity_column].fillna("").astype(str).apply(
+                lambda value: severity in [
+                    item.strip().upper()
+                    for item in value.split(";")
+                ]
+            ).sum()
+
+            results[group.capitalize()].append(count)
+
+    x = range(len(severities))
+    width = 0.35
+
+    fig, ax = plt.subplots(figsize=(10, 6))
+
+    ax.bar(
+        [i - width / 2 for i in x],
+        results["Baseline"],
+        width,
+        label="Baseline"
+    )
+
+    ax.bar(
+        [i + width / 2 for i in x],
+        results["Variant"],
+        width,
+        label="Variant"
+    )
+
+    ax.set_title("Baseline vs. Variant: Scanner Severity Comparison")
+    ax.set_xlabel("Severity Level")
+    ax.set_ylabel("Unique Content Versions")
+    ax.set_xticks(list(x))
+    ax.set_xticklabels(severities)
+    ax.legend()
+    ax.grid(axis="y", alpha=0.3)
+
+    plt.tight_layout()
+
+    output_file = output_dir / "baseline_variant_severities.png"
+    plt.savefig(output_file, dpi=300)
+    plt.close()
+
+    print(f"Saved severity chart: {output_file}")
+
+def create_rule_id_chart(pair_results, output_dir, reports_file):
+    """Compare the Cisco rule IDs triggered in the baseline and variant versions.
+
+    This chart is useful for spotting whether one version tends to trigger a
+    different set of findings rather than simply a different count. It reads the
+    full scanner reports, groups findings by artifact SHA, and excludes the
+    generic license-metadata result so the plot stays focused on security-relevant
+    alerts.
+    """
+
+    with open(reports_file, "r", encoding="utf-8") as file:
+        report_data = json.load(file)
+
+    # Match each scanner report to its artifact SHA.
+    findings_by_sha = {}
+
+    for report in report_data["scans"].values():
+        sha = report.get("file_sha")
+
+        if not sha:
+            continue
+
+        findings_by_sha[sha] = (
+            report.get("report", {}).get("findings", []) or []
+        )
+
+    results = {
+        "Baseline": {},
+        "Variant": {}
+    }
+
+    # Count findings for each unique content version.
+    for group in ("baseline", "variant"):
+        sha_column = f"{group}_sha"
+        unique_hashes = pair_results[sha_column].dropna().unique()
+
+        for sha in unique_hashes:
+            findings = findings_by_sha.get(sha, [])
+
+            for finding in findings:
+                rule_id = finding.get("rule_id", "UNKNOWN")
+
+                results[group.capitalize()][rule_id] = (
+                    results[group.capitalize()].get(rule_id, 0) + 1
+                )
+
+    # Include every rule found in either group.
+        # Exclude the common license metadata finding from the security chart.
+    excluded_rules = {"MANIFEST_MISSING_LICENSE"}
+
+    rule_ids = sorted(
+        rule for rule in (set(results["Baseline"]) | set(results["Variant"]))
+        if rule not in excluded_rules
+    )
+
+
+    baseline_counts = [
+        results["Baseline"].get(rule, 0) for rule in rule_ids
+    ]
+
+    variant_counts = [
+        results["Variant"].get(rule, 0) for rule in rule_ids
+    ]
+
+    # Create a horizontal comparison chart.
+    positions = range(len(rule_ids))
+    height = 0.35
+
+    fig, ax = plt.subplots(figsize=(12, 8))
+
+    ax.barh(
+        [p - height / 2 for p in positions],
+        baseline_counts,
+        height,
+        label="Baseline"
+    )
+
+    ax.barh(
+        [p + height / 2 for p in positions],
+        variant_counts,
+        height,
+        label="Variant"
+    )
+
+    ax.set_title("Baseline vs. Variant: Cisco Findings by Rule ID")
+    ax.set_xlabel("Number of Findings")
+    ax.set_ylabel("Cisco Rule ID")
+    ax.set_yticks(list(positions))
+    ax.set_yticklabels(rule_ids)
+    ax.legend()
+    ax.grid(axis="x", alpha=0.3)
+
+    plt.tight_layout()
+
+    output_file = output_dir / "baseline_variant_rule_ids.png"
+    plt.savefig(output_file, dpi=300)
+    plt.close()
+
+
+    # Separate chart for license metadata findings.
+    license_counts = [
+        results["Baseline"].get("MANIFEST_MISSING_LICENSE", 0),
+        results["Variant"].get("MANIFEST_MISSING_LICENSE", 0)
+    ]
+
+    fig, ax = plt.subplots(figsize=(7, 5))
+    ax.bar(
+    ["Baseline", "Variant"],
+    license_counts,
+    color=["steelblue", "orange"]
+)
+    ax.set_title("Missing License Findings")
+    ax.set_ylabel("Number of Findings")
+    ax.grid(axis="y", alpha=0.3)
+
+    plt.tight_layout()
+    plt.savefig(output_dir / "baseline_variant_license.png", dpi=300)
+    plt.close()
+
+
+
+    print(f"Saved rule-ID chart: {output_file}")
+
+
+def create_severity_charts(pair_results, output_dir):
+    """Generate one comparison chart for each severity bucket.
+
+    This breaks the overall severity comparison into more targeted views so a
+    reviewer can inspect the baseline-versus-variant delta for critical, high,
+    medium, low, and informational findings independently. Each chart counts
+    unique content versions containing that severity so the visual remains stable
+    even when the same artifact appears in multiple pair records.
+    """
+
+    severities = ["CRITICAL", "HIGH", "MEDIUM", "LOW", "INFO"]
+
+    for severity in severities:
+        baseline_count = 0
+        variant_count = 0
+
+        for group in ["baseline", "variant"]:
+            column = f"{group}_severities"
+
+            # Count unique content versions containing this severity.
+            unique_versions = pair_results[
+                ["baseline_sha", "variant_sha", column]
+            ].drop_duplicates(subset=[f"{group}_sha"])
+
+            count = unique_versions[column].fillna("").astype(str).apply(
+                lambda value: severity in [
+                    item.strip().upper()
+                    for item in value.replace(";", ",").split(",")
+                ]
+            ).sum()
+
+            if group == "baseline":
+                baseline_count = count
+            else:
+                variant_count = count
+
+        fig, ax = plt.subplots(figsize=(7, 5))
+
+        ax.bar(
+            ["Baseline", "Variant"],
+            [baseline_count, variant_count],
+            color=["steelblue", "orange"]
+        )
+
+        ax.set_title(f"Baseline vs. Variant: {severity} Findings")
+        ax.set_ylabel("Unique Content Versions")
+        ax.grid(axis="y", alpha=0.3)
+
+        plt.tight_layout()
+
+        output_file = output_dir / f"baseline_variant_{severity.lower()}.png"
+        plt.savefig(output_file, dpi=300)
+        plt.close()
+
+        print(f"Saved severity chart: {output_file}")
+
 
 def main():
+    """Run the full comparison workflow from CLI inputs to saved reports and charts.
+
+    This entry point wires together the data loading, pair comparison,
+    summary generation, report writing, and chart creation steps. It also
+    exposes the file locations through command-line arguments so the analysis can
+    be reproduced against different input datasets without editing the script.
+    """
     parser = argparse.ArgumentParser(
         description="Compare Cisco scanner findings for baseline and variant skills."
     )
     parser.add_argument("--pairs", type=Path, default=DEFAULT_PAIR_FILE)
     parser.add_argument("--scans", type=Path, default=DEFAULT_SCAN_FILE)
     parser.add_argument("--output-dir", type=Path, default=DEFAULT_OUTPUT_DIR)
+    parser.add_argument(
+    "--reports",
+    type=Path,
+    default=ROOT / "results" / "expanded_scan" / "cisco_all_scan_reports.json"
+)
+
     args = parser.parse_args()
+
+    charts_dir = args.output_dir / "charts"
+    charts_dir.mkdir(parents=True, exist_ok=True)
+
 
     pairs, scans = load_inputs(args.pairs, args.scans)
     pair_results = build_pair_comparison(pairs, scans)
@@ -324,6 +647,10 @@ def main():
     summary.to_csv(summary_output, index=False)
     write_text_report(pair_results, text_output)
 
+    create_severity_chart(pair_results, charts_dir)
+    create_rule_id_chart(pair_results, charts_dir, args.reports)
+    create_severity_charts(pair_results, charts_dir)
+    
     print(f"Compared {len(pair_results)} baseline-variant pairs.")
     print(f"Unique baseline SHA hashes: {pair_results['baseline_sha'].nunique()}")
     print(f"Unique variant SHA hashes: {pair_results['variant_sha'].nunique()}")

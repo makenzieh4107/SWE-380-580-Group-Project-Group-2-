@@ -7,19 +7,41 @@ import subprocess
 import sys
 from pathlib import Path
 
-ROOT = Path(__file__).resolve().parent
-TEST_DIR = ROOT / "src"
+# The repository's smoke-test runner should work from either the repo root or the
+# Automation folder, so define both candidate test locations explicitly.
+ROOT = Path(__file__).resolve().parent.parent
+TEST_DIRS = [ROOT / "src", ROOT / "Automated Test"]
 
 
 def discover_current_tests() -> list[Path]:
-    """Return the active script files already in the project."""
-    return sorted(TEST_DIR.glob("test_*.py"))
+    """Return the active script files already in the project.
+
+    This keeps the smoke-test workflow resilient as tests are added to either the
+    src folder or the Automated Test folder, while avoiding duplicate entries if
+    the same file is discovered through multiple directories.
+    """
+    tests: list[Path] = []
+    seen: set[Path] = set()
+
+    for test_dir in TEST_DIRS:
+        if not test_dir.exists():
+            continue
+        for test_file in sorted(test_dir.glob("test_*.py")):
+            resolved = test_file.resolve()
+            if resolved not in seen:
+                tests.append(test_file)
+                seen.add(resolved)
+
+    return tests
 
 
 def main() -> int:
+    # Discover the current test scripts and then run each one as its own process.
     tests = discover_current_tests()
 
     if not tests:
+        # The workflow should fail clearly if no test files are present anywhere
+        # in the repository's expected test locations.
         print("No current test files found in src/.")
         return 1
 
@@ -27,6 +49,8 @@ def main() -> int:
     overall_status = 0
 
     for test_file in tests:
+        # Run each test file in its own Python process so failures do not leak
+        # across scripts and the overall status reflects each runner outcome.
         command = [sys.executable, str(test_file)]
         print(f"\n> {' '.join(command)}")
         result = subprocess.run(command, cwd=str(ROOT))
