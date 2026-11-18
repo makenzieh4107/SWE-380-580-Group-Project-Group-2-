@@ -1,24 +1,24 @@
 # Data Dictionary
 
 ## `artifacts` Table
+| Variable | Meaning |
+|---|---|
+|**`repo_full_name`** | GitHub repository containing the artifact.|
+|**`path`** | Location of the artifact within the repository.|
+|**`content`** | Text/code contained in the artifact. Used for security analysis.|
+|**`file_sha`** | Hash representing the artifact's content. Used to find identical artifacts.|
+|**`name`** | Name of the skill or artifact.|
+|**`description`** | Description of the skill or artifact.|
+|**`first_commit_at`** | Time of the first recorded commit.|
+|**`last_commit_at`** | Time of the last recorded commit.|
+|**`dedup_primary`** | Identifies the GitSkills-designated primary artifact in a duplicate group.|
 
-* **`repo_full_name`** — GitHub repository containing the artifact.
-* **`path`** — Location of the artifact within the repository.
-* **`content`** — Text/code contained in the artifact. Used for security analysis.
-* **`file_sha`** — Hash representing the artifact's content. Used to find identical artifacts.
-* **`name`** — Name of the skill or artifact.
-* **`description`** — Description of the skill or artifact.
-* **`first_commit_at`** — Time of the first recorded commit.
-* **`last_commit_at`** — Time of the last recorded commit.
-* **`dedup_primary`** — Identifies the GitSkills-designated primary artifact in a duplicate group.
-
-* **`Baseline Skill`** — The original version of a skill used as a starting point for comparison. It represents the earlier version before the modifications being studied.
-
-* **`Variant Skill`** — A modified or reused version of a baseline skill. It may containt changes to its instructions, content, or functionality.
-
-- **`new_security_capability`** — Indicates that a security-sensitive
-  capability appears in a later related artifact but was not detected in the
-  earlier artifact.
+## Our Variables
+| Variable | Meaning |
+|---|---|
+|**`Baseline Skill`** | The original version of a skill used as a starting point for comparison. It represents the earlier version before the modifications being studied.|
+|**`Variant Skill`** | A modified or reused version of a baseline skill. It may containt changes to its instructions, content, or functionality.|
+|**`new_security_capability`** | Indicates that a security-sensitive capability appears in a later related artifact but was not detected in the earlier artifact.|
 
 ## Finding Definitions
 
