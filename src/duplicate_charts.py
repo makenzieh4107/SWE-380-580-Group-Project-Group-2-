@@ -1,6 +1,9 @@
 """
 Duplicate Artifact Charts for the GitSkills Dataset
 
+Companion to duplicate_analysis.py. Runs the same duplicate-analysis queries
+against the GitSkills sample database and turns the results into charts:
+
 1. How much of the dataset is unique vs. identical copies.
 2. Distribution of duplicate group sizes.
 3. The largest identical-content groups (labelled by earliest artifact name).
@@ -25,7 +28,6 @@ import matplotlib
 
 matplotlib.use("Agg")  # render to files, no display needed
 import matplotlib.pyplot as plt
-from matplotlib.ticker import StrMethodFormatter
 import pandas as pd
 from rapidfuzz import fuzz
 
@@ -199,74 +201,19 @@ def chart_unique_vs_duplicate(total, dups):
 
 
 def chart_group_size_distribution(dups):
-    """
-    Group sizes have a long tail (2 up to 100+), so plotting every size as its
-    own bar is unreadable. Sizes are binned into ranges instead, and shown two
-    ways: how many groups fall in each range (left) and how many artifacts
-    those groups contain (right). The right panel shows that the few large
-    groups account for a big share of the duplicated artifacts.
-    """
     filename = "02_group_size_distribution.png"
     if dups.empty:
         return skip(filename, "no duplicate groups")
 
-    group_sizes = dups.groupby("file_sha").size()
-    n_groups = len(group_sizes)
-    n_artifacts = int(group_sizes.sum())
+    sizes = dups.groupby("file_sha").size().value_counts().sort_index()
 
-    # Left edges of each bin; right=False means [2, 3), [3, 4), ... [101, inf)
-    edges = [2, 3, 4, 5, 6, 11, 21, 51, 101, float("inf")]
-    labels = ["2", "3", "4", "5", "6–10", "11–20", "21–50", "51–100", "101+"]
-    size_bin = pd.cut(group_sizes, bins=edges, labels=labels, right=False)
-
-    groups_per_bin = size_bin.value_counts(sort=False)
-    artifacts_per_bin = group_sizes.groupby(size_bin, observed=False).sum()
-
-    # Drop empty bins at the top end (e.g. no groups of 101+ in a small sample)
-    last = max(i for i, v in enumerate(groups_per_bin.values) if v > 0)
-    groups_per_bin = groups_per_bin.iloc[: last + 1]
-    artifacts_per_bin = artifacts_per_bin.iloc[: last + 1]
-    x = groups_per_bin.index.astype(str)
-
-    def pct_label(share):
-        return "<1%" if 0 < share < 0.005 else f"{share:.0%}"
-
-    fig, (ax_groups, ax_artifacts) = plt.subplots(1, 2, figsize=(13, 5.5))
-
-    panels = [
-        (ax_groups, groups_per_bin, n_groups, "#4C72B0",
-         "How many groups are this size?", "Duplicate groups"),
-        (ax_artifacts, artifacts_per_bin, n_artifacts, "#C44E52",
-         "How many artifacts sit in groups this size?", "Artifacts in those groups"),
-    ]
-    for ax, values, total, color, title, ylabel in panels:
-        bars = ax.bar(x, values.values, color=color)
-        ax.bar_label(
-            bars,
-            labels=[f"{v:,}\n({pct_label(v / total)})" for v in values.values],
-            fontsize=9,
-        )
-        # Bars after "5" cover ranges of sizes, so mark where that switch happens
-        if "6–10" in list(x):
-            split = list(x).index("6–10") - 0.5
-            ax.axvline(split, color="grey", linestyle="--", linewidth=0.8)
-            ax.text(split + 0.1, 0.97, "size ranges →", transform=ax.get_xaxis_transform(),
-                    fontsize=8, color="grey", va="top")
-        ax.set_title(title, fontsize=11)
-        ax.set_xlabel("Group size (artifacts sharing the same file_sha)")
-        ax.set_ylabel(ylabel)
-        ax.grid(axis="x", visible=False)
-        ax.margins(y=0.18)
-        ax.yaxis.set_major_formatter(StrMethodFormatter("{x:,.0f}"))
-
-    pairs_share = groups_per_bin.get("2", 0) / n_groups
-    big = group_sizes >= 11
-    fig.suptitle(
-        f"{n_groups:,} duplicate groups: {pairs_share:.0%} are simple pairs, "
-        f"but the {big.sum():,} groups of 11+ hold "
-        f"{group_sizes[big].sum() / n_artifacts:.0%} of duplicated artifacts",
-        fontsize=12.5,
-    )
+    fig, ax = plt.subplots()
+    bars = ax.bar(sizes.index.astype(str), sizes.values, color="#4C72B0")
+    ax.bar_label(bars)
+    ax.set_xlabel("Artifacts sharing the same file_sha")
+    ax.set_ylabel("Number of duplicate groups")
+    ax.set_title("Duplicate group size distribution")
+    ax.margins(y=0.1)
     save(fig, filename)
 
 
@@ -447,7 +394,13 @@ def chart_name_variant_similarity(pairs):
     save(fig, filename)
 
     csv_path = OUTPUT_DIR / "name_variant_pairs.csv"
-    pairs.sort_values("similarity", ascending=False).to_csv(csv_path, index=False)
+    # Stable, fully specified order so re-running on the same data
+    # produces an identical file (no spurious git diffs).
+    pairs.sort_values(
+        ["similarity", "name", "variant_repo", "variant_path", "variant_sha"],
+        ascending=[False, True, True, True, True],
+        kind="mergesort",
+    ).to_csv(csv_path, index=False, lineterminator="\n")
     print(f"  saved {csv_path}")
 
 
