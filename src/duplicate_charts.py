@@ -352,7 +352,10 @@ def chart_primary_check(dups):
 def compare_name_variants(variants):
     """Score each distinct variant of a name against that name's earliest version."""
     variants = (
-        variants.sort_values(["norm_name", "first_commit_at"], na_position="last")
+        # repo_full_name/path break ties so the baseline is the same on every run
+        # (most artifacts have no first_commit_at, so date alone is not enough).
+        variants.sort_values(["norm_name", "first_commit_at", "repo_full_name", "path"],
+                             na_position="last", kind="mergesort")
         .drop_duplicates(["norm_name", "file_sha"], keep="first")
     )
     rows = []
