@@ -1,6 +1,9 @@
 """
 Duplicate Artifact Charts for the GitSkills Dataset
 
+Companion to duplicate_analysis.py. Runs the same duplicate-analysis queries
+against the GitSkills sample database and turns the results into charts:
+
 1. How much of the dataset is unique vs. identical copies.
 2. Distribution of duplicate group sizes.
 3. The largest identical-content groups (labelled by earliest artifact name).
@@ -405,7 +408,10 @@ def chart_primary_check(dups):
 def compare_name_variants(variants):
     """Score each distinct variant of a name against that name's earliest version."""
     variants = (
-        variants.sort_values(["norm_name", "first_commit_at"], na_position="last")
+        # repo_full_name/path break ties so the baseline is the same on every run
+        # (most artifacts have no first_commit_at, so date alone is not enough).
+        variants.sort_values(["norm_name", "first_commit_at", "repo_full_name", "path"],
+                             na_position="last", kind="mergesort")
         .drop_duplicates(["norm_name", "file_sha"], keep="first")
     )
     rows = []
@@ -447,7 +453,13 @@ def chart_name_variant_similarity(pairs):
     save(fig, filename)
 
     csv_path = OUTPUT_DIR / "name_variant_pairs.csv"
-    pairs.sort_values("similarity", ascending=False).to_csv(csv_path, index=False)
+    # Stable, fully specified order so re-running on the same data
+    # produces an identical file (no spurious git diffs).
+    pairs.sort_values(
+        ["similarity", "name", "variant_repo", "variant_path", "variant_sha"],
+        ascending=[False, True, True, True, True],
+        kind="mergesort",
+    ).to_csv(csv_path, index=False, lineterminator="\n")
     print(f"  saved {csv_path}")
 
 
