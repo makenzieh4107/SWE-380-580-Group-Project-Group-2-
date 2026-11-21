@@ -7,7 +7,8 @@ import subprocess
 import sys
 from pathlib import Path
 
-ROOT = Path(__file__).resolve().parent
+# Project root is one level above this "Automated Test" folder.
+ROOT = Path(__file__).resolve().parent.parent
 TEST_DIR = ROOT / "src"
 
 
