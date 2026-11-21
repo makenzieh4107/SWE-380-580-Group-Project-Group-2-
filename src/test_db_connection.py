@@ -10,7 +10,7 @@ print("Database size:", os.path.getsize(db_path), "bytes")
 
 con = duckdb.connect()
 
-con.execute(f"ATTACH '{db_path}' AS GitSkills")
+con.execute(f"ATTACH '{db_path}' AS GitSkills (READ_ONLY)")
 
 print("\nTables:")
 print(con.execute("SHOW TABLES FROM GitSkills").fetchdf())
