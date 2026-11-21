@@ -28,7 +28,7 @@ import duckdb
 con = duckdb.connect()
 
 # Attach the GitSkills database and give it the name GitSkills
-con.execute("ATTACH 'data/agent_skills_sample.db' AS GitSkills")
+con.execute("ATTACH 'data/agent_skills_sample.db' AS GitSkills (READ_ONLY)")
 
 # ---------------------------------------------------------
 # 1. Fields We Need
