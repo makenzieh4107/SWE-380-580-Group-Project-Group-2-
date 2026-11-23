@@ -3,35 +3,35 @@ BASELINE VS. VARIANT CISCO SCANNER COMPARISON
 
 OVERVIEW
 --------
-Total baseline-variant pairs analyzed: 1436
+Total baseline-variant pairs analyzed: 1089
 
 BASELINE RESULTS
 ----------------
 Average findings: 0.94
-Records with findings: 1288
-Records with zero findings: 148
+Records with findings: 983
+Records with zero findings: 106
 
 VARIANT RESULTS
 ---------------
-Average findings: 0.95
-Records with findings: 1259
-Records with zero findings: 177
+Average findings: 0.97
+Records with findings: 972
+Records with zero findings: 117
 
 PAIRED COMPARISON
 -----------------
-More findings in variant: 140
-More findings in baseline: 146
-Same finding count: 1150
+More findings in variant: 111
+More findings in baseline: 99
+Same finding count: 879
 
 SEVERITY COMPARISON
 -------------------
 Number of pair records containing each severity:
 
-INFO: Baseline = 1282, Variant = 1248
-LOW: Baseline = 14, Variant = 32
-MEDIUM: Baseline = 5, Variant = 2
-HIGH: Baseline = 17, Variant = 24
-CRITICAL: Baseline = 2, Variant = 8
+INFO: Baseline = 979, Variant = 964
+LOW: Baseline = 11, Variant = 22
+MEDIUM: Baseline = 4, Variant = 2
+HIGH: Baseline = 14, Variant = 21
+CRITICAL: Baseline = 1, Variant = 8
 
 INTERPRETATION
 --------------
@@ -48,25 +48,23 @@ The following counts show how many unique content versions had each finding cate
 A content version is counted once per category, even if it appears in multiple pairs.
 
 Baseline finding types:
-  policy_violation: 560 unique content versions
+  policy_violation: 464 unique content versions
   command_injection: 8 unique content versions
   social_engineering: 5 unique content versions
-  data_exfiltration: 4 unique content versions
-  supply_chain_attack: 2 unique content versions
-  obfuscation: 2 unique content versions
+  prompt_injection: 2 unique content versions
   hardcoded_secrets: 2 unique content versions
-  malware: 2 unique content versions
+  data_exfiltration: 2 unique content versions
+  supply_chain_attack: 1 unique content versions
   autonomy_abuse: 1 unique content versions
 
 Variant finding types:
-  policy_violation: 1041 unique content versions
-  command_injection: 16 unique content versions
-  social_engineering: 12 unique content versions
-  data_exfiltration: 6 unique content versions
-  supply_chain_attack: 6 unique content versions
-  prompt_injection: 5 unique content versions
-  hardcoded_secrets: 2 unique content versions
-  obfuscation: 1 unique content versions
+  policy_violation: 964 unique content versions
+  command_injection: 15 unique content versions
+  social_engineering: 11 unique content versions
+  data_exfiltration: 7 unique content versions
+  supply_chain_attack: 5 unique content versions
+  obfuscation: 3 unique content versions
+  malware: 3 unique content versions
+  prompt_injection: 3 unique content versions
+  hardcoded_secrets: 1 unique content versions
   unauthorized_tool_use: 1 unique content versions
-  malware: 1 unique content versions
-  autonomy_abuse: 1 unique content versions
