@@ -1,6 +1,6 @@
 {
   "description": "Consolidated Cisco Skill Scanner output for unique content versions selected from the 60–97% similarity CSV.",
-  "selected_csv": "charts\\name_variant_pairs_60-97.csv",
+  "selected_csv": "charts/name_variant_pairs_60-97.csv",
   "valid_similarity_pairs": 188,
   "selected_artifact_records": 238,
   "unique_content_versions": 238,

@@ -21,7 +21,7 @@ Scan status: cached
 Findings: 1
 Categories: policy_violation
 Severities: INFO
-Report: results\cisco_all_scan_reports.json
+Report: results/cisco_all_scan_reports.json
 
 Artifact 2
 ----------------------------------------
@@ -35,7 +35,7 @@ Scan status: cached
 Findings: 1
 Categories: policy_violation
 Severities: INFO
-Report: results\cisco_all_scan_reports.json
+Report: results/cisco_all_scan_reports.json
 
 Artifact 3
 ----------------------------------------
@@ -49,7 +49,7 @@ Scan status: cached
 Findings: 1
 Categories: policy_violation
 Severities: INFO
-Report: results\cisco_all_scan_reports.json
+Report: results/cisco_all_scan_reports.json
 
 Artifact 4
 ----------------------------------------
@@ -63,7 +63,7 @@ Scan status: cached
 Findings: 1
 Categories: policy_violation
 Severities: INFO
-Report: results\cisco_all_scan_reports.json
+Report: results/cisco_all_scan_reports.json
 
 Artifact 5
 ----------------------------------------
@@ -77,7 +77,7 @@ Scan status: cached
 Findings: 1
 Categories: policy_violation
 Severities: INFO
-Report: results\cisco_all_scan_reports.json
+Report: results/cisco_all_scan_reports.json
 
 Artifact 6
 ----------------------------------------
@@ -91,7 +91,7 @@ Scan status: cached
 Findings: 1
 Categories: policy_violation
 Severities: INFO
-Report: results\cisco_all_scan_reports.json
+Report: results/cisco_all_scan_reports.json
 
 Artifact 7
 ----------------------------------------
@@ -105,7 +105,7 @@ Scan status: cached
 Findings: 1
 Categories: policy_violation
 Severities: INFO
-Report: results\cisco_all_scan_reports.json
+Report: results/cisco_all_scan_reports.json
 
 Artifact 8
 ----------------------------------------
@@ -119,7 +119,7 @@ Scan status: cached
 Findings: 1
 Categories: policy_violation
 Severities: INFO
-Report: results\cisco_all_scan_reports.json
+Report: results/cisco_all_scan_reports.json
 
 Artifact 9
 ----------------------------------------
@@ -133,7 +133,7 @@ Scan status: cached
 Findings: 1
 Categories: policy_violation
 Severities: INFO
-Report: results\cisco_all_scan_reports.json
+Report: results/cisco_all_scan_reports.json
 
 Artifact 10
 ----------------------------------------
@@ -147,7 +147,7 @@ Scan status: cached
 Findings: 1
 Categories: policy_violation
 Severities: INFO
-Report: results\cisco_all_scan_reports.json
+Report: results/cisco_all_scan_reports.json
 
 Artifact 11
 ----------------------------------------
@@ -161,7 +161,7 @@ Scan status: cached
 Findings: 1
 Categories: policy_violation
 Severities: INFO
-Report: results\cisco_all_scan_reports.json
+Report: results/cisco_all_scan_reports.json
 
 Artifact 12
 ----------------------------------------
@@ -175,7 +175,7 @@ Scan status: cached
 Findings: 1
 Categories: policy_violation
 Severities: INFO
-Report: results\cisco_all_scan_reports.json
+Report: results/cisco_all_scan_reports.json
 
 Artifact 13
 ----------------------------------------
@@ -189,7 +189,7 @@ Scan status: cached
 Findings: 1
 Categories: policy_violation
 Severities: INFO
-Report: results\cisco_all_scan_reports.json
+Report: results/cisco_all_scan_reports.json
 
 Artifact 14
 ----------------------------------------
@@ -203,7 +203,7 @@ Scan status: cached
 Findings: 1
 Categories: policy_violation
 Severities: INFO
-Report: results\cisco_all_scan_reports.json
+Report: results/cisco_all_scan_reports.json
 
 Artifact 15
 ----------------------------------------
@@ -217,7 +217,7 @@ Scan status: cached
 Findings: 1
 Categories: policy_violation
 Severities: INFO
-Report: results\cisco_all_scan_reports.json
+Report: results/cisco_all_scan_reports.json
 
 Artifact 16
 ----------------------------------------
@@ -231,7 +231,7 @@ Scan status: cached
 Findings: 1
 Categories: policy_violation
 Severities: INFO
-Report: results\cisco_all_scan_reports.json
+Report: results/cisco_all_scan_reports.json
 
 Artifact 17
 ----------------------------------------
@@ -245,7 +245,7 @@ Scan status: cached
 Findings: 1
 Categories: policy_violation
 Severities: INFO
-Report: results\cisco_all_scan_reports.json
+Report: results/cisco_all_scan_reports.json
 
 Artifact 18
 ----------------------------------------
@@ -259,7 +259,7 @@ Scan status: cached
 Findings: 1
 Categories: policy_violation
 Severities: INFO
-Report: results\cisco_all_scan_reports.json
+Report: results/cisco_all_scan_reports.json
 
 Artifact 19
 ----------------------------------------
@@ -273,7 +273,7 @@ Scan status: cached
 Findings: 1
 Categories: policy_violation
 Severities: INFO
-Report: results\cisco_all_scan_reports.json
+Report: results/cisco_all_scan_reports.json
 
 Artifact 20
 ----------------------------------------
@@ -287,7 +287,7 @@ Scan status: cached
 Findings: 1
 Categories: policy_violation
 Severities: INFO
-Report: results\cisco_all_scan_reports.json
+Report: results/cisco_all_scan_reports.json
 
 Artifact 21
 ----------------------------------------
@@ -301,7 +301,7 @@ Scan status: cached
 Findings: 1
 Categories: policy_violation
 Severities: INFO
-Report: results\cisco_all_scan_reports.json
+Report: results/cisco_all_scan_reports.json
 
 Artifact 22
 ----------------------------------------
@@ -315,7 +315,7 @@ Scan status: cached
 Findings: 1
 Categories: policy_violation
 Severities: INFO
-Report: results\cisco_all_scan_reports.json
+Report: results/cisco_all_scan_reports.json
 
 Artifact 23
 ----------------------------------------
@@ -329,7 +329,7 @@ Scan status: cached
 Findings: 1
 Categories: policy_violation
 Severities: INFO
-Report: results\cisco_all_scan_reports.json
+Report: results/cisco_all_scan_reports.json
 
 Artifact 24
 ----------------------------------------
@@ -343,7 +343,7 @@ Scan status: cached
 Findings: 1
 Categories: policy_violation
 Severities: INFO
-Report: results\cisco_all_scan_reports.json
+Report: results/cisco_all_scan_reports.json
 
 Artifact 25
 ----------------------------------------
@@ -357,7 +357,7 @@ Scan status: cached
 Findings: 1
 Categories: policy_violation
 Severities: INFO
-Report: results\cisco_all_scan_reports.json
+Report: results/cisco_all_scan_reports.json
 
 Artifact 26
 ----------------------------------------
@@ -371,7 +371,7 @@ Scan status: cached
 Findings: 1
 Categories: policy_violation
 Severities: INFO
-Report: results\cisco_all_scan_reports.json
+Report: results/cisco_all_scan_reports.json
 
 Artifact 27
 ----------------------------------------
@@ -385,7 +385,7 @@ Scan status: cached
 Findings: 1
 Categories: policy_violation
 Severities: INFO
-Report: results\cisco_all_scan_reports.json
+Report: results/cisco_all_scan_reports.json
 
 Artifact 28
 ----------------------------------------
@@ -399,7 +399,7 @@ Scan status: cached
 Findings: 1
 Categories: policy_violation
 Severities: INFO
-Report: results\cisco_all_scan_reports.json
+Report: results/cisco_all_scan_reports.json
 
 Artifact 29
 ----------------------------------------
@@ -413,7 +413,7 @@ Scan status: cached
 Findings: 1
 Categories: policy_violation
 Severities: INFO
-Report: results\cisco_all_scan_reports.json
+Report: results/cisco_all_scan_reports.json
 
 Artifact 30
 ----------------------------------------
@@ -427,7 +427,7 @@ Scan status: cached
 Findings: 0
 Categories: None listed
 Severities: None listed
-Report: results\cisco_all_scan_reports.json
+Report: results/cisco_all_scan_reports.json
 
 Artifact 31
 ----------------------------------------
@@ -441,7 +441,7 @@ Scan status: cached
 Findings: 1
 Categories: policy_violation
 Severities: INFO
-Report: results\cisco_all_scan_reports.json
+Report: results/cisco_all_scan_reports.json
 
 Artifact 32
 ----------------------------------------
@@ -455,7 +455,7 @@ Scan status: cached
 Findings: 1
 Categories: policy_violation
 Severities: INFO
-Report: results\cisco_all_scan_reports.json
+Report: results/cisco_all_scan_reports.json
 
 Artifact 33
 ----------------------------------------
@@ -469,7 +469,7 @@ Scan status: cached
 Findings: 1
 Categories: policy_violation
 Severities: INFO
-Report: results\cisco_all_scan_reports.json
+Report: results/cisco_all_scan_reports.json
 
 Artifact 34
 ----------------------------------------
@@ -483,7 +483,7 @@ Scan status: cached
 Findings: 1
 Categories: policy_violation
 Severities: INFO
-Report: results\cisco_all_scan_reports.json
+Report: results/cisco_all_scan_reports.json
 
 Artifact 35
 ----------------------------------------
@@ -497,7 +497,7 @@ Scan status: cached
 Findings: 1
 Categories: policy_violation
 Severities: INFO
-Report: results\cisco_all_scan_reports.json
+Report: results/cisco_all_scan_reports.json
 
 Artifact 36
 ----------------------------------------
@@ -511,7 +511,7 @@ Scan status: cached
 Findings: 1
 Categories: policy_violation
 Severities: INFO
-Report: results\cisco_all_scan_reports.json
+Report: results/cisco_all_scan_reports.json
 
 Artifact 37
 ----------------------------------------
@@ -525,7 +525,7 @@ Scan status: cached
 Findings: 1
 Categories: policy_violation
 Severities: INFO
-Report: results\cisco_all_scan_reports.json
+Report: results/cisco_all_scan_reports.json
 
 Artifact 38
 ----------------------------------------
@@ -539,7 +539,7 @@ Scan status: cached
 Findings: 1
 Categories: policy_violation
 Severities: INFO
-Report: results\cisco_all_scan_reports.json
+Report: results/cisco_all_scan_reports.json
 
 Artifact 39
 ----------------------------------------
@@ -553,7 +553,7 @@ Scan status: cached
 Findings: 1
 Categories: policy_violation
 Severities: INFO
-Report: results\cisco_all_scan_reports.json
+Report: results/cisco_all_scan_reports.json
 
 Artifact 40
 ----------------------------------------
@@ -567,7 +567,7 @@ Scan status: cached
 Findings: 1
 Categories: policy_violation
 Severities: INFO
-Report: results\cisco_all_scan_reports.json
+Report: results/cisco_all_scan_reports.json
 
 Artifact 41
 ----------------------------------------
@@ -581,7 +581,7 @@ Scan status: cached
 Findings: 1
 Categories: policy_violation
 Severities: INFO
-Report: results\cisco_all_scan_reports.json
+Report: results/cisco_all_scan_reports.json
 
 Artifact 42
 ----------------------------------------
@@ -595,7 +595,7 @@ Scan status: cached
 Findings: 0
 Categories: None listed
 Severities: None listed
-Report: results\cisco_all_scan_reports.json
+Report: results/cisco_all_scan_reports.json
 
 Artifact 43
 ----------------------------------------
@@ -609,7 +609,7 @@ Scan status: cached
 Findings: 1
 Categories: policy_violation
 Severities: INFO
-Report: results\cisco_all_scan_reports.json
+Report: results/cisco_all_scan_reports.json
 
 Artifact 44
 ----------------------------------------
@@ -623,7 +623,7 @@ Scan status: cached
 Findings: 1
 Categories: policy_violation
 Severities: INFO
-Report: results\cisco_all_scan_reports.json
+Report: results/cisco_all_scan_reports.json
 
 Artifact 45
 ----------------------------------------
@@ -637,7 +637,7 @@ Scan status: cached
 Findings: 1
 Categories: policy_violation
 Severities: INFO
-Report: results\cisco_all_scan_reports.json
+Report: results/cisco_all_scan_reports.json
 
 Artifact 46
 ----------------------------------------
@@ -651,7 +651,7 @@ Scan status: cached
 Findings: 1
 Categories: policy_violation
 Severities: INFO
-Report: results\cisco_all_scan_reports.json
+Report: results/cisco_all_scan_reports.json
 
 Artifact 47
 ----------------------------------------
@@ -665,7 +665,7 @@ Scan status: cached
 Findings: 1
 Categories: policy_violation
 Severities: INFO
-Report: results\cisco_all_scan_reports.json
+Report: results/cisco_all_scan_reports.json
 
 Artifact 48
 ----------------------------------------
@@ -679,7 +679,7 @@ Scan status: cached
 Findings: 1
 Categories: policy_violation
 Severities: INFO
-Report: results\cisco_all_scan_reports.json
+Report: results/cisco_all_scan_reports.json
 
 Artifact 49
 ----------------------------------------
@@ -693,7 +693,7 @@ Scan status: cached
 Findings: 1
 Categories: policy_violation
 Severities: INFO
-Report: results\cisco_all_scan_reports.json
+Report: results/cisco_all_scan_reports.json
 
 Artifact 50
 ----------------------------------------
@@ -707,7 +707,7 @@ Scan status: cached
 Findings: 1
 Categories: policy_violation
 Severities: INFO
-Report: results\cisco_all_scan_reports.json
+Report: results/cisco_all_scan_reports.json
 
 Artifact 51
 ----------------------------------------
@@ -721,7 +721,7 @@ Scan status: cached
 Findings: 4
 Categories: supply_chain_attack
 Severities: LOW
-Report: results\cisco_all_scan_reports.json
+Report: results/cisco_all_scan_reports.json
 
 Artifact 52
 ----------------------------------------
@@ -735,7 +735,7 @@ Scan status: cached
 Findings: 1
 Categories: policy_violation
 Severities: INFO
-Report: results\cisco_all_scan_reports.json
+Report: results/cisco_all_scan_reports.json
 
 Artifact 53
 ----------------------------------------
@@ -749,7 +749,7 @@ Scan status: cached
 Findings: 1
 Categories: policy_violation
 Severities: INFO
-Report: results\cisco_all_scan_reports.json
+Report: results/cisco_all_scan_reports.json
 
 Artifact 54
 ----------------------------------------
@@ -763,7 +763,7 @@ Scan status: cached
 Findings: 0
 Categories: None listed
 Severities: None listed
-Report: results\cisco_all_scan_reports.json
+Report: results/cisco_all_scan_reports.json
 
 Artifact 55
 ----------------------------------------
@@ -777,7 +777,7 @@ Scan status: cached
 Findings: 1
 Categories: policy_violation
 Severities: INFO
-Report: results\cisco_all_scan_reports.json
+Report: results/cisco_all_scan_reports.json
 
 Artifact 56
 ----------------------------------------
@@ -791,7 +791,7 @@ Scan status: cached
 Findings: 0
 Categories: None listed
 Severities: None listed
-Report: results\cisco_all_scan_reports.json
+Report: results/cisco_all_scan_reports.json
 
 Artifact 57
 ----------------------------------------
@@ -805,7 +805,7 @@ Scan status: cached
 Findings: 1
 Categories: policy_violation
 Severities: INFO
-Report: results\cisco_all_scan_reports.json
+Report: results/cisco_all_scan_reports.json
 
 Artifact 58
 ----------------------------------------
@@ -819,7 +819,7 @@ Scan status: cached
 Findings: 1
 Categories: policy_violation
 Severities: INFO
-Report: results\cisco_all_scan_reports.json
+Report: results/cisco_all_scan_reports.json
 
 Artifact 59
 ----------------------------------------
@@ -833,7 +833,7 @@ Scan status: cached
 Findings: 1
 Categories: policy_violation
 Severities: INFO
-Report: results\cisco_all_scan_reports.json
+Report: results/cisco_all_scan_reports.json
 
 Artifact 60
 ----------------------------------------
@@ -847,7 +847,7 @@ Scan status: cached
 Findings: 1
 Categories: policy_violation
 Severities: INFO
-Report: results\cisco_all_scan_reports.json
+Report: results/cisco_all_scan_reports.json
 
 Artifact 61
 ----------------------------------------
@@ -861,7 +861,7 @@ Scan status: cached
 Findings: 1
 Categories: policy_violation
 Severities: INFO
-Report: results\cisco_all_scan_reports.json
+Report: results/cisco_all_scan_reports.json
 
 Artifact 62
 ----------------------------------------
@@ -875,7 +875,7 @@ Scan status: cached
 Findings: 2
 Categories: policy_violation
 Severities: INFO
-Report: results\cisco_all_scan_reports.json
+Report: results/cisco_all_scan_reports.json
 
 Artifact 63
 ----------------------------------------
@@ -889,7 +889,7 @@ Scan status: cached
 Findings: 2
 Categories: policy_violation
 Severities: INFO
-Report: results\cisco_all_scan_reports.json
+Report: results/cisco_all_scan_reports.json
 
 Artifact 64
 ----------------------------------------
@@ -903,7 +903,7 @@ Scan status: cached
 Findings: 1
 Categories: policy_violation
 Severities: INFO
-Report: results\cisco_all_scan_reports.json
+Report: results/cisco_all_scan_reports.json
 
 Artifact 65
 ----------------------------------------
@@ -917,7 +917,7 @@ Scan status: cached
 Findings: 1
 Categories: policy_violation
 Severities: INFO
-Report: results\cisco_all_scan_reports.json
+Report: results/cisco_all_scan_reports.json
 
 Artifact 66
 ----------------------------------------
@@ -931,7 +931,7 @@ Scan status: cached
 Findings: 1
 Categories: policy_violation
 Severities: INFO
-Report: results\cisco_all_scan_reports.json
+Report: results/cisco_all_scan_reports.json
 
 Artifact 67
 ----------------------------------------
@@ -945,7 +945,7 @@ Scan status: cached
 Findings: 0
 Categories: None listed
 Severities: None listed
-Report: results\cisco_all_scan_reports.json
+Report: results/cisco_all_scan_reports.json
 
 Artifact 68
 ----------------------------------------
@@ -959,7 +959,7 @@ Scan status: cached
 Findings: 0
 Categories: None listed
 Severities: None listed
-Report: results\cisco_all_scan_reports.json
+Report: results/cisco_all_scan_reports.json
 
 Artifact 69
 ----------------------------------------
@@ -973,7 +973,7 @@ Scan status: cached
 Findings: 1
 Categories: policy_violation
 Severities: INFO
-Report: results\cisco_all_scan_reports.json
+Report: results/cisco_all_scan_reports.json
 
 Artifact 70
 ----------------------------------------
@@ -987,7 +987,7 @@ Scan status: cached
 Findings: 1
 Categories: policy_violation
 Severities: INFO
-Report: results\cisco_all_scan_reports.json
+Report: results/cisco_all_scan_reports.json
 
 Artifact 71
 ----------------------------------------
@@ -1001,7 +1001,7 @@ Scan status: cached
 Findings: 0
 Categories: None listed
 Severities: None listed
-Report: results\cisco_all_scan_reports.json
+Report: results/cisco_all_scan_reports.json
 
 Artifact 72
 ----------------------------------------
@@ -1015,7 +1015,7 @@ Scan status: cached
 Findings: 1
 Categories: policy_violation
 Severities: INFO
-Report: results\cisco_all_scan_reports.json
+Report: results/cisco_all_scan_reports.json
 
 Artifact 73
 ----------------------------------------
@@ -1029,7 +1029,7 @@ Scan status: cached
 Findings: 0
 Categories: None listed
 Severities: None listed
-Report: results\cisco_all_scan_reports.json
+Report: results/cisco_all_scan_reports.json
 
 Artifact 74
 ----------------------------------------
@@ -1043,7 +1043,7 @@ Scan status: cached
 Findings: 1
 Categories: policy_violation
 Severities: INFO
-Report: results\cisco_all_scan_reports.json
+Report: results/cisco_all_scan_reports.json
 
 Artifact 75
 ----------------------------------------
@@ -1057,7 +1057,7 @@ Scan status: cached
 Findings: 1
 Categories: policy_violation
 Severities: INFO
-Report: results\cisco_all_scan_reports.json
+Report: results/cisco_all_scan_reports.json
 
 Artifact 76
 ----------------------------------------
@@ -1071,7 +1071,7 @@ Scan status: cached
 Findings: 1
 Categories: policy_violation
 Severities: INFO
-Report: results\cisco_all_scan_reports.json
+Report: results/cisco_all_scan_reports.json
 
 Artifact 77
 ----------------------------------------
@@ -1085,7 +1085,7 @@ Scan status: cached
 Findings: 1
 Categories: policy_violation
 Severities: INFO
-Report: results\cisco_all_scan_reports.json
+Report: results/cisco_all_scan_reports.json
 
 Artifact 78
 ----------------------------------------
@@ -1099,7 +1099,7 @@ Scan status: cached
 Findings: 0
 Categories: None listed
 Severities: None listed
-Report: results\cisco_all_scan_reports.json
+Report: results/cisco_all_scan_reports.json
 
 Artifact 79
 ----------------------------------------
@@ -1113,7 +1113,7 @@ Scan status: cached
 Findings: 1
 Categories: policy_violation
 Severities: INFO
-Report: results\cisco_all_scan_reports.json
+Report: results/cisco_all_scan_reports.json
 
 Artifact 80
 ----------------------------------------
@@ -1127,7 +1127,7 @@ Scan status: cached
 Findings: 1
 Categories: policy_violation
 Severities: INFO
-Report: results\cisco_all_scan_reports.json
+Report: results/cisco_all_scan_reports.json
 
 Artifact 81
 ----------------------------------------
@@ -1141,7 +1141,7 @@ Scan status: cached
 Findings: 1
 Categories: policy_violation
 Severities: INFO
-Report: results\cisco_all_scan_reports.json
+Report: results/cisco_all_scan_reports.json
 
 Artifact 82
 ----------------------------------------
@@ -1155,7 +1155,7 @@ Scan status: cached
 Findings: 1
 Categories: policy_violation
 Severities: INFO
-Report: results\cisco_all_scan_reports.json
+Report: results/cisco_all_scan_reports.json
 
 Artifact 83
 ----------------------------------------
@@ -1169,7 +1169,7 @@ Scan status: cached
 Findings: 1
 Categories: policy_violation
 Severities: INFO
-Report: results\cisco_all_scan_reports.json
+Report: results/cisco_all_scan_reports.json
 
 Artifact 84
 ----------------------------------------
@@ -1183,7 +1183,7 @@ Scan status: cached
 Findings: 1
 Categories: policy_violation
 Severities: INFO
-Report: results\cisco_all_scan_reports.json
+Report: results/cisco_all_scan_reports.json
 
 Artifact 85
 ----------------------------------------
@@ -1197,7 +1197,7 @@ Scan status: cached
 Findings: 1
 Categories: policy_violation
 Severities: INFO
-Report: results\cisco_all_scan_reports.json
+Report: results/cisco_all_scan_reports.json
 
 Artifact 86
 ----------------------------------------
@@ -1211,7 +1211,7 @@ Scan status: cached
 Findings: 1
 Categories: policy_violation
 Severities: INFO
-Report: results\cisco_all_scan_reports.json
+Report: results/cisco_all_scan_reports.json
 
 Artifact 87
 ----------------------------------------
@@ -1225,7 +1225,7 @@ Scan status: cached
 Findings: 1
 Categories: policy_violation
 Severities: INFO
-Report: results\cisco_all_scan_reports.json
+Report: results/cisco_all_scan_reports.json
 
 Artifact 88
 ----------------------------------------
@@ -1239,7 +1239,7 @@ Scan status: cached
 Findings: 1
 Categories: policy_violation
 Severities: INFO
-Report: results\cisco_all_scan_reports.json
+Report: results/cisco_all_scan_reports.json
 
 Artifact 89
 ----------------------------------------
@@ -1253,7 +1253,7 @@ Scan status: cached
 Findings: 1
 Categories: policy_violation
 Severities: INFO
-Report: results\cisco_all_scan_reports.json
+Report: results/cisco_all_scan_reports.json
 
 Artifact 90
 ----------------------------------------
@@ -1267,7 +1267,7 @@ Scan status: cached
 Findings: 1
 Categories: policy_violation
 Severities: INFO
-Report: results\cisco_all_scan_reports.json
+Report: results/cisco_all_scan_reports.json
 
 Artifact 91
 ----------------------------------------
@@ -1281,7 +1281,7 @@ Scan status: cached
 Findings: 0
 Categories: None listed
 Severities: None listed
-Report: results\cisco_all_scan_reports.json
+Report: results/cisco_all_scan_reports.json
 
 Artifact 92
 ----------------------------------------
@@ -1295,7 +1295,7 @@ Scan status: cached
 Findings: 0
 Categories: None listed
 Severities: None listed
-Report: results\cisco_all_scan_reports.json
+Report: results/cisco_all_scan_reports.json
 
 Artifact 93
 ----------------------------------------
@@ -1309,7 +1309,7 @@ Scan status: cached
 Findings: 1
 Categories: policy_violation
 Severities: INFO
-Report: results\cisco_all_scan_reports.json
+Report: results/cisco_all_scan_reports.json
 
 Artifact 94
 ----------------------------------------
@@ -1323,7 +1323,7 @@ Scan status: cached
 Findings: 1
 Categories: policy_violation
 Severities: INFO
-Report: results\cisco_all_scan_reports.json
+Report: results/cisco_all_scan_reports.json
 
 Artifact 95
 ----------------------------------------
@@ -1337,7 +1337,7 @@ Scan status: cached
 Findings: 1
 Categories: policy_violation
 Severities: INFO
-Report: results\cisco_all_scan_reports.json
+Report: results/cisco_all_scan_reports.json
 
 Artifact 96
 ----------------------------------------
@@ -1351,7 +1351,7 @@ Scan status: cached
 Findings: 1
 Categories: policy_violation
 Severities: INFO
-Report: results\cisco_all_scan_reports.json
+Report: results/cisco_all_scan_reports.json
 
 Artifact 97
 ----------------------------------------
@@ -1365,7 +1365,7 @@ Scan status: cached
 Findings: 1
 Categories: policy_violation
 Severities: INFO
-Report: results\cisco_all_scan_reports.json
+Report: results/cisco_all_scan_reports.json
 
 Artifact 98
 ----------------------------------------
@@ -1379,7 +1379,7 @@ Scan status: cached
 Findings: 1
 Categories: policy_violation
 Severities: INFO
-Report: results\cisco_all_scan_reports.json
+Report: results/cisco_all_scan_reports.json
 
 Artifact 99
 ----------------------------------------
@@ -1393,7 +1393,7 @@ Scan status: cached
 Findings: 0
 Categories: None listed
 Severities: None listed
-Report: results\cisco_all_scan_reports.json
+Report: results/cisco_all_scan_reports.json
 
 Artifact 100
 ----------------------------------------
@@ -1407,7 +1407,7 @@ Scan status: cached
 Findings: 1
 Categories: policy_violation
 Severities: INFO
-Report: results\cisco_all_scan_reports.json
+Report: results/cisco_all_scan_reports.json
 
 Artifact 101
 ----------------------------------------
@@ -1421,7 +1421,7 @@ Scan status: cached
 Findings: 1
 Categories: policy_violation
 Severities: INFO
-Report: results\cisco_all_scan_reports.json
+Report: results/cisco_all_scan_reports.json
 
 Artifact 102
 ----------------------------------------
@@ -1435,7 +1435,7 @@ Scan status: cached
 Findings: 1
 Categories: policy_violation
 Severities: INFO
-Report: results\cisco_all_scan_reports.json
+Report: results/cisco_all_scan_reports.json
 
 Artifact 103
 ----------------------------------------
@@ -1449,7 +1449,7 @@ Scan status: cached
 Findings: 1
 Categories: policy_violation
 Severities: INFO
-Report: results\cisco_all_scan_reports.json
+Report: results/cisco_all_scan_reports.json
 
 Artifact 104
 ----------------------------------------
@@ -1463,7 +1463,7 @@ Scan status: cached
 Findings: 1
 Categories: policy_violation
 Severities: INFO
-Report: results\cisco_all_scan_reports.json
+Report: results/cisco_all_scan_reports.json
 
 Artifact 105
 ----------------------------------------
@@ -1477,7 +1477,7 @@ Scan status: cached
 Findings: 1
 Categories: policy_violation
 Severities: INFO
-Report: results\cisco_all_scan_reports.json
+Report: results/cisco_all_scan_reports.json
 
 Artifact 106
 ----------------------------------------
@@ -1491,7 +1491,7 @@ Scan status: cached
 Findings: 1
 Categories: policy_violation
 Severities: INFO
-Report: results\cisco_all_scan_reports.json
+Report: results/cisco_all_scan_reports.json
 
 Artifact 107
 ----------------------------------------
@@ -1505,7 +1505,7 @@ Scan status: cached
 Findings: 1
 Categories: policy_violation
 Severities: INFO
-Report: results\cisco_all_scan_reports.json
+Report: results/cisco_all_scan_reports.json
 
 Artifact 108
 ----------------------------------------
@@ -1519,7 +1519,7 @@ Scan status: cached
 Findings: 1
 Categories: policy_violation
 Severities: INFO
-Report: results\cisco_all_scan_reports.json
+Report: results/cisco_all_scan_reports.json
 
 Artifact 109
 ----------------------------------------
@@ -1533,7 +1533,7 @@ Scan status: cached
 Findings: 1
 Categories: policy_violation
 Severities: INFO
-Report: results\cisco_all_scan_reports.json
+Report: results/cisco_all_scan_reports.json
 
 Artifact 110
 ----------------------------------------
@@ -1547,7 +1547,7 @@ Scan status: cached
 Findings: 1
 Categories: policy_violation
 Severities: INFO
-Report: results\cisco_all_scan_reports.json
+Report: results/cisco_all_scan_reports.json
 
 Artifact 111
 ----------------------------------------
@@ -1561,7 +1561,7 @@ Scan status: cached
 Findings: 1
 Categories: policy_violation
 Severities: INFO
-Report: results\cisco_all_scan_reports.json
+Report: results/cisco_all_scan_reports.json
 
 Artifact 112
 ----------------------------------------
@@ -1575,7 +1575,7 @@ Scan status: cached
 Findings: 1
 Categories: policy_violation
 Severities: INFO
-Report: results\cisco_all_scan_reports.json
+Report: results/cisco_all_scan_reports.json
 
 Artifact 113
 ----------------------------------------
@@ -1589,7 +1589,7 @@ Scan status: cached
 Findings: 0
 Categories: None listed
 Severities: None listed
-Report: results\cisco_all_scan_reports.json
+Report: results/cisco_all_scan_reports.json
 
 Artifact 114
 ----------------------------------------
@@ -1603,7 +1603,7 @@ Scan status: cached
 Findings: 0
 Categories: None listed
 Severities: None listed
-Report: results\cisco_all_scan_reports.json
+Report: results/cisco_all_scan_reports.json
 
 Artifact 115
 ----------------------------------------
@@ -1617,7 +1617,7 @@ Scan status: cached
 Findings: 1
 Categories: policy_violation
 Severities: INFO
-Report: results\cisco_all_scan_reports.json
+Report: results/cisco_all_scan_reports.json
 
 Artifact 116
 ----------------------------------------
@@ -1631,7 +1631,7 @@ Scan status: cached
 Findings: 0
 Categories: None listed
 Severities: None listed
-Report: results\cisco_all_scan_reports.json
+Report: results/cisco_all_scan_reports.json
 
 Artifact 117
 ----------------------------------------
@@ -1645,7 +1645,7 @@ Scan status: cached
 Findings: 1
 Categories: policy_violation
 Severities: INFO
-Report: results\cisco_all_scan_reports.json
+Report: results/cisco_all_scan_reports.json
 
 Artifact 118
 ----------------------------------------
@@ -1659,7 +1659,7 @@ Scan status: cached
 Findings: 1
 Categories: policy_violation
 Severities: INFO
-Report: results\cisco_all_scan_reports.json
+Report: results/cisco_all_scan_reports.json
 
 Artifact 119
 ----------------------------------------
@@ -1673,7 +1673,7 @@ Scan status: cached
 Findings: 1
 Categories: policy_violation
 Severities: INFO
-Report: results\cisco_all_scan_reports.json
+Report: results/cisco_all_scan_reports.json
 
 Artifact 120
 ----------------------------------------
@@ -1687,7 +1687,7 @@ Scan status: cached
 Findings: 0
 Categories: None listed
 Severities: None listed
-Report: results\cisco_all_scan_reports.json
+Report: results/cisco_all_scan_reports.json
 
 Artifact 121
 ----------------------------------------
@@ -1701,7 +1701,7 @@ Scan status: cached
 Findings: 1
 Categories: policy_violation
 Severities: INFO
-Report: results\cisco_all_scan_reports.json
+Report: results/cisco_all_scan_reports.json
 
 Artifact 122
 ----------------------------------------
@@ -1715,7 +1715,7 @@ Scan status: cached
 Findings: 1
 Categories: policy_violation
 Severities: INFO
-Report: results\cisco_all_scan_reports.json
+Report: results/cisco_all_scan_reports.json
 
 Artifact 123
 ----------------------------------------
@@ -1729,7 +1729,7 @@ Scan status: cached
 Findings: 1
 Categories: policy_violation
 Severities: INFO
-Report: results\cisco_all_scan_reports.json
+Report: results/cisco_all_scan_reports.json
 
 Artifact 124
 ----------------------------------------
@@ -1743,7 +1743,7 @@ Scan status: cached
 Findings: 1
 Categories: policy_violation
 Severities: INFO
-Report: results\cisco_all_scan_reports.json
+Report: results/cisco_all_scan_reports.json
 
 Artifact 125
 ----------------------------------------
@@ -1757,7 +1757,7 @@ Scan status: cached
 Findings: 0
 Categories: None listed
 Severities: None listed
-Report: results\cisco_all_scan_reports.json
+Report: results/cisco_all_scan_reports.json
 
 Artifact 126
 ----------------------------------------
@@ -1771,7 +1771,7 @@ Scan status: cached
 Findings: 1
 Categories: policy_violation
 Severities: INFO
-Report: results\cisco_all_scan_reports.json
+Report: results/cisco_all_scan_reports.json
 
 Artifact 127
 ----------------------------------------
@@ -1785,7 +1785,7 @@ Scan status: cached
 Findings: 1
 Categories: policy_violation
 Severities: INFO
-Report: results\cisco_all_scan_reports.json
+Report: results/cisco_all_scan_reports.json
 
 Artifact 128
 ----------------------------------------
@@ -1799,7 +1799,7 @@ Scan status: cached
 Findings: 1
 Categories: policy_violation
 Severities: INFO
-Report: results\cisco_all_scan_reports.json
+Report: results/cisco_all_scan_reports.json
 
 Artifact 129
 ----------------------------------------
@@ -1813,7 +1813,7 @@ Scan status: cached
 Findings: 0
 Categories: None listed
 Severities: None listed
-Report: results\cisco_all_scan_reports.json
+Report: results/cisco_all_scan_reports.json
 
 Artifact 130
 ----------------------------------------
@@ -1827,7 +1827,7 @@ Scan status: cached
 Findings: 1
 Categories: policy_violation
 Severities: INFO
-Report: results\cisco_all_scan_reports.json
+Report: results/cisco_all_scan_reports.json
 
 Artifact 131
 ----------------------------------------
@@ -1841,7 +1841,7 @@ Scan status: cached
 Findings: 1
 Categories: policy_violation
 Severities: INFO
-Report: results\cisco_all_scan_reports.json
+Report: results/cisco_all_scan_reports.json
 
 Artifact 132
 ----------------------------------------
@@ -1855,7 +1855,7 @@ Scan status: cached
 Findings: 0
 Categories: None listed
 Severities: None listed
-Report: results\cisco_all_scan_reports.json
+Report: results/cisco_all_scan_reports.json
 
 Artifact 133
 ----------------------------------------
@@ -1869,7 +1869,7 @@ Scan status: cached
 Findings: 0
 Categories: None listed
 Severities: None listed
-Report: results\cisco_all_scan_reports.json
+Report: results/cisco_all_scan_reports.json
 
 Artifact 134
 ----------------------------------------
@@ -1883,7 +1883,7 @@ Scan status: cached
 Findings: 1
 Categories: policy_violation
 Severities: INFO
-Report: results\cisco_all_scan_reports.json
+Report: results/cisco_all_scan_reports.json
 
 Artifact 135
 ----------------------------------------
@@ -1897,7 +1897,7 @@ Scan status: cached
 Findings: 1
 Categories: policy_violation
 Severities: INFO
-Report: results\cisco_all_scan_reports.json
+Report: results/cisco_all_scan_reports.json
 
 Artifact 136
 ----------------------------------------
@@ -1911,7 +1911,7 @@ Scan status: cached
 Findings: 1
 Categories: policy_violation
 Severities: INFO
-Report: results\cisco_all_scan_reports.json
+Report: results/cisco_all_scan_reports.json
 
 Artifact 137
 ----------------------------------------
@@ -1925,7 +1925,7 @@ Scan status: cached
 Findings: 1
 Categories: policy_violation
 Severities: INFO
-Report: results\cisco_all_scan_reports.json
+Report: results/cisco_all_scan_reports.json
 
 Artifact 138
 ----------------------------------------
@@ -1939,7 +1939,7 @@ Scan status: cached
 Findings: 1
 Categories: policy_violation
 Severities: INFO
-Report: results\cisco_all_scan_reports.json
+Report: results/cisco_all_scan_reports.json
 
 Artifact 139
 ----------------------------------------
@@ -1953,7 +1953,7 @@ Scan status: cached
 Findings: 0
 Categories: None listed
 Severities: None listed
-Report: results\cisco_all_scan_reports.json
+Report: results/cisco_all_scan_reports.json
 
 Artifact 140
 ----------------------------------------
@@ -1967,7 +1967,7 @@ Scan status: cached
 Findings: 0
 Categories: None listed
 Severities: None listed
-Report: results\cisco_all_scan_reports.json
+Report: results/cisco_all_scan_reports.json
 
 Artifact 141
 ----------------------------------------
@@ -1981,7 +1981,7 @@ Scan status: cached
 Findings: 1
 Categories: policy_violation
 Severities: INFO
-Report: results\cisco_all_scan_reports.json
+Report: results/cisco_all_scan_reports.json
 
 Artifact 142
 ----------------------------------------
@@ -1995,7 +1995,7 @@ Scan status: cached
 Findings: 1
 Categories: policy_violation
 Severities: INFO
-Report: results\cisco_all_scan_reports.json
+Report: results/cisco_all_scan_reports.json
 
 Artifact 143
 ----------------------------------------
@@ -2009,7 +2009,7 @@ Scan status: cached
 Findings: 2
 Categories: command_injection; policy_violation
 Severities: HIGH; INFO
-Report: results\cisco_all_scan_reports.json
+Report: results/cisco_all_scan_reports.json
 
 Artifact 144
 ----------------------------------------
@@ -2023,7 +2023,7 @@ Scan status: cached
 Findings: 1
 Categories: policy_violation
 Severities: INFO
-Report: results\cisco_all_scan_reports.json
+Report: results/cisco_all_scan_reports.json
 
 Artifact 145
 ----------------------------------------
@@ -2037,7 +2037,7 @@ Scan status: cached
 Findings: 1
 Categories: policy_violation
 Severities: INFO
-Report: results\cisco_all_scan_reports.json
+Report: results/cisco_all_scan_reports.json
 
 Artifact 146
 ----------------------------------------
@@ -2051,7 +2051,7 @@ Scan status: cached
 Findings: 1
 Categories: policy_violation
 Severities: INFO
-Report: results\cisco_all_scan_reports.json
+Report: results/cisco_all_scan_reports.json
 
 Artifact 147
 ----------------------------------------
@@ -2065,7 +2065,7 @@ Scan status: cached
 Findings: 1
 Categories: policy_violation
 Severities: INFO
-Report: results\cisco_all_scan_reports.json
+Report: results/cisco_all_scan_reports.json
 
 Artifact 148
 ----------------------------------------
@@ -2079,7 +2079,7 @@ Scan status: cached
 Findings: 1
 Categories: policy_violation
 Severities: INFO
-Report: results\cisco_all_scan_reports.json
+Report: results/cisco_all_scan_reports.json
 
 Artifact 149
 ----------------------------------------
@@ -2093,7 +2093,7 @@ Scan status: cached
 Findings: 2
 Categories: policy_violation
 Severities: INFO
-Report: results\cisco_all_scan_reports.json
+Report: results/cisco_all_scan_reports.json
 
 Artifact 150
 ----------------------------------------
@@ -2107,7 +2107,7 @@ Scan status: cached
 Findings: 0
 Categories: None listed
 Severities: None listed
-Report: results\cisco_all_scan_reports.json
+Report: results/cisco_all_scan_reports.json
 
 Artifact 151
 ----------------------------------------
@@ -2121,7 +2121,7 @@ Scan status: cached
 Findings: 1
 Categories: policy_violation
 Severities: INFO
-Report: results\cisco_all_scan_reports.json
+Report: results/cisco_all_scan_reports.json
 
 Artifact 152
 ----------------------------------------
@@ -2135,7 +2135,7 @@ Scan status: cached
 Findings: 0
 Categories: None listed
 Severities: None listed
-Report: results\cisco_all_scan_reports.json
+Report: results/cisco_all_scan_reports.json
 
 Artifact 153
 ----------------------------------------
@@ -2149,7 +2149,7 @@ Scan status: cached
 Findings: 1
 Categories: policy_violation
 Severities: INFO
-Report: results\cisco_all_scan_reports.json
+Report: results/cisco_all_scan_reports.json
 
 Artifact 154
 ----------------------------------------
@@ -2163,7 +2163,7 @@ Scan status: cached
 Findings: 1
 Categories: policy_violation
 Severities: INFO
-Report: results\cisco_all_scan_reports.json
+Report: results/cisco_all_scan_reports.json
 
 Artifact 155
 ----------------------------------------
@@ -2177,7 +2177,7 @@ Scan status: cached
 Findings: 0
 Categories: None listed
 Severities: None listed
-Report: results\cisco_all_scan_reports.json
+Report: results/cisco_all_scan_reports.json
 
 Artifact 156
 ----------------------------------------
@@ -2191,7 +2191,7 @@ Scan status: cached
 Findings: 0
 Categories: None listed
 Severities: None listed
-Report: results\cisco_all_scan_reports.json
+Report: results/cisco_all_scan_reports.json
 
 Artifact 157
 ----------------------------------------
@@ -2205,7 +2205,7 @@ Scan status: cached
 Findings: 1
 Categories: social_engineering
 Severities: LOW
-Report: results\cisco_all_scan_reports.json
+Report: results/cisco_all_scan_reports.json
 
 Artifact 158
 ----------------------------------------
@@ -2219,7 +2219,7 @@ Scan status: cached
 Findings: 0
 Categories: None listed
 Severities: None listed
-Report: results\cisco_all_scan_reports.json
+Report: results/cisco_all_scan_reports.json
 
 Artifact 159
 ----------------------------------------
@@ -2233,7 +2233,7 @@ Scan status: cached
 Findings: 1
 Categories: policy_violation
 Severities: INFO
-Report: results\cisco_all_scan_reports.json
+Report: results/cisco_all_scan_reports.json
 
 Artifact 160
 ----------------------------------------
@@ -2247,7 +2247,7 @@ Scan status: cached
 Findings: 0
 Categories: None listed
 Severities: None listed
-Report: results\cisco_all_scan_reports.json
+Report: results/cisco_all_scan_reports.json
 
 Artifact 161
 ----------------------------------------
@@ -2261,7 +2261,7 @@ Scan status: cached
 Findings: 1
 Categories: supply_chain_attack
 Severities: LOW
-Report: results\cisco_all_scan_reports.json
+Report: results/cisco_all_scan_reports.json
 
 Artifact 162
 ----------------------------------------
@@ -2275,7 +2275,7 @@ Scan status: cached
 Findings: 1
 Categories: policy_violation
 Severities: INFO
-Report: results\cisco_all_scan_reports.json
+Report: results/cisco_all_scan_reports.json
 
 Artifact 163
 ----------------------------------------
@@ -2289,7 +2289,7 @@ Scan status: cached
 Findings: 1
 Categories: policy_violation
 Severities: INFO
-Report: results\cisco_all_scan_reports.json
+Report: results/cisco_all_scan_reports.json
 
 Artifact 164
 ----------------------------------------
@@ -2303,7 +2303,7 @@ Scan status: cached
 Findings: 1
 Categories: policy_violation
 Severities: INFO
-Report: results\cisco_all_scan_reports.json
+Report: results/cisco_all_scan_reports.json
 
 Artifact 165
 ----------------------------------------
@@ -2317,7 +2317,7 @@ Scan status: cached
 Findings: 1
 Categories: policy_violation
 Severities: INFO
-Report: results\cisco_all_scan_reports.json
+Report: results/cisco_all_scan_reports.json
 
 Artifact 166
 ----------------------------------------
@@ -2331,7 +2331,7 @@ Scan status: cached
 Findings: 1
 Categories: policy_violation
 Severities: INFO
-Report: results\cisco_all_scan_reports.json
+Report: results/cisco_all_scan_reports.json
 
 Artifact 167
 ----------------------------------------
@@ -2345,7 +2345,7 @@ Scan status: cached
 Findings: 1
 Categories: policy_violation
 Severities: INFO
-Report: results\cisco_all_scan_reports.json
+Report: results/cisco_all_scan_reports.json
 
 Artifact 168
 ----------------------------------------
@@ -2359,7 +2359,7 @@ Scan status: cached
 Findings: 1
 Categories: policy_violation
 Severities: INFO
-Report: results\cisco_all_scan_reports.json
+Report: results/cisco_all_scan_reports.json
 
 Artifact 169
 ----------------------------------------
@@ -2373,7 +2373,7 @@ Scan status: cached
 Findings: 1
 Categories: policy_violation
 Severities: INFO
-Report: results\cisco_all_scan_reports.json
+Report: results/cisco_all_scan_reports.json
 
 Artifact 170
 ----------------------------------------
@@ -2387,7 +2387,7 @@ Scan status: cached
 Findings: 1
 Categories: policy_violation
 Severities: INFO
-Report: results\cisco_all_scan_reports.json
+Report: results/cisco_all_scan_reports.json
 
 Artifact 171
 ----------------------------------------
@@ -2401,7 +2401,7 @@ Scan status: cached
 Findings: 1
 Categories: policy_violation
 Severities: INFO
-Report: results\cisco_all_scan_reports.json
+Report: results/cisco_all_scan_reports.json
 
 Artifact 172
 ----------------------------------------
@@ -2415,7 +2415,7 @@ Scan status: cached
 Findings: 0
 Categories: None listed
 Severities: None listed
-Report: results\cisco_all_scan_reports.json
+Report: results/cisco_all_scan_reports.json
 
 Artifact 173
 ----------------------------------------
@@ -2429,7 +2429,7 @@ Scan status: cached
 Findings: 1
 Categories: policy_violation
 Severities: INFO
-Report: results\cisco_all_scan_reports.json
+Report: results/cisco_all_scan_reports.json
 
 Artifact 174
 ----------------------------------------
@@ -2443,7 +2443,7 @@ Scan status: cached
 Findings: 1
 Categories: policy_violation
 Severities: INFO
-Report: results\cisco_all_scan_reports.json
+Report: results/cisco_all_scan_reports.json
 
 Artifact 175
 ----------------------------------------
@@ -2457,7 +2457,7 @@ Scan status: cached
 Findings: 1
 Categories: policy_violation
 Severities: INFO
-Report: results\cisco_all_scan_reports.json
+Report: results/cisco_all_scan_reports.json
 
 Artifact 176
 ----------------------------------------
@@ -2471,7 +2471,7 @@ Scan status: cached
 Findings: 1
 Categories: policy_violation
 Severities: INFO
-Report: results\cisco_all_scan_reports.json
+Report: results/cisco_all_scan_reports.json
 
 Artifact 177
 ----------------------------------------
@@ -2485,7 +2485,7 @@ Scan status: cached
 Findings: 1
 Categories: policy_violation
 Severities: INFO
-Report: results\cisco_all_scan_reports.json
+Report: results/cisco_all_scan_reports.json
 
 Artifact 178
 ----------------------------------------
@@ -2499,7 +2499,7 @@ Scan status: cached
 Findings: 2
 Categories: policy_violation; social_engineering
 Severities: INFO; LOW
-Report: results\cisco_all_scan_reports.json
+Report: results/cisco_all_scan_reports.json
 
 Artifact 179
 ----------------------------------------
@@ -2513,7 +2513,7 @@ Scan status: cached
 Findings: 0
 Categories: None listed
 Severities: None listed
-Report: results\cisco_all_scan_reports.json
+Report: results/cisco_all_scan_reports.json
 
 Artifact 180
 ----------------------------------------
@@ -2527,7 +2527,7 @@ Scan status: cached
 Findings: 1
 Categories: policy_violation
 Severities: INFO
-Report: results\cisco_all_scan_reports.json
+Report: results/cisco_all_scan_reports.json
 
 Artifact 181
 ----------------------------------------
@@ -2541,7 +2541,7 @@ Scan status: cached
 Findings: 0
 Categories: None listed
 Severities: None listed
-Report: results\cisco_all_scan_reports.json
+Report: results/cisco_all_scan_reports.json
 
 Artifact 182
 ----------------------------------------
@@ -2555,7 +2555,7 @@ Scan status: cached
 Findings: 1
 Categories: policy_violation
 Severities: INFO
-Report: results\cisco_all_scan_reports.json
+Report: results/cisco_all_scan_reports.json
 
 Artifact 183
 ----------------------------------------
@@ -2569,7 +2569,7 @@ Scan status: cached
 Findings: 1
 Categories: policy_violation
 Severities: INFO
-Report: results\cisco_all_scan_reports.json
+Report: results/cisco_all_scan_reports.json
 
 Artifact 184
 ----------------------------------------
@@ -2583,7 +2583,7 @@ Scan status: cached
 Findings: 0
 Categories: None listed
 Severities: None listed
-Report: results\cisco_all_scan_reports.json
+Report: results/cisco_all_scan_reports.json
 
 Artifact 185
 ----------------------------------------
@@ -2597,7 +2597,7 @@ Scan status: cached
 Findings: 1
 Categories: policy_violation
 Severities: INFO
-Report: results\cisco_all_scan_reports.json
+Report: results/cisco_all_scan_reports.json
 
 Artifact 186
 ----------------------------------------
@@ -2611,7 +2611,7 @@ Scan status: cached
 Findings: 0
 Categories: None listed
 Severities: None listed
-Report: results\cisco_all_scan_reports.json
+Report: results/cisco_all_scan_reports.json
 
 Artifact 187
 ----------------------------------------
@@ -2625,7 +2625,7 @@ Scan status: cached
 Findings: 1
 Categories: policy_violation
 Severities: INFO
-Report: results\cisco_all_scan_reports.json
+Report: results/cisco_all_scan_reports.json
 
 Artifact 188
 ----------------------------------------
@@ -2639,7 +2639,7 @@ Scan status: cached
 Findings: 0
 Categories: None listed
 Severities: None listed
-Report: results\cisco_all_scan_reports.json
+Report: results/cisco_all_scan_reports.json
 
 Artifact 189
 ----------------------------------------
@@ -2653,7 +2653,7 @@ Scan status: cached
 Findings: 0
 Categories: None listed
 Severities: None listed
-Report: results\cisco_all_scan_reports.json
+Report: results/cisco_all_scan_reports.json
 
 Artifact 190
 ----------------------------------------
@@ -2667,7 +2667,7 @@ Scan status: cached
 Findings: 0
 Categories: None listed
 Severities: None listed
-Report: results\cisco_all_scan_reports.json
+Report: results/cisco_all_scan_reports.json
 
 Artifact 191
 ----------------------------------------
@@ -2681,7 +2681,7 @@ Scan status: cached
 Findings: 1
 Categories: policy_violation
 Severities: INFO
-Report: results\cisco_all_scan_reports.json
+Report: results/cisco_all_scan_reports.json
 
 Artifact 192
 ----------------------------------------
@@ -2695,7 +2695,7 @@ Scan status: cached
 Findings: 1
 Categories: policy_violation
 Severities: INFO
-Report: results\cisco_all_scan_reports.json
+Report: results/cisco_all_scan_reports.json
 
 Artifact 193
 ----------------------------------------
@@ -2709,7 +2709,7 @@ Scan status: cached
 Findings: 0
 Categories: None listed
 Severities: None listed
-Report: results\cisco_all_scan_reports.json
+Report: results/cisco_all_scan_reports.json
 
 Artifact 194
 ----------------------------------------
@@ -2723,7 +2723,7 @@ Scan status: cached
 Findings: 4
 Categories: hardcoded_secrets; policy_violation; social_engineering
 Severities: HIGH; INFO; LOW
-Report: results\cisco_all_scan_reports.json
+Report: results/cisco_all_scan_reports.json
 
 Artifact 195
 ----------------------------------------
@@ -2737,7 +2737,7 @@ Scan status: cached
 Findings: 2
 Categories: command_injection; policy_violation
 Severities: HIGH; INFO
-Report: results\cisco_all_scan_reports.json
+Report: results/cisco_all_scan_reports.json
 
 Artifact 196
 ----------------------------------------
@@ -2751,7 +2751,7 @@ Scan status: cached
 Findings: 1
 Categories: policy_violation
 Severities: INFO
-Report: results\cisco_all_scan_reports.json
+Report: results/cisco_all_scan_reports.json
 
 Artifact 197
 ----------------------------------------
@@ -2765,7 +2765,7 @@ Scan status: cached
 Findings: 0
 Categories: None listed
 Severities: None listed
-Report: results\cisco_all_scan_reports.json
+Report: results/cisco_all_scan_reports.json
 
 Artifact 198
 ----------------------------------------
@@ -2779,7 +2779,7 @@ Scan status: cached
 Findings: 0
 Categories: None listed
 Severities: None listed
-Report: results\cisco_all_scan_reports.json
+Report: results/cisco_all_scan_reports.json
 
 Artifact 199
 ----------------------------------------
@@ -2793,7 +2793,7 @@ Scan status: cached
 Findings: 1
 Categories: policy_violation
 Severities: INFO
-Report: results\cisco_all_scan_reports.json
+Report: results/cisco_all_scan_reports.json
 
 Artifact 200
 ----------------------------------------
@@ -2807,7 +2807,7 @@ Scan status: cached
 Findings: 3
 Categories: command_injection; data_exfiltration; policy_violation
 Severities: HIGH; INFO
-Report: results\cisco_all_scan_reports.json
+Report: results/cisco_all_scan_reports.json
 
 Artifact 201
 ----------------------------------------
@@ -2821,7 +2821,7 @@ Scan status: cached
 Findings: 1
 Categories: policy_violation
 Severities: INFO
-Report: results\cisco_all_scan_reports.json
+Report: results/cisco_all_scan_reports.json
 
 Artifact 202
 ----------------------------------------
@@ -2835,7 +2835,7 @@ Scan status: cached
 Findings: 1
 Categories: policy_violation
 Severities: INFO
-Report: results\cisco_all_scan_reports.json
+Report: results/cisco_all_scan_reports.json
 
 Artifact 203
 ----------------------------------------
@@ -2849,7 +2849,7 @@ Scan status: cached
 Findings: 1
 Categories: policy_violation
 Severities: INFO
-Report: results\cisco_all_scan_reports.json
+Report: results/cisco_all_scan_reports.json
 
 Artifact 204
 ----------------------------------------
@@ -2863,7 +2863,7 @@ Scan status: cached
 Findings: 1
 Categories: policy_violation
 Severities: INFO
-Report: results\cisco_all_scan_reports.json
+Report: results/cisco_all_scan_reports.json
 
 Artifact 205
 ----------------------------------------
@@ -2877,7 +2877,7 @@ Scan status: cached
 Findings: 1
 Categories: policy_violation
 Severities: INFO
-Report: results\cisco_all_scan_reports.json
+Report: results/cisco_all_scan_reports.json
 
 Artifact 206
 ----------------------------------------
@@ -2891,7 +2891,7 @@ Scan status: cached
 Findings: 1
 Categories: policy_violation
 Severities: INFO
-Report: results\cisco_all_scan_reports.json
+Report: results/cisco_all_scan_reports.json
 
 Artifact 207
 ----------------------------------------
@@ -2905,7 +2905,7 @@ Scan status: cached
 Findings: 1
 Categories: policy_violation
 Severities: INFO
-Report: results\cisco_all_scan_reports.json
+Report: results/cisco_all_scan_reports.json
 
 Artifact 208
 ----------------------------------------
@@ -2919,7 +2919,7 @@ Scan status: cached
 Findings: 1
 Categories: hardcoded_secrets
 Severities: HIGH
-Report: results\cisco_all_scan_reports.json
+Report: results/cisco_all_scan_reports.json
 
 Artifact 209
 ----------------------------------------
@@ -2933,7 +2933,7 @@ Scan status: cached
 Findings: 1
 Categories: policy_violation
 Severities: INFO
-Report: results\cisco_all_scan_reports.json
+Report: results/cisco_all_scan_reports.json
 
 Artifact 210
 ----------------------------------------
@@ -2947,7 +2947,7 @@ Scan status: cached
 Findings: 1
 Categories: policy_violation
 Severities: INFO
-Report: results\cisco_all_scan_reports.json
+Report: results/cisco_all_scan_reports.json
 
 Artifact 211
 ----------------------------------------
@@ -2961,7 +2961,7 @@ Scan status: cached
 Findings: 1
 Categories: policy_violation
 Severities: INFO
-Report: results\cisco_all_scan_reports.json
+Report: results/cisco_all_scan_reports.json
 
 Artifact 212
 ----------------------------------------
@@ -2975,7 +2975,7 @@ Scan status: cached
 Findings: 1
 Categories: policy_violation
 Severities: INFO
-Report: results\cisco_all_scan_reports.json
+Report: results/cisco_all_scan_reports.json
 
 Artifact 213
 ----------------------------------------
@@ -2989,7 +2989,7 @@ Scan status: cached
 Findings: 1
 Categories: policy_violation
 Severities: INFO
-Report: results\cisco_all_scan_reports.json
+Report: results/cisco_all_scan_reports.json
 
 Artifact 214
 ----------------------------------------
@@ -3003,7 +3003,7 @@ Scan status: cached
 Findings: 0
 Categories: None listed
 Severities: None listed
-Report: results\cisco_all_scan_reports.json
+Report: results/cisco_all_scan_reports.json
 
 Artifact 215
 ----------------------------------------
@@ -3017,7 +3017,7 @@ Scan status: cached
 Findings: 1
 Categories: policy_violation
 Severities: INFO
-Report: results\cisco_all_scan_reports.json
+Report: results/cisco_all_scan_reports.json
 
 Artifact 216
 ----------------------------------------
@@ -3031,7 +3031,7 @@ Scan status: cached
 Findings: 0
 Categories: None listed
 Severities: None listed
-Report: results\cisco_all_scan_reports.json
+Report: results/cisco_all_scan_reports.json
 
 Artifact 217
 ----------------------------------------
@@ -3045,7 +3045,7 @@ Scan status: cached
 Findings: 0
 Categories: None listed
 Severities: None listed
-Report: results\cisco_all_scan_reports.json
+Report: results/cisco_all_scan_reports.json
 
 Artifact 218
 ----------------------------------------
@@ -3059,7 +3059,7 @@ Scan status: cached
 Findings: 0
 Categories: None listed
 Severities: None listed
-Report: results\cisco_all_scan_reports.json
+Report: results/cisco_all_scan_reports.json
 
 Artifact 219
 ----------------------------------------
@@ -3073,7 +3073,7 @@ Scan status: cached
 Findings: 0
 Categories: None listed
 Severities: None listed
-Report: results\cisco_all_scan_reports.json
+Report: results/cisco_all_scan_reports.json
 
 Artifact 220
 ----------------------------------------
@@ -3087,7 +3087,7 @@ Scan status: cached
 Findings: 2
 Categories: policy_violation
 Severities: INFO
-Report: results\cisco_all_scan_reports.json
+Report: results/cisco_all_scan_reports.json
 
 Artifact 221
 ----------------------------------------
@@ -3101,7 +3101,7 @@ Scan status: cached
 Findings: 0
 Categories: None listed
 Severities: None listed
-Report: results\cisco_all_scan_reports.json
+Report: results/cisco_all_scan_reports.json
 
 Artifact 222
 ----------------------------------------
@@ -3115,7 +3115,7 @@ Scan status: cached
 Findings: 1
 Categories: policy_violation
 Severities: INFO
-Report: results\cisco_all_scan_reports.json
+Report: results/cisco_all_scan_reports.json
 
 Artifact 223
 ----------------------------------------
@@ -3129,7 +3129,7 @@ Scan status: cached
 Findings: 1
 Categories: policy_violation
 Severities: INFO
-Report: results\cisco_all_scan_reports.json
+Report: results/cisco_all_scan_reports.json
 
 Artifact 224
 ----------------------------------------
@@ -3143,7 +3143,7 @@ Scan status: cached
 Findings: 1
 Categories: policy_violation
 Severities: INFO
-Report: results\cisco_all_scan_reports.json
+Report: results/cisco_all_scan_reports.json
 
 Artifact 225
 ----------------------------------------
@@ -3157,7 +3157,7 @@ Scan status: cached
 Findings: 1
 Categories: policy_violation
 Severities: INFO
-Report: results\cisco_all_scan_reports.json
+Report: results/cisco_all_scan_reports.json
 
 Artifact 226
 ----------------------------------------
@@ -3171,7 +3171,7 @@ Scan status: cached
 Findings: 1
 Categories: policy_violation
 Severities: INFO
-Report: results\cisco_all_scan_reports.json
+Report: results/cisco_all_scan_reports.json
 
 Artifact 227
 ----------------------------------------
@@ -3185,7 +3185,7 @@ Scan status: cached
 Findings: 5
 Categories: command_injection; obfuscation; policy_violation
 Severities: CRITICAL; HIGH; INFO; MEDIUM
-Report: results\cisco_all_scan_reports.json
+Report: results/cisco_all_scan_reports.json
 
 Artifact 228
 ----------------------------------------
@@ -3199,7 +3199,7 @@ Scan status: cached
 Findings: 4
 Categories: command_injection; policy_violation; prompt_injection
 Severities: HIGH; INFO
-Report: results\cisco_all_scan_reports.json
+Report: results/cisco_all_scan_reports.json
 
 Artifact 229
 ----------------------------------------
@@ -3213,7 +3213,7 @@ Scan status: cached
 Findings: 1
 Categories: policy_violation
 Severities: INFO
-Report: results\cisco_all_scan_reports.json
+Report: results/cisco_all_scan_reports.json
 
 Artifact 230
 ----------------------------------------
@@ -3227,7 +3227,7 @@ Scan status: cached
 Findings: 0
 Categories: None listed
 Severities: None listed
-Report: results\cisco_all_scan_reports.json
+Report: results/cisco_all_scan_reports.json
 
 Artifact 231
 ----------------------------------------
@@ -3241,7 +3241,7 @@ Scan status: cached
 Findings: 1
 Categories: policy_violation
 Severities: INFO
-Report: results\cisco_all_scan_reports.json
+Report: results/cisco_all_scan_reports.json
 
 Artifact 232
 ----------------------------------------
@@ -3255,7 +3255,7 @@ Scan status: cached
 Findings: 0
 Categories: None listed
 Severities: None listed
-Report: results\cisco_all_scan_reports.json
+Report: results/cisco_all_scan_reports.json
 
 Artifact 233
 ----------------------------------------
@@ -3269,7 +3269,7 @@ Scan status: cached
 Findings: 1
 Categories: policy_violation
 Severities: INFO
-Report: results\cisco_all_scan_reports.json
+Report: results/cisco_all_scan_reports.json
 
 Artifact 234
 ----------------------------------------
@@ -3283,7 +3283,7 @@ Scan status: cached
 Findings: 1
 Categories: policy_violation
 Severities: INFO
-Report: results\cisco_all_scan_reports.json
+Report: results/cisco_all_scan_reports.json
 
 Artifact 235
 ----------------------------------------
@@ -3297,7 +3297,7 @@ Scan status: cached
 Findings: 1
 Categories: policy_violation
 Severities: INFO
-Report: results\cisco_all_scan_reports.json
+Report: results/cisco_all_scan_reports.json
 
 Artifact 236
 ----------------------------------------
@@ -3311,7 +3311,7 @@ Scan status: cached
 Findings: 1
 Categories: policy_violation
 Severities: INFO
-Report: results\cisco_all_scan_reports.json
+Report: results/cisco_all_scan_reports.json
 
 Artifact 237
 ----------------------------------------
@@ -3325,7 +3325,7 @@ Scan status: cached
 Findings: 1
 Categories: policy_violation
 Severities: INFO
-Report: results\cisco_all_scan_reports.json
+Report: results/cisco_all_scan_reports.json
 
 Artifact 238
 ----------------------------------------
@@ -3339,7 +3339,7 @@ Scan status: cached
 Findings: 1
 Categories: policy_violation
 Severities: INFO
-Report: results\cisco_all_scan_reports.json
+Report: results/cisco_all_scan_reports.json
 
 EXACT DUPLICATE GROUP COMPARISONS
 =======================================================
