@@ -527,6 +527,6 @@ finding_output:
   annotate_same_path_rule_cooccurrence: true
   attach_policy_fingerprint: true
 severity_overrides: []
-disabled_rules: []
+disabled_rules:
  - MANIFEST_MISSING_LICENSE
 suppressions: []
