@@ -208,7 +208,7 @@ def artifact_identity(artifact):
 
 
 # ============================================================
-# 3. Load selected pairs from the 60–97% similarity CSV
+# 3. Load selected pairs from the name_variant_pairs CSV
 # ============================================================
 
 def load_selected_pairs():
@@ -1113,7 +1113,7 @@ def main():
         )
 
     # Load CSV pair identities first.
-    print("Loading only artifacts from the 60–97% similarity CSV...")
+    print("Loading artifacts from the name variant pairs CSV...")
 
     selected_pairs, selected_keys = load_selected_pairs()
 
