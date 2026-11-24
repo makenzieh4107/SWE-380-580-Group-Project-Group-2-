@@ -1265,6 +1265,8 @@ SCANNER_ARGUMENTS = [
     "--lenient",
     "--format",
     "json",
+    "--policy",
+    str(Path(__file__).resolve().parent.parent / "cisco_policy.yaml"),
 ]
 
 def save_report_cache(cached_scans, metadata=None):
