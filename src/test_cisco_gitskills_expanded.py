@@ -64,6 +64,8 @@ SCANNER_ARGUMENTS = [
     "--lenient",
     "--format",
     "json",
+    "--policy",
+    str(Path(__file__).resolve().parent.parent / "cisco_policy.yaml"),
 ]
 
 
