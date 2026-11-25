@@ -7,30 +7,30 @@ Total baseline-variant pairs analyzed: 1089
 
 BASELINE RESULTS
 ----------------
-Average findings: 0.94
-Records with findings: 983
-Records with zero findings: 106
+Average findings: 0.04
+Records with findings: 33
+Records with zero findings: 1056
 
 VARIANT RESULTS
 ---------------
-Average findings: 0.97
-Records with findings: 972
-Records with zero findings: 117
+Average findings: 0.08
+Records with findings: 58
+Records with zero findings: 1031
 
 PAIRED COMPARISON
 -----------------
-More findings in variant: 111
-More findings in baseline: 99
-Same finding count: 879
+More findings in variant: 50
+More findings in baseline: 24
+Same finding count: 1015
 
 SEVERITY COMPARISON
 -------------------
 Number of pair records containing each severity:
 
-INFO: Baseline = 979, Variant = 964
-LOW: Baseline = 11, Variant = 22
+INFO: Baseline = 8, Variant = 12
+LOW: Baseline = 11, Variant = 21
 MEDIUM: Baseline = 4, Variant = 2
-HIGH: Baseline = 14, Variant = 21
+HIGH: Baseline = 14, Variant = 22
 CRITICAL: Baseline = 1, Variant = 8
 
 INTERPRETATION
@@ -48,7 +48,7 @@ The following counts show how many unique content versions had each finding cate
 A content version is counted once per category, even if it appears in multiple pairs.
 
 Baseline finding types:
-  policy_violation: 464 unique content versions
+  policy_violation: 9 unique content versions
   command_injection: 8 unique content versions
   social_engineering: 5 unique content versions
   prompt_injection: 2 unique content versions
@@ -58,13 +58,13 @@ Baseline finding types:
   autonomy_abuse: 1 unique content versions
 
 Variant finding types:
-  policy_violation: 964 unique content versions
+  policy_violation: 17 unique content versions
   command_injection: 15 unique content versions
   social_engineering: 11 unique content versions
   data_exfiltration: 7 unique content versions
   supply_chain_attack: 5 unique content versions
-  obfuscation: 3 unique content versions
   malware: 3 unique content versions
   prompt_injection: 3 unique content versions
+  obfuscation: 2 unique content versions
   hardcoded_secrets: 1 unique content versions
   unauthorized_tool_use: 1 unique content versions

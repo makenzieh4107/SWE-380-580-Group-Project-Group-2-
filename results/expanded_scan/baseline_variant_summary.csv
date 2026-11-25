@@ -1,9 +1,9 @@
 measure,group,records,unique_sha_hashes,records_with_findings,records_with_zero_findings,average_findings_per_record,median_findings_per_record,total_findings_across_pair_records
-pair_records,baseline,1089,542,983,106,0.9430670339761249,1.0,1027
-pair_records,variant,1089,1089,972,117,0.9660238751147842,1.0,1052
-paired_outcome,more findings in variant,111,,,,,,
-paired_outcome,more findings in baseline,99,,,,,,
-paired_outcome,same finding count,879,,,,,,
+pair_records,baseline,1089,542,33,1056,0.04499540863177227,0.0,49
+pair_records,variant,1089,1089,58,1031,0.07713498622589532,0.0,84
+paired_outcome,more findings in variant,50,,,,,,
+paired_outcome,more findings in baseline,24,,,,,,
+paired_outcome,same finding count,1015,,,,,,
 paired_outcome,unknown,0,,,,,,
-unique_content_versions,baseline,542,542,467,75,0.922509225092251,1.0,500
-unique_content_versions,variant,1089,1089,972,117,0.9660238751147842,1.0,1052
+unique_content_versions,baseline,542,542,25,517,0.06826568265682657,0.0,37
+unique_content_versions,variant,1089,1089,58,1031,0.07713498622589532,0.0,84
